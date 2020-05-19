@@ -1,0 +1,5777 @@
+{
+  "Vinted": {
+    "catalogs": [
+      {
+        "id": 1904,
+        "title": "Femmes",
+        "code": "WOMEN_ROOT",
+        "catalogs": [
+          {
+            "id": 4,
+            "title": "Vêtements",
+            "code": "WOMENS",
+            "catalogs": [
+              {
+                "id": 1037,
+                "title": "Manteaux \u0026 vestes",
+                "code": "COATS_JACKETS",
+                "catalogs": [
+                  {
+                    "id": 1907,
+                    "title": "Manteaux",
+                    "code": "W_COATS",
+                    "catalogs": [
+                      {
+                        "id": 1087,
+                        "title": "Parkas",
+                        "code": "PARKAS",
+                        "url": "/femmes/parkas"
+                      },
+                      {
+                        "id": 1083,
+                        "title": "Manteaux longs",
+                        "code": "DUSTER_COATS",
+                        "url": "/femmes/manteaux-longs"
+                      },
+                      {
+                        "id": 1833,
+                        "title": "Manteaux oversize",
+                        "code": "W_OVERSIZED_COATS",
+                        "url": "/femmes/manteaux-oversize"
+                      },
+                      {
+                        "id": 1090,
+                        "title": "Manteaux en fausse fourrure",
+                        "code": "FAUX_FUR_COATS",
+                        "url": "/femmes/manteaux-en-fausse-fourrure"
+                      },
+                      {
+                        "id": 1076,
+                        "title": "Cabans",
+                        "code": "PEA_COATS",
+                        "url": "/femmes/cabans"
+                      },
+                      {
+                        "id": 1080,
+                        "title": "Imperméables",
+                        "code": "W_RAINCOATS",
+                        "url": "/femmes/impermeables"
+                      },
+                      {
+                        "id": 1834,
+                        "title": "Trenchs",
+                        "code": "W_TRENCH_COATS",
+                        "url": "/femmes/trenchs"
+                      },
+                      {
+                        "id": 1084,
+                        "title": "Manteaux d'hiver ",
+                        "code": "WINTER_COATS",
+                        "url": "/femmes/manteaux-dhiver"
+                      }
+                    ],
+                    "url": "/femmes/manteaux"
+                  },
+                  {
+                    "id": 1908,
+                    "title": "Vestes",
+                    "code": "W_JACKETS",
+                    "catalogs": [
+                      {
+                        "id": 1078,
+                        "title": "Blouson aviateur",
+                        "code": "BOMBER_JACKETS",
+                        "url": "/femmes/blouson-aviateur"
+                      },
+                      {
+                        "id": 1079,
+                        "title": "Vestes en jean",
+                        "code": "DENIM_JACKETS",
+                        "url": "/femmes/vestes-en-jean"
+                      },
+                      {
+                        "id": 1075,
+                        "title": "Vestes en cuir",
+                        "code": "LEATHER_JACKETS",
+                        "url": "/femmes/vestes-en-cuir"
+                      },
+                      {
+                        "id": 1831,
+                        "title": "Vestes légères",
+                        "code": "W_LIGHTWEIGT_JACKETS",
+                        "url": "/femmes/vestes-legeres"
+                      },
+                      {
+                        "id": 1081,
+                        "title": "Vestes en duvet",
+                        "code": "DOWN_JACKETS",
+                        "url": "/femmes/vestes-en-duvet"
+                      },
+                      {
+                        "id": 1086,
+                        "title": "Vestes polaires",
+                        "code": "FLEECE_JACKETS",
+                        "url": "/femmes/vestes-polaires"
+                      },
+                      {
+                        "id": 1832,
+                        "title": "Vestes matelassées",
+                        "code": "W_PADDED_JACKETS",
+                        "url": "/femmes/vestes-matelassees"
+                      }
+                    ],
+                    "url": "/femmes/manteaux-and-vestes-vestes"
+                  },
+                  {
+                    "id": 1773,
+                    "title": "Capes et ponchos",
+                    "code": "CAPES_PONCHOS",
+                    "url": "/femmes/capes-et-ponchos"
+                  },
+                  {
+                    "id": 1091,
+                    "title": "Autres manteaux \u0026 vestes",
+                    "code": "OTHER_COATS_JACKETS",
+                    "url": "/femmes/autres-manteaux-and-vestes"
+                  }
+                ],
+                "url": "/femmes/manteaux-and-vestes"
+              },
+              {
+                "id": 13,
+                "title": "Sweats et sweats à capuche",
+                "code": "PULLOVERS_SWEATERS",
+                "catalogs": [
+                  {
+                    "id": 196,
+                    "title": "Sweats et sweats à capuche",
+                    "code": "HOODIES_JUMPERS",
+                    "url": "/femmes/sweats-et-sweats-a-capuche-sweats-et-sweats-a-capuche"
+                  },
+                  {
+                    "id": 1917,
+                    "title": "Sweats",
+                    "code": "W_NEW_SWEATERS",
+                    "catalogs": [
+                      {
+                        "id": 190,
+                        "title": "Pulls col V",
+                        "code": "V_NECK_SWEATERS",
+                        "url": "/femmes/pulls-col-v"
+                      },
+                      {
+                        "id": 191,
+                        "title": "Pulls col roulé",
+                        "code": "TURTLENECK_SWEATERS",
+                        "url": "/femmes/pulls-col-roule"
+                      },
+                      {
+                        "id": 192,
+                        "title": "Sweats longs",
+                        "code": "LONG_SWEATERS",
+                        "url": "/femmes/sweats-longs"
+                      },
+                      {
+                        "id": 529,
+                        "title": "Pulls d'hiver",
+                        "code": "KNITTED_SWEATERS",
+                        "url": "/femmes/pulls-dhiver"
+                      },
+                      {
+                        "id": 193,
+                        "title": "Sweats manche ¾",
+                        "code": "34_SLEEVE_SWEATERS",
+                        "url": "/femmes/sweats-manche-three-fourths"
+                      },
+                      {
+                        "id": 1066,
+                        "title": "Autres sweats",
+                        "code": "W_SWEATERS",
+                        "url": "/femmes/autres-sweats"
+                      }
+                    ],
+                    "url": "/femmes/sweats"
+                  },
+                  {
+                    "id": 1067,
+                    "title": "Kimonos",
+                    "code": "KIMONOS",
+                    "url": "/femmes/kimonos"
+                  },
+                  {
+                    "id": 194,
+                    "title": "Cardigans",
+                    "code": "CARDIGANS",
+                    "url": "/femmes/cardigans"
+                  },
+                  {
+                    "id": 195,
+                    "title": "Boléros",
+                    "code": "BOLERO",
+                    "url": "/femmes/boleros"
+                  },
+                  {
+                    "id": 1874,
+                    "title": "Vestes",
+                    "code": "WOMEN_WAISTCOAT_SWEATER",
+                    "url": "/femmes/sweats-et-sweats-a-capuche-vestes"
+                  },
+                  {
+                    "id": 197,
+                    "title": "Autres pull-overs \u0026 sweat-shirts",
+                    "code": "WOM_PUL_OTHER",
+                    "url": "/femmes/autres-pull-overs-and-sweat-shirts"
+                  }
+                ],
+                "url": "/femmes/sweats-et-sweats-a-capuche"
+              },
+              {
+                "id": 8,
+                "title": "Blazers \u0026 tailleurs",
+                "code": "BLAZERS",
+                "catalogs": [
+                  {
+                    "id": 532,
+                    "title": "Blazers",
+                    "code": "WOM_BLA_BLAZERS",
+                    "url": "/femmes/blazers"
+                  },
+                  {
+                    "id": 1125,
+                    "title": "Ensembles tailleur/pantalon",
+                    "code": "W_PANTSUITS",
+                    "url": "/femmes/ensembles-tailleur-slash-pantalon"
+                  },
+                  {
+                    "id": 1126,
+                    "title": "Jupes et robes tailleurs",
+                    "code": "W_SKIRT_SUITS",
+                    "url": "/femmes/jupes-et-robes-tailleurs"
+                  },
+                  {
+                    "id": 1128,
+                    "title": "Tailleurs pièces séparées",
+                    "code": "W_SUIT_SEPARATES",
+                    "url": "/femmes/tailleurs-pieces-separees"
+                  },
+                  {
+                    "id": 1129,
+                    "title": "Autres ensembles \u0026 tailleurs",
+                    "code": "W_OTHER_SUITS_BLAZERS",
+                    "url": "/femmes/autres-ensembles-and-tailleurs"
+                  }
+                ],
+                "url": "/femmes/blazers-and-tailleurs"
+              },
+              {
+                "id": 10,
+                "title": "Robes",
+                "code": "DRESSES",
+                "catalogs": [
+                  {
+                    "id": 178,
+                    "title": "Mini",
+                    "code": "MINI_DRESSES",
+                    "url": "/femmes/mini"
+                  },
+                  {
+                    "id": 1056,
+                    "title": "Midi",
+                    "code": "MIDI_DRESSES",
+                    "url": "/femmes/midi"
+                  },
+                  {
+                    "id": 1055,
+                    "title": "Maxi",
+                    "code": "MAXI_DRESSES",
+                    "url": "/femmes/maxi"
+                  },
+                  {
+                    "id": 1774,
+                    "title": "Pour occasions",
+                    "code": "OCCASIONAL_DRESSES",
+                    "catalogs": [
+                      {
+                        "id": 1775,
+                        "title": "Fêtes \u0026 cocktails",
+                        "code": "PARTY_DRESSES",
+                        "url": "/femmes/fetes-and-cocktails"
+                      },
+                      {
+                        "id": 1776,
+                        "title": "Robes de mariée",
+                        "code": "WEDDING_DRESSES1",
+                        "url": "/femmes/robes-de-mariee"
+                      },
+                      {
+                        "id": 1777,
+                        "title": "Robes de bal de fin d'année",
+                        "code": "PROM_DRESSES1",
+                        "url": "/femmes/robes-de-bal-de-fin-dannee"
+                      },
+                      {
+                        "id": 1778,
+                        "title": "Robes de soirée",
+                        "code": "EVENING_DRESSES1",
+                        "url": "/femmes/robes-de-soiree"
+                      },
+                      {
+                        "id": 1060,
+                        "title": "Robes dos nu",
+                        "code": "BACKLESS_DRESSES",
+                        "url": "/femmes/robes-dos-nu"
+                      }
+                    ],
+                    "url": "/femmes/pour-occasions"
+                  },
+                  {
+                    "id": 1065,
+                    "title": "Robes d'été",
+                    "code": "SUMMER_DRESSES",
+                    "url": "/femmes/robes-dete"
+                  },
+                  {
+                    "id": 1779,
+                    "title": "Robes d'hiver",
+                    "code": "WINTER_DRESSES",
+                    "url": "/femmes/robes-dhiver"
+                  },
+                  {
+                    "id": 1057,
+                    "title": "Robes chics",
+                    "code": "FORMAL_DRESSES",
+                    "url": "/femmes/robes-chics"
+                  },
+                  {
+                    "id": 1059,
+                    "title": "Robes casual",
+                    "code": "CASUAL_DRESSES",
+                    "url": "/femmes/robes-casual"
+                  },
+                  {
+                    "id": 1061,
+                    "title": "Robes sans bretelles",
+                    "code": "STRAPLESS_DRESSES",
+                    "url": "/femmes/robes-sans-bretelles"
+                  },
+                  {
+                    "id": 1058,
+                    "title": "Petites robes noires",
+                    "code": "LITTLE_BLACK_DRESSES",
+                    "url": "/femmes/petites-robes-noires"
+                  },
+                  {
+                    "id": 179,
+                    "title": "Robes en jean",
+                    "code": "JEANS_DRESSES_TUNICS",
+                    "url": "/femmes/robes-en-jean"
+                  },
+                  {
+                    "id": 176,
+                    "title": "Autres robes",
+                    "code": "WOM_DRE_OTHER",
+                    "url": "/femmes/autres-robes"
+                  }
+                ],
+                "url": "/femmes/robes"
+              },
+              {
+                "id": 11,
+                "title": "Jupes",
+                "code": "SKIRTS",
+                "catalogs": [
+                  {
+                    "id": 198,
+                    "title": "Mini-jupes",
+                    "code": "MINI_SKIRTS",
+                    "url": "/femmes/mini-jupes"
+                  },
+                  {
+                    "id": 199,
+                    "title": "Jupes mi-longues",
+                    "code": "KNEE_LENGTH_SKIRTS",
+                    "url": "/femmes/jupes-mi-longues"
+                  },
+                  {
+                    "id": 200,
+                    "title": "Jupes longues",
+                    "code": "MAXI_SKIRTS",
+                    "url": "/femmes/jupes-longues"
+                  },
+                  {
+                    "id": 1092,
+                    "title": "Jupes trapèze",
+                    "code": "A_LINE_SKIRTS",
+                    "url": "/femmes/jupes-trapeze"
+                  },
+                  {
+                    "id": 1093,
+                    "title": "Jupes moulantes",
+                    "code": "BODYCON_SKIRTS",
+                    "url": "/femmes/jupes-moulantes"
+                  },
+                  {
+                    "id": 1094,
+                    "title": "Jupes patineuses",
+                    "code": "SKATER_SKIRTS",
+                    "url": "/femmes/jupes-patineuses"
+                  },
+                  {
+                    "id": 540,
+                    "title": "Jupes en jean",
+                    "code": "JEANS_SKIRTS",
+                    "url": "/femmes/jupes-en-jean"
+                  },
+                  {
+                    "id": 1097,
+                    "title": "Jupes plissées",
+                    "code": "PLEATED_SKIRTS",
+                    "url": "/femmes/jupes-plissees"
+                  },
+                  {
+                    "id": 539,
+                    "title": "Jupes taille haute",
+                    "code": "HIGH_WAIST_SKIRTS",
+                    "url": "/femmes/jupes-taille-haute"
+                  },
+                  {
+                    "id": 541,
+                    "title": "Jupes tulipe",
+                    "code": "TULIP_SKIRTS",
+                    "url": "/femmes/jupes-tulipe"
+                  },
+                  {
+                    "id": 542,
+                    "title": "Jupes crayon",
+                    "code": "PENCIL_SKIRTS",
+                    "url": "/femmes/jupes-crayon"
+                  },
+                  {
+                    "id": 201,
+                    "title": "Autres jupes",
+                    "code": "WOM_SKI_OTHER",
+                    "url": "/femmes/autres-jupes"
+                  }
+                ],
+                "url": "/femmes/jupes"
+              },
+              {
+                "id": 12,
+                "title": "Hauts \u0026 Tee-shirts",
+                "code": "TOPS_T_SHIRTS",
+                "catalogs": [
+                  {
+                    "id": 222,
+                    "title": "Chemises",
+                    "code": "SHIRTS",
+                    "url": "/femmes/chemises"
+                  },
+                  {
+                    "id": 1043,
+                    "title": "Blouses",
+                    "code": "BLOUSES",
+                    "url": "/femmes/blouses"
+                  },
+                  {
+                    "id": 14,
+                    "title": "Vestes",
+                    "code": "VESTS",
+                    "url": "/femmes/vestes"
+                  },
+                  {
+                    "id": 221,
+                    "title": "Tee-shirts",
+                    "code": "WOM_TOP_T_SHIRTS",
+                    "url": "/femmes/tee-shirts"
+                  },
+                  {
+                    "id": 534,
+                    "title": "Débardeurs",
+                    "code": "TANK_TOPS",
+                    "url": "/femmes/debardeurs"
+                  },
+                  {
+                    "id": 227,
+                    "title": "Tuniques",
+                    "code": "TUNICS",
+                    "url": "/femmes/tuniques"
+                  },
+                  {
+                    "id": 1041,
+                    "title": "Tops courts",
+                    "code": "CROP_TOPS",
+                    "url": "/femmes/tops-courts"
+                  },
+                  {
+                    "id": 223,
+                    "title": "Blouses manches courtes",
+                    "code": "SHORT_SLEEVE_BLOUSES",
+                    "url": "/femmes/blouses-manches-courtes"
+                  },
+                  {
+                    "id": 225,
+                    "title": "Blouses 3/4",
+                    "code": "MIDDLE_SLEEVE_BLOUSES",
+                    "url": "/femmes/blouses-3-slash-4"
+                  },
+                  {
+                    "id": 224,
+                    "title": "Blouses manches longues",
+                    "code": "LONG_SLEEVE_BLOUSES",
+                    "url": "/femmes/blouses-manches-longues"
+                  },
+                  {
+                    "id": 1835,
+                    "title": "Bodies",
+                    "code": "TOPS_BODIES",
+                    "url": "/femmes/bodies"
+                  },
+                  {
+                    "id": 1042,
+                    "title": "Tops épaules découvertes",
+                    "code": "TUBE_TOPS",
+                    "url": "/femmes/tops-epaules-decouvertes"
+                  },
+                  {
+                    "id": 1045,
+                    "title": "Cols roulés",
+                    "code": "W_TURTLENECKS",
+                    "url": "/femmes/cols-roules"
+                  },
+                  {
+                    "id": 1837,
+                    "title": "Tops peplum",
+                    "code": "PEPLUM_TOPS",
+                    "url": "/femmes/tops-peplum"
+                  },
+                  {
+                    "id": 1044,
+                    "title": "Tops dos nu à basques",
+                    "code": "HALTER_TOPS",
+                    "url": "/femmes/tops-dos-nu-a-basques"
+                  },
+                  {
+                    "id": 228,
+                    "title": "Autres hauts",
+                    "code": "WOM_TOP_OTHER",
+                    "url": "/femmes/autres-hauts"
+                  }
+                ],
+                "url": "/femmes/hauts-and-tee-shirts"
+              },
+              {
+                "id": 183,
+                "title": "Jeans",
+                "code": "JEANS",
+                "catalogs": [
+                  {
+                    "id": 1839,
+                    "title": "Jeans boyfriend",
+                    "code": "BOYFRIEND_JEANS",
+                    "url": "/femmes/jeans-boyfriend"
+                  },
+                  {
+                    "id": 1840,
+                    "title": "Jeans courts",
+                    "code": "W_CROPPED_JEANS",
+                    "url": "/femmes/jeans-courts"
+                  },
+                  {
+                    "id": 1841,
+                    "title": "Jeans évasés",
+                    "code": "FLARED_JEANS",
+                    "url": "/femmes/jeans-evases"
+                  },
+                  {
+                    "id": 1842,
+                    "title": "Jeans taille haute",
+                    "code": "W_HIGH_WAIST_JEANS",
+                    "url": "/femmes/jeans-taille-haute"
+                  },
+                  {
+                    "id": 1843,
+                    "title": "Jeans troués",
+                    "code": "W_RIPPED_JEANS",
+                    "url": "/femmes/jeans-troues"
+                  },
+                  {
+                    "id": 1844,
+                    "title": "Jeans skinny",
+                    "code": "W_SKINNY_JEANS",
+                    "url": "/femmes/jeans-skinny"
+                  },
+                  {
+                    "id": 1845,
+                    "title": "Jeans droits",
+                    "code": "W_STRAIGHT_JEANS",
+                    "url": "/femmes/jeans-droits"
+                  },
+                  {
+                    "id": 1864,
+                    "title": "Autre",
+                    "code": "JEANS_OTHER",
+                    "url": "/femmes/autre"
+                  }
+                ],
+                "url": "/femmes/jeans"
+              },
+              {
+                "id": 9,
+                "title": "Pantalons \u0026 leggings",
+                "code": "TROUSERS",
+                "catalogs": [
+                  {
+                    "id": 1070,
+                    "title": "Pantalons courts \u0026 chinos",
+                    "code": "CROPPED_PANTS",
+                    "url": "/femmes/pantalons-courts-and-chinos"
+                  },
+                  {
+                    "id": 1071,
+                    "title": "Pantalons à jambes larges",
+                    "code": "WIDE_LEG_PANTS",
+                    "url": "/femmes/pantalons-a-jambes-larges"
+                  },
+                  {
+                    "id": 185,
+                    "title": "Pantalons skinny",
+                    "code": "SKINNY_TROUSERS",
+                    "url": "/femmes/pantalons-skinny"
+                  },
+                  {
+                    "id": 187,
+                    "title": "Pantalons ajustés",
+                    "code": "TAILORED_TROUSERS",
+                    "url": "/femmes/pantalons-ajustes"
+                  },
+                  {
+                    "id": 1846,
+                    "title": "Pantalons droits",
+                    "code": "W_SLIM_STRAIGHT_PANTS",
+                    "url": "/femmes/pantalons-droits"
+                  },
+                  {
+                    "id": 184,
+                    "title": "Pantalons en cuir",
+                    "code": "LEATHER_TROUSERS",
+                    "url": "/femmes/pantalons-en-cuir"
+                  },
+                  {
+                    "id": 525,
+                    "title": "Leggings",
+                    "code": "LEGGINGS",
+                    "url": "/femmes/leggings"
+                  },
+                  {
+                    "id": 526,
+                    "title": "Sarouels",
+                    "code": "HAREMS",
+                    "url": "/femmes/sarouels"
+                  },
+                  {
+                    "id": 189,
+                    "title": "Autres pantalons",
+                    "code": "WOM_TRO_OTHER",
+                    "url": "/femmes/autres-pantalons"
+                  }
+                ],
+                "url": "/femmes/pantalons-and-leggings"
+              },
+              {
+                "id": 15,
+                "title": "Shorts",
+                "code": "SHORTS_CAPRIS",
+                "catalogs": [
+                  {
+                    "id": 1838,
+                    "title": "Shorts taille basse",
+                    "code": "LOW_WAIST_SHORTS",
+                    "url": "/femmes/shorts-taille-basse"
+                  },
+                  {
+                    "id": 1099,
+                    "title": "Shorts taille haute",
+                    "code": "HIGH_WASTED_SHORTS",
+                    "url": "/femmes/shorts-taille-haute"
+                  },
+                  {
+                    "id": 203,
+                    "title": "Shorts longueur genou",
+                    "code": "MEDIUM_LENGTH_SHORTS",
+                    "url": "/femmes/shorts-longueur-genou"
+                  },
+                  {
+                    "id": 538,
+                    "title": "Shorts en jean",
+                    "code": "JEANS_SHORTS",
+                    "url": "/femmes/shorts-en-jean"
+                  },
+                  {
+                    "id": 1101,
+                    "title": "Shorts en dentelle",
+                    "code": "LACE_SHORTS",
+                    "url": "/femmes/shorts-en-dentelle"
+                  },
+                  {
+                    "id": 1100,
+                    "title": "Shorts en cuir",
+                    "code": "LEATHER_SHORTS",
+                    "url": "/femmes/shorts-en-cuir"
+                  },
+                  {
+                    "id": 1103,
+                    "title": "Shorts cargo",
+                    "code": "CARGO_SHORTS",
+                    "url": "/femmes/shorts-cargo"
+                  },
+                  {
+                    "id": 204,
+                    "title": "Pantacourts",
+                    "code": "CAPRI_TROUSERS",
+                    "url": "/femmes/pantacourts"
+                  },
+                  {
+                    "id": 205,
+                    "title": "Autres shorts",
+                    "code": "WOM_SHO_OTHER",
+                    "url": "/femmes/autres-shorts"
+                  }
+                ],
+                "url": "/femmes/shorts"
+              },
+              {
+                "id": 1035,
+                "title": "Combinaisons \u0026 combishorts",
+                "code": "JUMPSUITS_UK",
+                "catalogs": [
+                  {
+                    "id": 1131,
+                    "title": "Combinaisons",
+                    "code": "W_JUMPSUITS",
+                    "url": "/femmes/combinaisons"
+                  },
+                  {
+                    "id": 1132,
+                    "title": "Combi Shorts",
+                    "code": "W_ROMPERS",
+                    "url": "/femmes/combi-shorts"
+                  },
+                  {
+                    "id": 1134,
+                    "title": "Autres combinaisons \u0026 combishorts",
+                    "code": "W_OTHER_ROMPERS_JUMPSUITS",
+                    "url": "/femmes/autres-combinaisons-and-combishorts"
+                  }
+                ],
+                "url": "/femmes/combinaisons-and-combishorts"
+              },
+              {
+                "id": 28,
+                "title": "Maillots de bain",
+                "code": "SWIMWEAR",
+                "catalogs": [
+                  {
+                    "id": 218,
+                    "title": "Une pièce",
+                    "code": "ONE_PIECES",
+                    "url": "/femmes/une-piece"
+                  },
+                  {
+                    "id": 219,
+                    "title": "Deux pièces",
+                    "code": "TWO_PIECE_SWIMWEAR",
+                    "url": "/femmes/deux-pieces"
+                  },
+                  {
+                    "id": 1780,
+                    "title": "Paréos \u0026 sarongs",
+                    "code": "COVERUP_SWIMWEAR",
+                    "url": "/femmes/pareos-and-sarongs"
+                  },
+                  {
+                    "id": 220,
+                    "title": "Autres",
+                    "code": "WOM_SWI_OTHER",
+                    "url": "/femmes/maillots-de-bain-autres"
+                  }
+                ],
+                "url": "/femmes/maillots-de-bain"
+              },
+              {
+                "id": 29,
+                "title": "Lingerie \u0026 pyjamas",
+                "code": "LINGERIE",
+                "catalogs": [
+                  {
+                    "id": 119,
+                    "title": "Soutiens-gorge",
+                    "code": "BRAS",
+                    "url": "/femmes/soutiens-gorge"
+                  },
+                  {
+                    "id": 120,
+                    "title": "Culottes",
+                    "code": "PANTIES_THONGS",
+                    "url": "/femmes/culottes"
+                  },
+                  {
+                    "id": 229,
+                    "title": "Ensembles",
+                    "code": "WOM_LIN_SETS",
+                    "url": "/femmes/ensembles"
+                  },
+                  {
+                    "id": 1781,
+                    "title": "Gaines",
+                    "code": "SHAPEWEAR",
+                    "url": "/femmes/gaines"
+                  },
+                  {
+                    "id": 123,
+                    "title": "Pyjamas et tenues de nuit",
+                    "code": "NIGHTWEAR",
+                    "url": "/femmes/pyjamas-et-tenues-de-nuit"
+                  },
+                  {
+                    "id": 1030,
+                    "title": "Peignoirs",
+                    "code": "DRESSING_GOWNS",
+                    "url": "/femmes/peignoirs"
+                  },
+                  {
+                    "id": 1263,
+                    "title": "Collants",
+                    "code": "INTIMATES_TIGHTS",
+                    "url": "/femmes/collants"
+                  },
+                  {
+                    "id": 1262,
+                    "title": "Chaussettes",
+                    "code": "INTIMATES_SOCKS",
+                    "url": "/femmes/chaussettes"
+                  },
+                  {
+                    "id": 1847,
+                    "title": "Accessoires de lingerie",
+                    "code": "LINGERIE_ACC",
+                    "url": "/femmes/accessoires-de-lingerie"
+                  },
+                  {
+                    "id": 124,
+                    "title": "Autres",
+                    "code": "WOM_LIN_OTHER",
+                    "url": "/femmes/lingerie-and-pyjamas-autres"
+                  }
+                ],
+                "url": "/femmes/lingerie-and-pyjamas"
+              },
+              {
+                "id": 1176,
+                "title": "Maternité",
+                "code": "MATERNITY_CLOTHES_MAIN",
+                "catalogs": [
+                  {
+                    "id": 1179,
+                    "title": "Tops maternité",
+                    "code": "MATERNITY_TOPS",
+                    "url": "/femmes/tops-maternite"
+                  },
+                  {
+                    "id": 1182,
+                    "title": "Robes maternité",
+                    "code": "MATERNITY_DRESSES",
+                    "url": "/femmes/robes-maternite"
+                  },
+                  {
+                    "id": 1178,
+                    "title": "Jupes maternité",
+                    "code": "MATERNITY_SKIRTS",
+                    "url": "/femmes/jupes-maternite"
+                  },
+                  {
+                    "id": 1177,
+                    "title": "Pantalons maternité",
+                    "code": "MATERNITY_PANTS",
+                    "url": "/femmes/pantalons-maternite"
+                  },
+                  {
+                    "id": 1185,
+                    "title": "Shorts maternité",
+                    "code": "MATERNITY_SHORTS",
+                    "url": "/femmes/shorts-maternite"
+                  },
+                  {
+                    "id": 1181,
+                    "title": "Combinaisons \u0026 combi shorts maternité",
+                    "code": "MATERNITY_ROMPERS_JUMPSUITS",
+                    "url": "/femmes/combinaisons-and-combi-shorts-maternite"
+                  },
+                  {
+                    "id": 1184,
+                    "title": "Pulls à capuche \u0026 pulls maternité",
+                    "code": "MATERNITY_HOODIES_SWEATERS",
+                    "url": "/femmes/pulls-a-capuche-and-pulls-maternite"
+                  },
+                  {
+                    "id": 1183,
+                    "title": "Manteaux \u0026 vestes maternité",
+                    "code": "MATERNITY_COATS_JACKETS",
+                    "url": "/femmes/manteaux-and-vestes-maternite"
+                  },
+                  {
+                    "id": 1186,
+                    "title": "Maillots et tenues de plage maternité",
+                    "code": "MATERNITY_SWIMWEAR_BEACHWEAR",
+                    "url": "/femmes/maillots-et-tenues-de-plage-maternite"
+                  },
+                  {
+                    "id": 1614,
+                    "title": "Sous-vêtements maternité",
+                    "code": "MATERNITY_UNDERWEAR",
+                    "catalogs": [
+                      {
+                        "id": 1615,
+                        "title": "Sous-vêtements maternité",
+                        "code": "MATER_UNDERWEAR_NEW",
+                        "url": "/femmes/sous-vetements-maternite-sous-vetements-maternite"
+                      },
+                      {
+                        "id": 1616,
+                        "title": "Tenues de nuit maternité",
+                        "code": "MATERNITY_SLEEPWEAR_NEW",
+                        "url": "/femmes/tenues-de-nuit-maternite"
+                      },
+                      {
+                        "id": 1617,
+                        "title": "Ceintures grossesse \u0026 post natales",
+                        "code": "MATERNITY_BELTS_NEW",
+                        "url": "/femmes/ceintures-grossesse-and-post-natales"
+                      },
+                      {
+                        "id": 1618,
+                        "title": "Soutiens-gorge grossesse \u0026 allaitement",
+                        "code": "MATERNITY_BRA",
+                        "url": "/femmes/soutiens-gorge-grossesse-and-allaitement"
+                      }
+                    ],
+                    "url": "/femmes/sous-vetements-maternite"
+                  }
+                ],
+                "url": "/femmes/maternite"
+              },
+              {
+                "id": 73,
+                "title": "Vêtements de sport",
+                "code": "SPORTSWEAR_WOMEN",
+                "catalogs": [
+                  {
+                    "id": 571,
+                    "title": "Vêtements d'extérieur",
+                    "code": "WOM_SPO_OUTERWEAR",
+                    "url": "/femmes/vetements-dexterieur"
+                  },
+                  {
+                    "id": 572,
+                    "title": "Survêtements",
+                    "code": "TRAINING_COSTUMES",
+                    "url": "/femmes/survetements"
+                  },
+                  {
+                    "id": 573,
+                    "title": "Pantalons \u0026 leggings",
+                    "code": "WOM_SPO_TROUSERS",
+                    "url": "/femmes/vetements-de-sport-pantalons-and-leggings"
+                  },
+                  {
+                    "id": 578,
+                    "title": "Shorts",
+                    "code": "WOM_SPO_SHORTS",
+                    "url": "/femmes/vetements-de-sport-shorts"
+                  },
+                  {
+                    "id": 574,
+                    "title": "Robes",
+                    "code": "WOM_SPO_DRESSES",
+                    "url": "/femmes/vetements-de-sport-robes"
+                  },
+                  {
+                    "id": 575,
+                    "title": "Jupes",
+                    "code": "WOM_SPO_SKIRTS",
+                    "url": "/femmes/vetements-de-sport-jupes"
+                  },
+                  {
+                    "id": 576,
+                    "title": "Hauts \u0026 T-Shirts",
+                    "code": "WOM_SPO_TOPS_T_SHIRTS",
+                    "url": "/femmes/hauts-and-t-shirts"
+                  },
+                  {
+                    "id": 577,
+                    "title": "Sweats et sweats à capuche",
+                    "code": "WOM_SPO_PULLOVERS_SWEATERS",
+                    "url": "/femmes/vetements-de-sport-sweats-et-sweats-a-capuche"
+                  },
+                  {
+                    "id": 579,
+                    "title": "Accessoires de sports",
+                    "code": "WOM_SPO_ACCESSORIES",
+                    "catalogs": [
+                      {
+                        "id": 1440,
+                        "title": "Echarpes",
+                        "code": "SPORTS_SCARVES_WOMEN",
+                        "url": "/femmes/echarpes"
+                      },
+                      {
+                        "id": 1441,
+                        "title": "Lunettes",
+                        "code": "SPORTS_GLASSES_WOMEN",
+                        "url": "/femmes/lunettes"
+                      },
+                      {
+                        "id": 1442,
+                        "title": "Montres sport \u0026 bracelets connectés",
+                        "code": "SPORTS_WATCHES_WOMEN",
+                        "url": "/femmes/montres-sport-and-bracelets-connectes"
+                      },
+                      {
+                        "id": 1443,
+                        "title": "Chapeaux",
+                        "code": "SPORTS_HATS_WOMEN",
+                        "url": "/femmes/chapeaux"
+                      },
+                      {
+                        "id": 1444,
+                        "title": "Gants",
+                        "code": "SPORTS_GLOVES_WOMEN",
+                        "url": "/femmes/gants"
+                      },
+                      {
+                        "id": 1445,
+                        "title": "Protections",
+                        "code": "SPORT_PROTECTORS_WOMEN",
+                        "url": "/femmes/protections"
+                      },
+                      {
+                        "id": 1446,
+                        "title": "Autres accessoires",
+                        "code": "SPORTS_OTHER_WOMEN",
+                        "url": "/femmes/autres-accessoires"
+                      }
+                    ],
+                    "url": "/femmes/accessoires-de-sports"
+                  },
+                  {
+                    "id": 1439,
+                    "title": "Soutiens-gorge",
+                    "code": "SPORTS_BRA",
+                    "url": "/femmes/vetements-de-sport-soutiens-gorge"
+                  },
+                  {
+                    "id": 580,
+                    "title": "Autres",
+                    "code": "WOM_SPO_OTHER",
+                    "url": "/femmes/vetements-de-sport-autres"
+                  }
+                ],
+                "url": "/femmes/vetements-de-sport"
+              },
+              {
+                "id": 1782,
+                "title": "Costumes \u0026 tenues particulières",
+                "code": "SPECIAL_OUTFITS_COSTUMES_W",
+                "url": "/femmes/costumes-and-tenues-particulieres"
+              },
+              {
+                "id": 18,
+                "title": "Autres",
+                "code": "OTHER_CLOTHES",
+                "url": "/femmes/autres"
+              }
+            ],
+            "url": "/femmes/vetements"
+          },
+          {
+            "id": 16,
+            "title": "Chaussures",
+            "code": "FOOTWEAR",
+            "catalogs": [
+              {
+                "id": 1049,
+                "title": "Bottes",
+                "code": "W_BOOTS",
+                "catalogs": [
+                  {
+                    "id": 1051,
+                    "title": "Chaussures plateforme",
+                    "code": "PLATFORM_SHOES",
+                    "url": "/femmes/chaussures-plateforme"
+                  },
+                  {
+                    "id": 211,
+                    "title": "Bottes hautes",
+                    "code": "KNEE_LENGHT_BOOTS",
+                    "url": "/femmes/bottes-hautes"
+                  },
+                  {
+                    "id": 545,
+                    "title": "Bottes de cowboy",
+                    "code": "COWBOY_BOOTS",
+                    "url": "/femmes/bottes-de-cowboy"
+                  },
+                  {
+                    "id": 212,
+                    "title": "Rangers",
+                    "code": "COMBAT_BOOTS",
+                    "url": "/femmes/rangers"
+                  },
+                  {
+                    "id": 213,
+                    "title": "Bottes de pluie",
+                    "code": "WELLINGTON_BOOTS",
+                    "url": "/femmes/bottes-de-pluie"
+                  }
+                ],
+                "url": "/femmes/bottes"
+              },
+              {
+                "id": 543,
+                "title": "Chaussures à talons",
+                "code": "HIGH_HEELS",
+                "catalogs": [
+                  {
+                    "id": 1046,
+                    "title": "Talons hauts \u0026 escarpins",
+                    "code": "HIGH_HEELS_PUMPS",
+                    "url": "/femmes/talons-hauts-and-escarpins"
+                  },
+                  {
+                    "id": 206,
+                    "title": "Chaussures à bride",
+                    "code": "SLINGBACKS",
+                    "url": "/femmes/chaussures-a-bride"
+                  },
+                  {
+                    "id": 544,
+                    "title": "Compensées",
+                    "code": "WEDGES",
+                    "url": "/femmes/compensees"
+                  },
+                  {
+                    "id": 1047,
+                    "title": "Sabots \u0026 mules",
+                    "code": "CLOGS_MULES",
+                    "url": "/femmes/sabots-and-mules"
+                  }
+                ],
+                "url": "/femmes/chaussures-a-talons"
+              },
+              {
+                "id": 1909,
+                "title": "Chaussures plates",
+                "code": "W_FLATS_MAIN",
+                "catalogs": [
+                  {
+                    "id": 1050,
+                    "title": "Chaussures plates",
+                    "code": "FLATS",
+                    "url": "/femmes/chaussures-plates-chaussures-plates"
+                  },
+                  {
+                    "id": 548,
+                    "title": "Ballerines",
+                    "code": "BALLERINAS",
+                    "url": "/femmes/ballerines"
+                  }
+                ],
+                "url": "/femmes/chaussures-plates"
+              },
+              {
+                "id": 1910,
+                "title": "Richelieus \u0026 Mocassins",
+                "code": "W_OXFORS_LOAFTERS",
+                "catalogs": [
+                  {
+                    "id": 1052,
+                    "title": "Richelieus",
+                    "code": "OXFORD_SHOES",
+                    "url": "/femmes/richelieus"
+                  },
+                  {
+                    "id": 1048,
+                    "title": "Chaussures bateau \u0026 slips-on",
+                    "code": "BOAT_SHOES_SLIP_ONS",
+                    "url": "/femmes/chaussures-bateau-and-slips-on"
+                  }
+                ],
+                "url": "/femmes/richelieus-and-mocassins"
+              },
+              {
+                "id": 210,
+                "title": "Bottines",
+                "code": "ANKLE_BOOTS",
+                "url": "/femmes/bottines"
+              },
+              {
+                "id": 207,
+                "title": "Sandales",
+                "code": "SANDALS",
+                "url": "/femmes/sandales"
+              },
+              {
+                "id": 1916,
+                "title": "Baskets",
+                "code": "W_TRAINERS",
+                "catalogs": [
+                  {
+                    "id": 1448,
+                    "title": "Course à pied",
+                    "code": "SPORT_SHOES_RUNNING_WOMEN",
+                    "url": "/femmes/course-a-pied"
+                  },
+                  {
+                    "id": 1449,
+                    "title": "Chaussures de marche \u0026 randonnée",
+                    "code": "SPORT_SHOES_OUTDOORS_WOMEN",
+                    "url": "/femmes/chaussures-de-marche-and-randonnee"
+                  },
+                  {
+                    "id": 1450,
+                    "title": "Fitness",
+                    "code": "SPORT_SHOES_INDOORS_WOMEN",
+                    "url": "/femmes/fitness"
+                  },
+                  {
+                    "id": 214,
+                    "title": "Baskets",
+                    "code": "TRAINERS",
+                    "url": "/femmes/baskets-baskets"
+                  },
+                  {
+                    "id": 547,
+                    "title": "Chuck Taylor, Converse",
+                    "code": "CHUCKS",
+                    "url": "/femmes/chuck-taylor-converse"
+                  },
+                  {
+                    "id": 1451,
+                    "title": "Autres sport",
+                    "code": "SPORTS_SHOES_OTHER_WOMEN",
+                    "url": "/femmes/autres-sport"
+                  }
+                ],
+                "url": "/femmes/baskets"
+              },
+              {
+                "id": 546,
+                "title": "Tongs",
+                "code": "FLIP_FLOPS",
+                "url": "/femmes/tongs"
+              },
+              {
+                "id": 215,
+                "title": "Chaussons",
+                "code": "SLIPPERS",
+                "url": "/femmes/chaussons"
+              },
+              {
+                "id": 216,
+                "title": "Autres chaussures",
+                "code": "WOM_FOO_OTHER",
+                "url": "/femmes/autres-chaussures"
+              }
+            ],
+            "url": "/femmes/chaussures"
+          },
+          {
+            "id": 19,
+            "title": "Sacs",
+            "code": "BAGS_BACKPACKS",
+            "catalogs": [
+              {
+                "id": 156,
+                "title": "Sacs à main",
+                "code": "HANDBAGS",
+                "url": "/femmes/sacs-a-main"
+              },
+              {
+                "id": 158,
+                "title": "Sacs à bandoulière",
+                "code": "SHOULDER_BAGS",
+                "url": "/femmes/sacs-a-bandouliere"
+              },
+              {
+                "id": 157,
+                "title": "Sacs à dos",
+                "code": "BACKPACKS",
+                "url": "/femmes/sacs-a-dos"
+              },
+              {
+                "id": 552,
+                "title": "Sacs fourre-tout",
+                "code": "TOTE_BAGS",
+                "url": "/femmes/sacs-fourre-tout"
+              },
+              {
+                "id": 159,
+                "title": "Pochettes",
+                "code": "CLUTCHES",
+                "url": "/femmes/pochettes"
+              },
+              {
+                "id": 160,
+                "title": "Porte-monnaie",
+                "code": "PURSES",
+                "url": "/femmes/porte-monnaie"
+              },
+              {
+                "id": 161,
+                "title": "Trousses à maquillage",
+                "code": "MAKE_UP_BAGS",
+                "url": "/femmes/trousses-a-maquillage"
+              },
+              {
+                "id": 1784,
+                "title": "Cartables",
+                "code": "SATCHELS_NEW",
+                "url": "/femmes/cartables"
+              },
+              {
+                "id": 1848,
+                "title": "Sacs banane",
+                "code": "W_BUM_BAGS",
+                "url": "/femmes/sacs-banane"
+              },
+              {
+                "id": 1493,
+                "title": "Sacs ethniques/traditionnels",
+                "code": "TRADITIONAL_BAGS_DE",
+                "url": "/femmes/sacs-ethniques-slash-traditionnels"
+              },
+              {
+                "id": 1849,
+                "title": "Sacs polochon",
+                "code": "W_HOLDALLS",
+                "url": "/femmes/sacs-polochon"
+              },
+              {
+                "id": 1850,
+                "title": "Sacs de voyage",
+                "code": "W_LUGGAGE",
+                "url": "/femmes/sacs-de-voyage"
+              },
+              {
+                "id": 155,
+                "title": "Autres",
+                "code": "WOM_ACC_BAG_OTHER",
+                "url": "/femmes/sacs-autres"
+              }
+            ],
+            "url": "/femmes/sacs"
+          },
+          {
+            "id": 1187,
+            "title": "Accessoires",
+            "code": "ACCESSORIES_JEWELLERY",
+            "catalogs": [
+              {
+                "id": 21,
+                "title": "Bijoux",
+                "code": "JEWELRY",
+                "catalogs": [
+                  {
+                    "id": 553,
+                    "title": "Bagues",
+                    "code": "WOM_ACC_JEW_RINGS",
+                    "url": "/femmes/bagues"
+                  },
+                  {
+                    "id": 163,
+                    "title": "Boucles d'oreilles",
+                    "code": "EARRINGS",
+                    "url": "/femmes/boucles-doreilles"
+                  },
+                  {
+                    "id": 165,
+                    "title": "Bracelets",
+                    "code": "BRACELETS",
+                    "url": "/femmes/bracelets"
+                  },
+                  {
+                    "id": 164,
+                    "title": "Colliers \u0026 pendentifs",
+                    "code": "NECKLACES_BEADS_PENDANTS",
+                    "url": "/femmes/colliers-and-pendentifs"
+                  },
+                  {
+                    "id": 166,
+                    "title": "Ensemble de bijoux",
+                    "code": "WOM_ACC_JEW_SETS",
+                    "url": "/femmes/ensemble-de-bijoux"
+                  },
+                  {
+                    "id": 1785,
+                    "title": "Bracelets de cheville",
+                    "code": "ANKLETS_NEW",
+                    "url": "/femmes/bracelets-de-cheville"
+                  },
+                  {
+                    "id": 167,
+                    "title": "Broches",
+                    "code": "BROOCHES",
+                    "url": "/femmes/broches"
+                  },
+                  {
+                    "id": 162,
+                    "title": "Autres bijoux",
+                    "code": "WOM_ACC_JEW_OTHER",
+                    "url": "/femmes/autres-bijoux"
+                  }
+                ],
+                "url": "/femmes/bijoux"
+              },
+              {
+                "id": 22,
+                "title": "Montres",
+                "code": "WATCHES",
+                "url": "/femmes/montres"
+              },
+              {
+                "id": 20,
+                "title": "Ceintures",
+                "code": "BELTS",
+                "url": "/femmes/ceintures"
+              },
+              {
+                "id": 26,
+                "title": "Lunettes de soleil",
+                "code": "SUNGLASSES",
+                "url": "/femmes/lunettes-de-soleil"
+              },
+              {
+                "id": 89,
+                "title": "Écharpes \u0026 châles",
+                "code": "WOM_ACC_SCARVES_SHAWLS",
+                "catalogs": [
+                  {
+                    "id": 236,
+                    "title": "Écharpes en maille",
+                    "code": "KNIT_SCARFS",
+                    "url": "/femmes/echarpes-en-maille"
+                  },
+                  {
+                    "id": 237,
+                    "title": "Foulards",
+                    "code": "HEADSCARFS",
+                    "url": "/femmes/foulards"
+                  },
+                  {
+                    "id": 238,
+                    "title": "Écharpes oversize et châles",
+                    "code": "OVERSIZED_SCARVES_SHAWLS",
+                    "url": "/femmes/echarpes-oversize-et-chales"
+                  },
+                  {
+                    "id": 239,
+                    "title": "Châles",
+                    "code": "SHAWLS",
+                    "url": "/femmes/chales"
+                  },
+                  {
+                    "id": 240,
+                    "title": "Autre",
+                    "code": "WOM_ACC_SCA_OTHER",
+                    "url": "/femmes/echarpes-and-chales-autre"
+                  }
+                ],
+                "url": "/femmes/echarpes-and-chales"
+              },
+              {
+                "id": 90,
+                "title": "Gants",
+                "code": "GLOVES",
+                "url": "/femmes/accessoires-gants"
+              },
+              {
+                "id": 88,
+                "title": "Chapeaux \u0026 casquettes",
+                "code": "WOM_ACC_HATS_CAPS",
+                "catalogs": [
+                  {
+                    "id": 230,
+                    "title": "Casquettes",
+                    "code": "CAPS",
+                    "url": "/femmes/casquettes"
+                  },
+                  {
+                    "id": 231,
+                    "title": "Chapeaux",
+                    "code": "HATS",
+                    "url": "/femmes/chapeaux-and-casquettes-chapeaux"
+                  },
+                  {
+                    "id": 232,
+                    "title": "Bonnets",
+                    "code": "WARM_HATS",
+                    "url": "/femmes/bonnets"
+                  },
+                  {
+                    "id": 233,
+                    "title": "Bérets",
+                    "code": "BERETS",
+                    "url": "/femmes/berets"
+                  },
+                  {
+                    "id": 234,
+                    "title": "Bandeaux",
+                    "code": "HEADBANDS",
+                    "url": "/femmes/bandeaux"
+                  },
+                  {
+                    "id": 235,
+                    "title": "Autre",
+                    "code": "WOM_ACC_HAT_OTHER",
+                    "url": "/femmes/chapeaux-and-casquettes-autre"
+                  }
+                ],
+                "url": "/femmes/chapeaux-and-casquettes"
+              },
+              {
+                "id": 1123,
+                "title": "Accessoires pour cheveux",
+                "code": "W_HAIR_ACCESSORIES",
+                "url": "/femmes/accessoires-pour-cheveux"
+              },
+              {
+                "id": 1221,
+                "title": "Accessoires high-tech",
+                "code": "ACCESS_MOBILE",
+                "url": "/femmes/accessoires-high-tech"
+              },
+              {
+                "id": 1851,
+                "title": "Parapluies",
+                "code": "W_ACC_UMBRELLAS",
+                "url": "/femmes/parapluies"
+              },
+              {
+                "id": 1852,
+                "title": "Porte-clés",
+                "code": "KEY_RINGS",
+                "url": "/femmes/porte-cles"
+              },
+              {
+                "id": 1140,
+                "title": "Autres accessoires",
+                "code": "W_OTHER_ACCESSORIES",
+                "url": "/femmes/accessoires-autres-accessoires"
+              }
+            ],
+            "url": "/femmes/femmes-accessoires"
+          },
+          {
+            "id": 146,
+            "title": "Beauté",
+            "code": "COSMETICS_AND_BEAUTY_PRODUCTS",
+            "catalogs": [
+              {
+                "id": 964,
+                "title": "Maquillage",
+                "code": "WOM_COS_MAK_COSMETICS",
+                "url": "/femmes/maquillage"
+              },
+              {
+                "id": 152,
+                "title": "Parfums",
+                "code": "WOM_COS_PERFUME",
+                "url": "/femmes/parfums"
+              },
+              {
+                "id": 948,
+                "title": "Soins du visage",
+                "code": "COSMETICS",
+                "url": "/femmes/soins-du-visage"
+              },
+              {
+                "id": 1906,
+                "title": "Accessoires de beauté",
+                "code": "W_BEAUTY_TOOLS",
+                "catalogs": [
+                  {
+                    "id": 1903,
+                    "title": "Accessoires soins capillaires",
+                    "code": "W_HAIR_TOOLS",
+                    "url": "/femmes/accessoires-soins-capillaires"
+                  },
+                  {
+                    "id": 950,
+                    "title": "Accessoires soins du visage",
+                    "code": "BEAUTY_TOOLS",
+                    "url": "/femmes/accessoires-soins-du-visage"
+                  },
+                  {
+                    "id": 958,
+                    "title": "Accessoires soins corporels",
+                    "code": "WOM_COS_BOD_BEAUTY_TOOLS",
+                    "url": "/femmes/accessoires-soins-corporels"
+                  },
+                  {
+                    "id": 962,
+                    "title": "Accessoires soins des ongles",
+                    "code": "WOM_COS_HAN_BEAUTY_TOOLS",
+                    "url": "/femmes/accessoires-soins-des-ongles"
+                  },
+                  {
+                    "id": 967,
+                    "title": "Accessoires maquillage",
+                    "code": "WOM_COS_MAK_BEAUTY_TOOLS",
+                    "url": "/femmes/accessoires-maquillage"
+                  }
+                ],
+                "url": "/femmes/accessoires-de-beaute"
+              },
+              {
+                "id": 1264,
+                "title": "Soin mains",
+                "code": "BEAUTY_HAND_ONLY",
+                "url": "/femmes/soin-mains"
+              },
+              {
+                "id": 960,
+                "title": "Manucure",
+                "code": "WOM_COS_HAN_COSMETICS",
+                "url": "/femmes/manucure"
+              },
+              {
+                "id": 956,
+                "title": "Soins du corps",
+                "code": "WOM_COS_BOD_COSMETICS",
+                "url": "/femmes/soins-du-corps"
+              },
+              {
+                "id": 1902,
+                "title": "Soins cheveux",
+                "code": "W_HAIR_COSMETICS",
+                "url": "/femmes/soins-cheveux"
+              },
+              {
+                "id": 153,
+                "title": "Autres cosmétiques et accessoires",
+                "code": "OTHER_COSMETICS_AND_TOOLS",
+                "url": "/femmes/autres-cosmetiques-et-accessoires"
+              }
+            ],
+            "url": "/femmes/beaute"
+          }
+        ],
+        "url": "/femmes"
+      },
+      {
+        "id": 5,
+        "title": "Hommes",
+        "code": "MENS",
+        "catalogs": [
+          {
+            "id": 1206,
+            "title": "Manteaux et vestes",
+            "code": "MEN_OUTERWEAR_NEW",
+            "catalogs": [
+              {
+                "id": 1223,
+                "title": "Blousons aviateur",
+                "code": "MEN_BOMBER",
+                "url": "/hommes/blousons-aviateur"
+              },
+              {
+                "id": 1224,
+                "title": "Vestes en jean",
+                "code": "MEN_DENIM",
+                "url": "/hommes/vestes-en-jean"
+              },
+              {
+                "id": 1228,
+                "title": "Vestes en cuir",
+                "code": "MEN_LEATHER",
+                "url": "/hommes/vestes-en-cuir"
+              },
+              {
+                "id": 1226,
+                "title": "Vestes harrington",
+                "code": "MEN_HARRINGT",
+                "url": "/hommes/vestes-harrington"
+              },
+              {
+                "id": 1856,
+                "title": "Vestes légères",
+                "code": "M_LIGHTWEIGHT_JACKETS",
+                "url": "/hommes/vestes-legeres"
+              },
+              {
+                "id": 1857,
+                "title": "Vestes en duvet",
+                "code": "MEN_DOWN_JACKET",
+                "url": "/hommes/vestes-en-duvet"
+              },
+              {
+                "id": 1858,
+                "title": "Vestes polaires",
+                "code": "MEN_FLEECE_JACKETS",
+                "url": "/hommes/vestes-polaires"
+              },
+              {
+                "id": 1859,
+                "title": "Imperméables",
+                "code": "MEN_RAINCOAT",
+                "url": "/hommes/impermeables"
+              },
+              {
+                "id": 1230,
+                "title": "Trench-coats",
+                "code": "MEN_TRENCH",
+                "url": "/hommes/trench-coats"
+              },
+              {
+                "id": 1225,
+                "title": "Duffle-coats",
+                "code": "MEN_DUFFLE",
+                "url": "/hommes/duffle-coats"
+              },
+              {
+                "id": 1860,
+                "title": "Manteaux rembourrés",
+                "code": "MEN_PADDED_JACKET",
+                "url": "/hommes/manteaux-rembourres"
+              },
+              {
+                "id": 1861,
+                "title": "Cabans",
+                "code": "MEN_PEA_COATS",
+                "url": "/hommes/cabans"
+              },
+              {
+                "id": 1227,
+                "title": "Parkas",
+                "code": "MEN_PARKAS",
+                "url": "/hommes/parkas"
+              },
+              {
+                "id": 1229,
+                "title": "Manteaux en laine",
+                "code": "MEN_WOOL",
+                "url": "/hommes/manteaux-en-laine"
+              },
+              {
+                "id": 1260,
+                "title": "Autres",
+                "code": "MEN_OUTERWEAR_OTH",
+                "url": "/hommes/manteaux-et-vestes-autres"
+              }
+            ],
+            "url": "/hommes/manteaux-et-vestes"
+          },
+          {
+            "id": 76,
+            "title": "Hauts \u0026 Tee-shirts",
+            "code": "MEN_TOPS_T_SHIRTS",
+            "catalogs": [
+              {
+                "id": 536,
+                "title": "Chemises",
+                "code": "MEN_TOP_SHIRTS",
+                "catalogs": [
+                  {
+                    "id": 1801,
+                    "title": "Chemises à carreaux",
+                    "code": "CHECKED_SHIRTS",
+                    "url": "/hommes/chemises-a-carreaux"
+                  },
+                  {
+                    "id": 1802,
+                    "title": "Chemises en jean",
+                    "code": "DENIM_SHIRTS",
+                    "url": "/hommes/chemises-en-jean"
+                  },
+                  {
+                    "id": 1803,
+                    "title": "Chemises unies",
+                    "code": "PLAIN_SHIRTS",
+                    "url": "/hommes/chemises-unies"
+                  },
+                  {
+                    "id": 1804,
+                    "title": "Chemises à motifs",
+                    "code": "PRINTED_SHIRTS",
+                    "url": "/hommes/chemises-a-motifs"
+                  },
+                  {
+                    "id": 1805,
+                    "title": "Chemises à rayures",
+                    "code": "STRIPPED_SHIRTS",
+                    "url": "/hommes/chemises-a-rayures"
+                  },
+                  {
+                    "id": 1865,
+                    "title": "Autre",
+                    "code": "MEN_SHIRTS_OTHER",
+                    "url": "/hommes/chemises-autre"
+                  }
+                ],
+                "url": "/hommes/chemises"
+              },
+              {
+                "id": 77,
+                "title": "Tee-shirts",
+                "code": "MEN_TOP_T_SHIRTS",
+                "catalogs": [
+                  {
+                    "id": 1806,
+                    "title": "T-shirts unis",
+                    "code": "PLAIN_TSHIRTS",
+                    "url": "/hommes/t-shirts-unis"
+                  },
+                  {
+                    "id": 1807,
+                    "title": "T-shirts imprimés",
+                    "code": "PRINTED_TSHIRTS",
+                    "url": "/hommes/t-shirts-imprimes"
+                  },
+                  {
+                    "id": 1808,
+                    "title": "T-shirts à rayures",
+                    "code": "STRIPPED_TSHIRTS",
+                    "url": "/hommes/t-shirts-a-rayures"
+                  },
+                  {
+                    "id": 1868,
+                    "title": "Autre",
+                    "code": "OTHER_MEN_TSHIRTS",
+                    "url": "/hommes/autre"
+                  }
+                ],
+                "url": "/hommes/tee-shirts"
+              },
+              {
+                "id": 1809,
+                "title": "Polos",
+                "code": "POLO_SHIRTS",
+                "url": "/hommes/polos"
+              },
+              {
+                "id": 1810,
+                "title": "T-shirts manches longues",
+                "code": "LONG_SL_TSHIRTS",
+                "url": "/hommes/t-shirts-manches-longues"
+              },
+              {
+                "id": 560,
+                "title": "T-shirts sans manches",
+                "code": "MEN_TOP_VESTS",
+                "url": "/hommes/t-shirts-sans-manches"
+              }
+            ],
+            "url": "/hommes/hommes-hauts-and-tee-shirts"
+          },
+          {
+            "id": 32,
+            "title": "Costumes \u0026 blazers",
+            "code": "SUITS_BLAZERS",
+            "catalogs": [
+              {
+                "id": 1786,
+                "title": "Blazers",
+                "code": "BLAZERS_MEN",
+                "url": "/hommes/blazers"
+              },
+              {
+                "id": 1787,
+                "title": "Pantalons de costume",
+                "code": "SUIT_PANTS",
+                "url": "/hommes/pantalons-de-costume"
+              },
+              {
+                "id": 1788,
+                "title": "Gilets de costume",
+                "code": "SUIT_WAISTCOAT",
+                "url": "/hommes/gilets-de-costume"
+              },
+              {
+                "id": 1789,
+                "title": "Ensembles costume",
+                "code": "SUIT_SET_MEN",
+                "url": "/hommes/ensembles-costume"
+              },
+              {
+                "id": 1790,
+                "title": "Costumes de mariage",
+                "code": "WEDDING_SUIT",
+                "url": "/hommes/costumes-de-mariage"
+              },
+              {
+                "id": 1866,
+                "title": "Autres",
+                "code": "SUITS_BLAZERS_OTHER",
+                "url": "/hommes/costumes-and-blazers-autres"
+              }
+            ],
+            "url": "/hommes/costumes-and-blazers"
+          },
+          {
+            "id": 79,
+            "title": "Sweats et pulls",
+            "code": "MEN_PULLOVERS_SWEATERS",
+            "catalogs": [
+              {
+                "id": 1811,
+                "title": "Sweats",
+                "code": "MEN_SWEATERS",
+                "url": "/hommes/sweats"
+              },
+              {
+                "id": 267,
+                "title": "Pulls et pulls à capuche",
+                "code": "MEN_PUL_HOODIES_PULLOVERS",
+                "url": "/hommes/pulls-et-pulls-a-capuche"
+              },
+              {
+                "id": 1812,
+                "title": "Pulls à capuche avec zip",
+                "code": "MEN_ZIPHOODIES",
+                "url": "/hommes/pulls-a-capuche-avec-zip"
+              },
+              {
+                "id": 266,
+                "title": "Cardigans",
+                "code": "MEN_PUL_CARDIGANS",
+                "url": "/hommes/cardigans"
+              },
+              {
+                "id": 1813,
+                "title": "Pulls ras de cou",
+                "code": "MEN_CREWNECK_JUMPER",
+                "url": "/hommes/pulls-ras-de-cou"
+              },
+              {
+                "id": 264,
+                "title": "Sweats à col V",
+                "code": "MEN_PUL_V_NECK_SWEATERS",
+                "url": "/hommes/sweats-a-col-v"
+              },
+              {
+                "id": 265,
+                "title": "Pulls à col roulé",
+                "code": "MEN_PUL_TURTLENECK_SWEATERS",
+                "url": "/hommes/pulls-a-col-roule"
+              },
+              {
+                "id": 1814,
+                "title": "Sweats longs",
+                "code": "MEN_LONG_SWEATER",
+                "url": "/hommes/sweats-longs"
+              },
+              {
+                "id": 1815,
+                "title": "Pulls d'hiver",
+                "code": "MEN_KNITTED_SWEATER",
+                "url": "/hommes/pulls-dhiver"
+              },
+              {
+                "id": 1825,
+                "title": "Vestes",
+                "code": "OUTDOOR_VEST",
+                "url": "/hommes/vestes"
+              },
+              {
+                "id": 268,
+                "title": "Autres",
+                "code": "MEN_PUL_OTHER",
+                "url": "/hommes/sweats-et-pulls-autres"
+              }
+            ],
+            "url": "/hommes/sweats-et-pulls"
+          },
+          {
+            "id": 34,
+            "title": "Pantalons",
+            "code": "MEN_TROUSERS",
+            "catalogs": [
+              {
+                "id": 257,
+                "title": "Jeans",
+                "code": "MEN_TRO_JEANS",
+                "catalogs": [
+                  {
+                    "id": 1816,
+                    "title": "Jeans troués",
+                    "code": "MEN_RIPPED_JEANS",
+                    "url": "/hommes/jeans-troues"
+                  },
+                  {
+                    "id": 1817,
+                    "title": "Jeans skinny",
+                    "code": "MEN_SKINNY_JEANS",
+                    "url": "/hommes/jeans-skinny"
+                  },
+                  {
+                    "id": 1818,
+                    "title": "Jeans slim",
+                    "code": "MEN_SLIMFIT_JEANS",
+                    "url": "/hommes/jeans-slim"
+                  },
+                  {
+                    "id": 1819,
+                    "title": "Jeans coupe droite",
+                    "code": "MEN_STRAIGHTFIT_JEANS",
+                    "url": "/hommes/jeans-coupe-droite"
+                  }
+                ],
+                "url": "/hommes/jeans"
+              },
+              {
+                "id": 1820,
+                "title": "Chinos",
+                "code": "MEN_CHINOS",
+                "url": "/hommes/chinos"
+              },
+              {
+                "id": 1821,
+                "title": "Jogging",
+                "code": "MEN_JOGGERS",
+                "url": "/hommes/jogging"
+              },
+              {
+                "id": 259,
+                "title": "Pantalons skinny",
+                "code": "MEN_TRO_SKINNY_TROUSERS",
+                "url": "/hommes/pantalons-skinny"
+              },
+              {
+                "id": 261,
+                "title": "Pantalons de costume",
+                "code": "MEN_TRO_TAILORED_TROUSERS",
+                "url": "/hommes/pantalons-pantalons-de-costume"
+              },
+              {
+                "id": 260,
+                "title": "Pantalons à jambes larges",
+                "code": "MEN_TRO_WIDE_LEGGED_TROUSERS",
+                "url": "/hommes/pantalons-a-jambes-larges"
+              },
+              {
+                "id": 263,
+                "title": "Autres",
+                "code": "MEN_TRO_OTHER",
+                "url": "/hommes/pantalons-autres"
+              }
+            ],
+            "url": "/hommes/hommes-pantalons"
+          },
+          {
+            "id": 80,
+            "title": "Shorts \u0026 pantacourts",
+            "code": "SHORTS_CAPRI_PANTS",
+            "catalogs": [
+              {
+                "id": 1822,
+                "title": "Shorts cargo",
+                "code": "MEN_CARGO_SHORTS",
+                "url": "/hommes/shorts-cargo"
+              },
+              {
+                "id": 1823,
+                "title": "Shorts chino",
+                "code": "MEN_CHINO_SHORTS",
+                "url": "/hommes/shorts-chino"
+              },
+              {
+                "id": 1824,
+                "title": "Shorts en jean",
+                "code": "MEN_DENIM_SHORTS",
+                "url": "/hommes/shorts-en-jean"
+              },
+              {
+                "id": 271,
+                "title": "Pantacourts",
+                "code": "MEN_SHO_CAPRI_TROUSERS",
+                "url": "/hommes/pantacourts"
+              },
+              {
+                "id": 272,
+                "title": "Autres",
+                "code": "MEN_SHO_OTHER",
+                "url": "/hommes/shorts-and-pantacourts-autres"
+              }
+            ],
+            "url": "/hommes/shorts-and-pantacourts"
+          },
+          {
+            "id": 1231,
+            "title": "Chaussures",
+            "code": "MEN_SHOES_NEW",
+            "catalogs": [
+              {
+                "id": 1232,
+                "title": "Mocassins \u0026 chaussures bateau",
+                "code": "MEN_BOAT",
+                "url": "/hommes/mocassins-and-chaussures-bateau"
+              },
+              {
+                "id": 1234,
+                "title": "Chaussures Richelieu \u0026 derbies",
+                "code": "MEN_BROGUES",
+                "url": "/hommes/chaussures-richelieu-and-derbies"
+              },
+              {
+                "id": 1235,
+                "title": "Bottines à élastique",
+                "code": "MEN_CHELSEA",
+                "url": "/hommes/bottines-a-elastique"
+              },
+              {
+                "id": 1236,
+                "title": "Chaussures montantes",
+                "code": "MEN_DESERT",
+                "url": "/hommes/chaussures-montantes"
+              },
+              {
+                "id": 1238,
+                "title": "Chaussures habillées",
+                "code": "MEN_FORMAL",
+                "url": "/hommes/chaussures-habillees"
+              },
+              {
+                "id": 1792,
+                "title": "Bottines",
+                "code": "MEN_ANKLE_BOOTS",
+                "url": "/hommes/bottines"
+              },
+              {
+                "id": 1793,
+                "title": "Bottes",
+                "code": "MEN_KNEE_L_SHOES",
+                "url": "/hommes/bottes"
+              },
+              {
+                "id": 1239,
+                "title": "Slips-on et mocassins",
+                "code": "MEN_LOAFERS",
+                "url": "/hommes/slips-on-et-mocassins"
+              },
+              {
+                "id": 1242,
+                "title": "Sneakers \u0026 converses",
+                "code": "MEN_SNEAKERS",
+                "url": "/hommes/sneakers-and-converses"
+              },
+              {
+                "id": 1452,
+                "title": "Chaussures de sport",
+                "code": "SPORT_SHOES_MEN",
+                "catalogs": [
+                  {
+                    "id": 1453,
+                    "title": "Course",
+                    "code": "SPORT_SHOES_RUNNING_MEN",
+                    "url": "/hommes/course"
+                  },
+                  {
+                    "id": 1465,
+                    "title": "Extérieur \u0026 randonnée",
+                    "code": "SPORT_SHOES_OUTDOORS_MEN",
+                    "url": "/hommes/exterieur-and-randonnee"
+                  },
+                  {
+                    "id": 1467,
+                    "title": "Sport en intérieur",
+                    "code": "SPORT_SHOES_INDOOR_MEN",
+                    "url": "/hommes/sport-en-interieur"
+                  },
+                  {
+                    "id": 1469,
+                    "title": "Autres sports",
+                    "code": "SPORT_SHOES_OTHER_MEN",
+                    "url": "/hommes/autres-sports"
+                  }
+                ],
+                "url": "/hommes/chaussures-de-sport"
+              },
+              {
+                "id": 1241,
+                "title": "Sandales",
+                "code": "MEN_SANDALS",
+                "url": "/hommes/sandales"
+              },
+              {
+                "id": 1237,
+                "title": "Tongs",
+                "code": "MEN_FLIPFLOP",
+                "url": "/hommes/tongs"
+              },
+              {
+                "id": 1796,
+                "title": "Pantoufles",
+                "code": "MEN_SLIPPERS",
+                "url": "/hommes/pantoufles"
+              },
+              {
+                "id": 1794,
+                "title": "Rangers",
+                "code": "MEN_COMBAT_SHOES",
+                "url": "/hommes/rangers"
+              },
+              {
+                "id": 1795,
+                "title": "Bottes en caoutchouc",
+                "code": "MEN_WELLINGTON",
+                "url": "/hommes/bottes-en-caoutchouc"
+              },
+              {
+                "id": 1259,
+                "title": "Autres",
+                "code": "MEN_SHOES_OTH",
+                "url": "/hommes/chaussures-autres"
+              }
+            ],
+            "url": "/hommes/chaussures"
+          },
+          {
+            "id": 82,
+            "title": "Accessoires",
+            "code": "MEN_ACCESSORIES",
+            "catalogs": [
+              {
+                "id": 93,
+                "title": "Cravates \u0026 pochettes",
+                "code": "TIES",
+                "url": "/hommes/cravates-and-pochettes"
+              },
+              {
+                "id": 94,
+                "title": "Sacs et sacoches",
+                "code": "BAGS",
+                "catalogs": [
+                  {
+                    "id": 245,
+                    "title": "Sacs à main",
+                    "code": "MEN_ACC_BAG_HANDBAGS",
+                    "url": "/hommes/sacs-a-main"
+                  },
+                  {
+                    "id": 247,
+                    "title": "Sacs à bandoulière",
+                    "code": "MEN_ACC_BAG_SHOULDER_BAGS",
+                    "url": "/hommes/sacs-a-bandouliere"
+                  },
+                  {
+                    "id": 246,
+                    "title": "Sacs à dos",
+                    "code": "MEN_ACC_BAG_BACKPACKS",
+                    "url": "/hommes/sacs-a-dos"
+                  },
+                  {
+                    "id": 1797,
+                    "title": "Cartables",
+                    "code": "MEN_ACC_SATCHELS",
+                    "url": "/hommes/cartables"
+                  },
+                  {
+                    "id": 1798,
+                    "title": "Fourre-tout",
+                    "code": "MEN_HOLDALLS",
+                    "url": "/hommes/fourre-tout"
+                  },
+                  {
+                    "id": 1799,
+                    "title": "Sacs banane",
+                    "code": "MEN_ACC_BUMBAGS",
+                    "url": "/hommes/sacs-banane"
+                  },
+                  {
+                    "id": 248,
+                    "title": "Porte-monnaie",
+                    "code": "WALLETS",
+                    "url": "/hommes/porte-monnaie"
+                  },
+                  {
+                    "id": 1862,
+                    "title": "Bagages",
+                    "code": "MEN_LUGGAGE",
+                    "url": "/hommes/bagages"
+                  },
+                  {
+                    "id": 249,
+                    "title": "Autre",
+                    "code": "MEN_ACC_BAG_OTHER",
+                    "url": "/hommes/sacs-et-sacoches-autre"
+                  }
+                ],
+                "url": "/hommes/sacs-et-sacoches"
+              },
+              {
+                "id": 95,
+                "title": "Bijoux",
+                "code": "APPAREL",
+                "catalogs": [
+                  {
+                    "id": 241,
+                    "title": "Colliers \u0026 pendentifs",
+                    "code": "NECKLACES_PENDANTS",
+                    "url": "/hommes/colliers-and-pendentifs"
+                  },
+                  {
+                    "id": 242,
+                    "title": "Bagues",
+                    "code": "RINGS",
+                    "url": "/hommes/bagues"
+                  },
+                  {
+                    "id": 243,
+                    "title": "Bracelets",
+                    "code": "MEN_ACC_APP_BRACELETS",
+                    "url": "/hommes/bracelets"
+                  },
+                  {
+                    "id": 244,
+                    "title": "Autre",
+                    "code": "MEN_ACC_APP_OTHER",
+                    "url": "/hommes/bijoux-autre"
+                  },
+                  {
+                    "id": 1800,
+                    "title": "Boutons de manchette",
+                    "code": "MEN_ACC_CUFFLINKS",
+                    "url": "/hommes/boutons-de-manchette"
+                  }
+                ],
+                "url": "/hommes/bijoux"
+              },
+              {
+                "id": 96,
+                "title": "Ceintures",
+                "code": "MEN_ACC_BELTS",
+                "url": "/hommes/ceintures"
+              },
+              {
+                "id": 97,
+                "title": "Montres",
+                "code": "MEN_ACC_WATCHES",
+                "url": "/hommes/montres"
+              },
+              {
+                "id": 98,
+                "title": "Lunettes de Soleil",
+                "code": "MEN_ACC_SUNGLASSES",
+                "url": "/hommes/lunettes-de-soleil"
+              },
+              {
+                "id": 86,
+                "title": "Chapeaux et casquettes",
+                "code": "HATS_CAPS",
+                "catalogs": [
+                  {
+                    "id": 287,
+                    "title": "Casquettes",
+                    "code": "MEN_ACC_HAT_CAPS",
+                    "url": "/hommes/casquettes"
+                  },
+                  {
+                    "id": 288,
+                    "title": "Chapeaux",
+                    "code": "MEN_ACC_HAT_HATS",
+                    "url": "/hommes/chapeaux"
+                  },
+                  {
+                    "id": 289,
+                    "title": "Chapeaux d'Hiver",
+                    "code": "WINTER_HATS",
+                    "url": "/hommes/chapeaux-dhiver"
+                  },
+                  {
+                    "id": 290,
+                    "title": "Bérets",
+                    "code": "MEN_ACC_HAT_BERETS",
+                    "url": "/hommes/berets"
+                  },
+                  {
+                    "id": 291,
+                    "title": "Autre",
+                    "code": "MEN_ACC_HAT_OTHER",
+                    "url": "/hommes/chapeaux-et-casquettes-autre"
+                  }
+                ],
+                "url": "/hommes/chapeaux-et-casquettes"
+              },
+              {
+                "id": 87,
+                "title": "Echarpes \u0026 châles",
+                "code": "SCARVES_SHAWLS",
+                "catalogs": [
+                  {
+                    "id": 283,
+                    "title": "Echarpes tricotées",
+                    "code": "KNITTED_SCARVES",
+                    "url": "/hommes/echarpes-tricotees"
+                  },
+                  {
+                    "id": 284,
+                    "title": "Foulards",
+                    "code": "MEN_ACC_SCA_HEADSCARFS",
+                    "url": "/hommes/foulards"
+                  },
+                  {
+                    "id": 285,
+                    "title": "Grandes Echarpes \u0026 chèches",
+                    "code": "LARGE_SCARVES_SHAWLS",
+                    "url": "/hommes/grandes-echarpes-and-cheches"
+                  },
+                  {
+                    "id": 286,
+                    "title": "Autre",
+                    "code": "MEN_ACC_SCA_OTHER",
+                    "url": "/hommes/echarpes-and-chales-autre"
+                  }
+                ],
+                "url": "/hommes/echarpes-and-chales"
+              },
+              {
+                "id": 91,
+                "title": "Gants",
+                "code": "MEN_ACC_GLOVES",
+                "url": "/hommes/accessoires-gants"
+              },
+              {
+                "id": 99,
+                "title": "Autres",
+                "code": "MEN_ACC_OTHER",
+                "url": "/hommes/accessoires-autres"
+              }
+            ],
+            "url": "/hommes/accessoires"
+          },
+          {
+            "id": 139,
+            "title": "Cosmétiques et produits de beauté",
+            "code": "COSMETICS_AND_BEAUTY_ITEMS",
+            "catalogs": [
+              {
+                "id": 143,
+                "title": "Soins visage",
+                "code": "FACE_CARE",
+                "url": "/hommes/soins-visage"
+              },
+              {
+                "id": 1826,
+                "title": "Accessoires de rasage",
+                "code": "MEN_SHAVING_TOOLS",
+                "url": "/hommes/accessoires-de-rasage"
+              },
+              {
+                "id": 140,
+                "title": "Soins cheveux",
+                "code": "HAIR_CARE",
+                "url": "/hommes/soins-cheveux"
+              },
+              {
+                "id": 1827,
+                "title": "Accessoires de toilette",
+                "code": "GROOMING_TOOLS",
+                "url": "/hommes/accessoires-de-toilette"
+              },
+              {
+                "id": 141,
+                "title": "Soins du corps",
+                "code": "BODY_CARE",
+                "url": "/hommes/soins-du-corps"
+              },
+              {
+                "id": 142,
+                "title": "Soins mains et ongles",
+                "code": "HAND_NAIL_CARE",
+                "url": "/hommes/soins-mains-et-ongles"
+              },
+              {
+                "id": 145,
+                "title": "Parfums",
+                "code": "PERFUME",
+                "url": "/hommes/parfums"
+              },
+              {
+                "id": 144,
+                "title": "Maquillage",
+                "code": "MAKE_UP",
+                "url": "/hommes/maquillage"
+              },
+              {
+                "id": 1863,
+                "title": "Coffrets",
+                "code": "MEN_SETS",
+                "url": "/hommes/coffrets"
+              },
+              {
+                "id": 154,
+                "title": "Autres cosmétiques et accessoires",
+                "code": "MEN_COS_OTHER_COSMETICS_AND_TOOLS",
+                "catalogs": [
+                  {
+                    "id": 968,
+                    "title": "Cosmétiques",
+                    "code": "MEN_COS_OTH_COSMETICS",
+                    "url": "/hommes/cosmetiques"
+                  },
+                  {
+                    "id": 971,
+                    "title": "Accessoires beauté",
+                    "code": "MEN_COS_OTH_BEAUTY_TOOLS",
+                    "url": "/hommes/accessoires-beaute"
+                  }
+                ],
+                "url": "/hommes/autres-cosmetiques-et-accessoires"
+              }
+            ],
+            "url": "/hommes/cosmetiques-et-produits-de-beaute"
+          },
+          {
+            "id": 85,
+            "title": "Sous-vêtements, chaussettes",
+            "code": "UNDERWEAR",
+            "catalogs": [
+              {
+                "id": 1829,
+                "title": "Sous-vêtements",
+                "code": "MEN_UNDERWEAR",
+                "url": "/hommes/sous-vetements"
+              },
+              {
+                "id": 1828,
+                "title": "Chaussettes",
+                "code": "MEN_SOCKS",
+                "url": "/hommes/chaussettes"
+              },
+              {
+                "id": 1830,
+                "title": "Peignoirs",
+                "code": "MEN_ROBES",
+                "url": "/hommes/peignoirs"
+              },
+              {
+                "id": 1867,
+                "title": "Autres",
+                "code": "OTHER_MEN_UNDERWEAR",
+                "url": "/hommes/sous-vetements-chaussettes-autres"
+              }
+            ],
+            "url": "/hommes/sous-vetements-chaussettes"
+          },
+          {
+            "id": 84,
+            "title": "Maillots de bain",
+            "code": "MEN_SWIMWEAR",
+            "url": "/hommes/maillots-de-bain"
+          },
+          {
+            "id": 30,
+            "title": "Vêtements de sport \u0026 accessoires",
+            "code": "SPORTSWEAR",
+            "catalogs": [
+              {
+                "id": 581,
+                "title": "Vêtements d'extérieur",
+                "code": "MEN_SPO_OUTERWEAR",
+                "url": "/hommes/vetements-dexterieur"
+              },
+              {
+                "id": 582,
+                "title": "Survêtements",
+                "code": "MEN_SPO_TRAINING_COSTUMES",
+                "url": "/hommes/survetements"
+              },
+              {
+                "id": 583,
+                "title": "Pantalons",
+                "code": "MEN_SPO_TROUSERS",
+                "url": "/hommes/pantalons"
+              },
+              {
+                "id": 586,
+                "title": "Shorts",
+                "code": "MEN_SPO_SHORTS",
+                "url": "/hommes/shorts"
+              },
+              {
+                "id": 584,
+                "title": "Hauts \u0026 Tee-shirts",
+                "code": "MEN_SPO_TOPS_T_SHIRTS",
+                "url": "/hommes/hauts-and-tee-shirts"
+              },
+              {
+                "id": 585,
+                "title": "Pulls \u0026 sweats",
+                "code": "MEN_SPO_PULLOVERS_SWEATERS",
+                "url": "/hommes/pulls-and-sweats"
+              },
+              {
+                "id": 587,
+                "title": "Accessoires de sports",
+                "code": "MEN_SPO_ACCESSORIES",
+                "catalogs": [
+                  {
+                    "id": 1470,
+                    "title": "Echarpes",
+                    "code": "SPORT_ACCESS_SCARVES_MEN",
+                    "url": "/hommes/echarpes"
+                  },
+                  {
+                    "id": 1471,
+                    "title": "Lunettes",
+                    "code": "SPORT_ACCESS_GLASSES_MEN",
+                    "url": "/hommes/lunettes"
+                  },
+                  {
+                    "id": 1472,
+                    "title": "Montres sport \u0026 bracelets connectés",
+                    "code": "SPORT_ACCESS_WATCHES_MEN",
+                    "url": "/hommes/montres-sport-and-bracelets-connectes"
+                  },
+                  {
+                    "id": 1473,
+                    "title": "Bonnets",
+                    "code": "SPORT_ACCESS_HATS_MEN",
+                    "url": "/hommes/bonnets"
+                  },
+                  {
+                    "id": 1474,
+                    "title": "Gants",
+                    "code": "SPORT_ACCESS_GLOVES_MEN",
+                    "url": "/hommes/gants"
+                  },
+                  {
+                    "id": 1475,
+                    "title": "Protections",
+                    "code": "SPORT_ACCESS_PROTECT_MEN",
+                    "url": "/hommes/protections"
+                  },
+                  {
+                    "id": 1476,
+                    "title": "Autres accessoires",
+                    "code": "SPORT_ACCESS_OTHER_MEN",
+                    "url": "/hommes/autres-accessoires"
+                  }
+                ],
+                "url": "/hommes/accessoires-de-sports"
+              },
+              {
+                "id": 588,
+                "title": "Autres",
+                "code": "MEN_SPO_OTHER",
+                "url": "/hommes/autres"
+              }
+            ],
+            "url": "/hommes/vetements-de-sport-and-accessoires"
+          },
+          {
+            "id": 92,
+            "title": "Vêtements spécialisés \u0026 costumes",
+            "code": "SPECIALISED_CLOTHING_COSTUMES",
+            "url": "/hommes/vetements-specialises-and-costumes"
+          },
+          {
+            "id": 83,
+            "title": "Autres",
+            "code": "MEN_OTHER",
+            "url": "/hommes/hommes-autres"
+          }
+        ],
+        "url": "/hommes"
+      },
+      {
+        "id": 1193,
+        "title": "Enfants",
+        "code": "CHILDREN_NEW",
+        "catalogs": [
+          {
+            "id": 1195,
+            "title": "Filles",
+            "code": "GIRLS_NEW",
+            "catalogs": [
+              {
+                "id": 1243,
+                "title": "Bébé filles",
+                "code": "GIRLS_BABIES",
+                "catalogs": [
+                  {
+                    "id": 1514,
+                    "title": "Combinaisons",
+                    "code": "FULL_ROMPERS_GIRLS_NEW",
+                    "url": "/enfants/bebe-filles-combinaisons"
+                  },
+                  {
+                    "id": 1515,
+                    "title": "Bodies",
+                    "code": "GIRLS_BODIES_NEW",
+                    "url": "/enfants/bebe-filles-bodies"
+                  },
+                  {
+                    "id": 1516,
+                    "title": "Grenouillères",
+                    "code": "ROMPERS_GIRLS_NEW",
+                    "url": "/enfants/bebe-filles-grenouilleres"
+                  },
+                  {
+                    "id": 1517,
+                    "title": "Ensembles",
+                    "code": "SETS_GIRLS_NEW",
+                    "url": "/enfants/bebe-filles-ensembles"
+                  }
+                ],
+                "url": "/enfants/bebe-filles"
+              },
+              {
+                "id": 1255,
+                "title": "Chaussures",
+                "code": "GIRLS_SHOES",
+                "catalogs": [
+                  {
+                    "id": 1525,
+                    "title": "Chaussures bébé",
+                    "code": "BABY_GIRLS_SHOES_NEW",
+                    "url": "/enfants/chaussures-chaussures-bebe"
+                  },
+                  {
+                    "id": 1526,
+                    "title": "Ballerines",
+                    "code": "FLAT_GIRLS_NEW",
+                    "url": "/enfants/ballerines"
+                  },
+                  {
+                    "id": 1527,
+                    "title": "Sandales \u0026 nu-pieds",
+                    "code": "SANDALS_GIRLS_NEW",
+                    "url": "/enfants/sandales-and-nu-pieds"
+                  },
+                  {
+                    "id": 1528,
+                    "title": "Chaussures grandes occasions",
+                    "code": "SHOES_OCC_GIRLS_NEW",
+                    "url": "/enfants/chaussures-chaussures-grandes-occasions"
+                  },
+                  {
+                    "id": 1529,
+                    "title": "Chaussures avec élastique",
+                    "code": "SLIP_GIRLS_SHOES_NEW",
+                    "url": "/enfants/chaussures-avec-elastique"
+                  },
+                  {
+                    "id": 1530,
+                    "title": "Bottines",
+                    "code": "BOOTS_GIRLS_NEW",
+                    "url": "/enfants/chaussures-bottines"
+                  },
+                  {
+                    "id": 1531,
+                    "title": "Bottes",
+                    "code": "HIGH_BOOTS_GIRLS_NEW",
+                    "url": "/enfants/chaussures-bottes"
+                  },
+                  {
+                    "id": 1532,
+                    "title": "Bottes de pluie",
+                    "code": "RUBBER_GIRLS_NEW",
+                    "url": "/enfants/chaussures-bottes-de-pluie"
+                  },
+                  {
+                    "id": 1533,
+                    "title": "Baskets",
+                    "code": "SNEAKERS_GIRLS_NEW",
+                    "url": "/enfants/chaussures-baskets"
+                  },
+                  {
+                    "id": 1534,
+                    "title": "Chaussons",
+                    "code": "SLIPPERS_GIRLS_NEW",
+                    "url": "/enfants/chaussures-chaussons"
+                  },
+                  {
+                    "id": 1869,
+                    "title": "Autre",
+                    "code": "GIRLS_SHOES_OTHER",
+                    "url": "/enfants/chaussures-autre-1869"
+                  }
+                ],
+                "url": "/enfants/filles-chaussures"
+              },
+              {
+                "id": 1244,
+                "title": "Vêtements d'extérieur",
+                "code": "GIRLS_COATS",
+                "catalogs": [
+                  {
+                    "id": 1518,
+                    "title": "Vestes",
+                    "code": "OUT_VESTS_GIRLS_NEW",
+                    "url": "/enfants/vetements-dexterieur-vestes"
+                  },
+                  {
+                    "id": 1519,
+                    "title": "Manteaux",
+                    "code": "COATS_GIRLS_NEW",
+                    "url": "/enfants/vetements-dexterieur-manteaux"
+                  },
+                  {
+                    "id": 1521,
+                    "title": "Blousons",
+                    "code": "JACKETS_GIRLS_NEW",
+                    "url": "/enfants/vetements-dexterieur-blousons"
+                  },
+                  {
+                    "id": 1522,
+                    "title": "Blazers",
+                    "code": "BLAZERS_GIRLS_NEW",
+                    "url": "/enfants/vetements-dexterieur-blazers"
+                  },
+                  {
+                    "id": 1523,
+                    "title": "Imperméables",
+                    "code": "RAINCOATS_GIRLS_NEW",
+                    "url": "/enfants/vetements-dexterieur-impermeables"
+                  },
+                  {
+                    "id": 1524,
+                    "title": "Ponchos",
+                    "code": "PONCHOS_GIRLS_NEW",
+                    "url": "/enfants/vetements-dexterieur-ponchos"
+                  },
+                  {
+                    "id": 1876,
+                    "title": "Autre",
+                    "code": "OTHER_OUTWEAR_GIRLS",
+                    "url": "/enfants/vetements-dexterieur-autre-1876"
+                  }
+                ],
+                "url": "/enfants/filles-vetements-dexterieur"
+              },
+              {
+                "id": 1246,
+                "title": "Pulls \u0026 sweats",
+                "code": "GIRLS_SWEATERS",
+                "catalogs": [
+                  {
+                    "id": 1542,
+                    "title": "Pulls",
+                    "code": "SWEATERS_GIRLS_NEW",
+                    "url": "/enfants/pulls-and-sweats-pulls"
+                  },
+                  {
+                    "id": 1543,
+                    "title": "Pulls col V",
+                    "code": "VNECK_SWEATERS_GIRLS_NEW",
+                    "url": "/enfants/pulls-and-sweats-pulls-col-v"
+                  },
+                  {
+                    "id": 1544,
+                    "title": "Pulls à col roulé",
+                    "code": "TURLENECK_GRILS_NEW",
+                    "url": "/enfants/pulls-and-sweats-pulls-a-col-roule"
+                  },
+                  {
+                    "id": 1548,
+                    "title": "Gilets zippés",
+                    "code": "ZIPP_SWEATERS_GIRLS_NEW",
+                    "url": "/enfants/pulls-and-sweats-gilets-zippes"
+                  },
+                  {
+                    "id": 1549,
+                    "title": "Boléros",
+                    "code": "BOLEROS_GIRLS_NEW",
+                    "url": "/enfants/boleros"
+                  },
+                  {
+                    "id": 1550,
+                    "title": "Pulls à capuche \u0026 sweatshirts",
+                    "code": "HOODIES_GIRLS_NEW",
+                    "url": "/enfants/pulls-and-sweats-pulls-a-capuche-and-sweatshirts"
+                  },
+                  {
+                    "id": 1551,
+                    "title": "Gilets",
+                    "code": "VESTS_GIRLS_NEW",
+                    "url": "/enfants/pulls-and-sweats-gilets"
+                  },
+                  {
+                    "id": 1877,
+                    "title": "Autre",
+                    "code": "OTHER_SWEATERS_GIRLS",
+                    "url": "/enfants/pulls-and-sweats-autre-1877"
+                  }
+                ],
+                "url": "/enfants/filles-pulls-and-sweats"
+              },
+              {
+                "id": 1245,
+                "title": "Chemises et T-shirts",
+                "code": "GIRLS_SHIRTS",
+                "catalogs": [
+                  {
+                    "id": 1535,
+                    "title": "T-shirts",
+                    "code": "TOPS_GIRLS_NEW",
+                    "url": "/enfants/chemises-et-t-shirts-t-shirts"
+                  },
+                  {
+                    "id": 1536,
+                    "title": "Polos",
+                    "code": "POLOSHIRTS_GIRLS_NEW",
+                    "url": "/enfants/chemises-et-t-shirts-polos"
+                  },
+                  {
+                    "id": 1537,
+                    "title": "Chemises",
+                    "code": "SHIRTS_GIRLS_NEW",
+                    "url": "/enfants/chemises-et-t-shirts-chemises"
+                  },
+                  {
+                    "id": 1538,
+                    "title": "Chemises manches courtes",
+                    "code": "SHORTSLEEVE_SHIRTS_GIRLS_NEW",
+                    "url": "/enfants/chemises-et-t-shirts-chemises-manches-courtes"
+                  },
+                  {
+                    "id": 1539,
+                    "title": "Chemises manches longues",
+                    "code": "LOGSLEEVE_SHIRTS_GIRLS_NEW",
+                    "url": "/enfants/chemises-et-t-shirts-chemises-manches-longues"
+                  },
+                  {
+                    "id": 1540,
+                    "title": "Chemises sans manches",
+                    "code": "SLEEVELESS_SHIRTS_GIRLS_NEW",
+                    "url": "/enfants/chemises-et-t-shirts-chemises-sans-manches"
+                  },
+                  {
+                    "id": 1541,
+                    "title": "Tuniques",
+                    "code": "TUNICS_GIRLS_NEW",
+                    "url": "/enfants/tuniques"
+                  },
+                  {
+                    "id": 1878,
+                    "title": "Autre",
+                    "code": "OTHER_TOPS_GIRLS",
+                    "url": "/enfants/chemises-et-t-shirts-autre"
+                  }
+                ],
+                "url": "/enfants/chemises-et-t-shirts"
+              },
+              {
+                "id": 1247,
+                "title": "Robes",
+                "code": "GIRLS_DRESSES",
+                "catalogs": [
+                  {
+                    "id": 1554,
+                    "title": "Robes courtes",
+                    "code": "SHORTDRESSES_GIRLS_NEW",
+                    "url": "/enfants/robes-courtes"
+                  },
+                  {
+                    "id": 1553,
+                    "title": "Robes longues",
+                    "code": "LONGDRESSES_GIRLS_NEW",
+                    "url": "/enfants/robes-longues"
+                  }
+                ],
+                "url": "/enfants/robes"
+              },
+              {
+                "id": 1248,
+                "title": "Jupes",
+                "code": "GIRLS_SKIRTS",
+                "url": "/enfants/jupes"
+              },
+              {
+                "id": 1249,
+                "title": "Pantalons",
+                "code": "GIRLS_PANTS",
+                "catalogs": [
+                  {
+                    "id": 1559,
+                    "title": "Jeans",
+                    "code": "JEANS_GIRLS_NEW",
+                    "url": "/enfants/pantalons-jeans"
+                  },
+                  {
+                    "id": 1560,
+                    "title": "Jeans slim",
+                    "code": "SKINNYPANTS_GIRLS_NEW",
+                    "url": "/enfants/pantalons-jeans-slim"
+                  },
+                  {
+                    "id": 1562,
+                    "title": "Pantalons pattes d'éléphant",
+                    "code": "BELLBOTTOMPANTS_GIRLS_NEW",
+                    "url": "/enfants/pantalons-pantalons-pattes-delephant"
+                  },
+                  {
+                    "id": 1565,
+                    "title": "Leggings",
+                    "code": "LEGGINGS_GIRLS_NEW",
+                    "url": "/enfants/pantalons-leggings"
+                  },
+                  {
+                    "id": 1568,
+                    "title": "Salopettes",
+                    "code": "OVERALLS_ROMPERS_GIRLS_NEW",
+                    "url": "/enfants/pantalons-salopettes"
+                  },
+                  {
+                    "id": 1880,
+                    "title": "Autre",
+                    "code": "OTHER_PANTS_GIRLS",
+                    "url": "/enfants/pantalons-autre"
+                  }
+                ],
+                "url": "/enfants/filles-pantalons"
+              },
+              {
+                "id": 1250,
+                "title": "Shorts et pantalons",
+                "code": "GIRLS_SHORTS",
+                "url": "/enfants/shorts-et-pantalons"
+              },
+              {
+                "id": 1258,
+                "title": "Sacs et sacs à dos",
+                "code": "GIRLS_BAGS",
+                "url": "/enfants/sacs-et-sacs-a-dos"
+              },
+              {
+                "id": 1574,
+                "title": "Accessoires",
+                "code": "ACCESSORIES_GIRLS_NEW",
+                "catalogs": [
+                  {
+                    "id": 1577,
+                    "title": "Casquettes \u0026 chapeaux",
+                    "code": "HATS_GIRLS_NEW",
+                    "url": "/enfants/accessoires-casquettes-and-chapeaux"
+                  },
+                  {
+                    "id": 1578,
+                    "title": "Gants",
+                    "code": "GLOVES_GIRLS_NEW",
+                    "url": "/enfants/accessoires-gants"
+                  },
+                  {
+                    "id": 1580,
+                    "title": "Écharpes \u0026 châles",
+                    "code": "SCARVES_GIRLS_NEW",
+                    "url": "/enfants/accessoires-echarpes-and-chales"
+                  },
+                  {
+                    "id": 1581,
+                    "title": "Ceintures",
+                    "code": "BELTS_GIRLS_NEW",
+                    "url": "/enfants/accessoires-ceintures"
+                  },
+                  {
+                    "id": 1582,
+                    "title": "Bandeaux \u0026 barrettes cheveux",
+                    "code": "HAIR_ACC_GIRLS_NEW",
+                    "url": "/enfants/bandeaux-and-barrettes-cheveux"
+                  },
+                  {
+                    "id": 1584,
+                    "title": "Porte-monnaie",
+                    "code": "KIDS_WALLETS_NEW",
+                    "url": "/enfants/accessoires-porte-monnaie"
+                  },
+                  {
+                    "id": 1586,
+                    "title": "Bijoux",
+                    "code": "KIDS_JEWELERY",
+                    "url": "/enfants/bijoux"
+                  },
+                  {
+                    "id": 1881,
+                    "title": "Autres accessoires",
+                    "code": "OTHERS_ACC_GIRLS",
+                    "url": "/enfants/accessoires-autres-accessoires"
+                  }
+                ],
+                "url": "/enfants/filles-accessoires"
+              },
+              {
+                "id": 1251,
+                "title": "Equipements de natation",
+                "code": "GIRLS_SWIM",
+                "catalogs": [
+                  {
+                    "id": 1590,
+                    "title": "Maillot de bain 1 pièce",
+                    "code": "SWIMSUITS_GIRLS_NEW",
+                    "url": "/enfants/maillot-de-bain-1-piece"
+                  },
+                  {
+                    "id": 1592,
+                    "title": "Maillot de bain 2 pièces",
+                    "code": "BIKINIS_GIRLS_NEW",
+                    "url": "/enfants/maillot-de-bain-2-pieces"
+                  },
+                  {
+                    "id": 1593,
+                    "title": "Peignoirs",
+                    "code": "BATHROBES_GIRLS_NEW",
+                    "url": "/enfants/equipements-de-natation-peignoirs"
+                  }
+                ],
+                "url": "/enfants/filles-equipements-de-natation"
+              },
+              {
+                "id": 1252,
+                "title": "Sous-vêtements",
+                "code": "GIRLS_UNDERW",
+                "catalogs": [
+                  {
+                    "id": 1600,
+                    "title": "Chaussettes",
+                    "code": "SOCKS_GIRLS_NEW",
+                    "url": "/enfants/sous-vetements-chaussettes"
+                  },
+                  {
+                    "id": 1601,
+                    "title": "Collants",
+                    "code": "TIGHTS_GIRLS_NEW",
+                    "url": "/enfants/sous-vetements-collants"
+                  },
+                  {
+                    "id": 1602,
+                    "title": "Culottes",
+                    "code": "PANTIES_GIRLS_NEW",
+                    "url": "/enfants/sous-vetements-culottes"
+                  },
+                  {
+                    "id": 1872,
+                    "title": "Autre",
+                    "code": "OTHER_UNDERWEAR_GIRLS",
+                    "url": "/enfants/sous-vetements-autre-1872"
+                  }
+                ],
+                "url": "/enfants/filles-sous-vetements"
+              },
+              {
+                "id": 1594,
+                "title": "Pyjamas et chemises de nuit",
+                "code": "SLEEPWEAR_GIRLS_NEW",
+                "catalogs": [
+                  {
+                    "id": 1596,
+                    "title": "Pyjamas une pièce",
+                    "code": "ONEPIECE_PAJAMAS_GIRLS",
+                    "url": "/enfants/pyjamas-et-chemises-de-nuit-pyjamas-une-piece"
+                  },
+                  {
+                    "id": 1597,
+                    "title": "Pyjamas deux pièces",
+                    "code": "TWOPIECE_PAJAMAS_GIRLS_NEW",
+                    "url": "/enfants/pyjamas-et-chemises-de-nuit-pyjamas-deux-pieces"
+                  },
+                  {
+                    "id": 1598,
+                    "title": "Chemises de nuit",
+                    "code": "NIGHTGOWNS_GIRLS_NEW",
+                    "url": "/enfants/chemises-de-nuit"
+                  }
+                ],
+                "url": "/enfants/pyjamas-et-chemises-de-nuit"
+              },
+              {
+                "id": 1253,
+                "title": "Vêtements de sport",
+                "code": "GIRLS_SPORTS",
+                "url": "/enfants/filles-vetements-de-sport"
+              },
+              {
+                "id": 1510,
+                "title": "Housses pour vêtements",
+                "code": "CLOTHING_PACKAGES_NEW",
+                "url": "/enfants/filles-housses-pour-vetements"
+              },
+              {
+                "id": 1604,
+                "title": "Jumeaux \u0026 plus",
+                "code": "TWINS_GIRLS_NEW",
+                "url": "/enfants/filles-jumeaux-and-plus"
+              },
+              {
+                "id": 1606,
+                "title": "Costumes \u0026 déguisements",
+                "code": "COSTUMES_GIRLS_NEW",
+                "url": "/enfants/filles-costumes-and-deguisements"
+              },
+              {
+                "id": 1254,
+                "title": "Autres",
+                "code": "GIRLS_OTHER",
+                "url": "/enfants/filles-autres"
+              }
+            ],
+            "url": "/enfants/filles"
+          },
+          {
+            "id": 1194,
+            "title": "Garçons",
+            "code": "BOYS_NEW",
+            "catalogs": [
+              {
+                "id": 1196,
+                "title": "Bébés garçon",
+                "code": "BOYS_BABIES",
+                "catalogs": [
+                  {
+                    "id": 1642,
+                    "title": "Combinaisons",
+                    "code": "FULL_ROMPERS_BOYS_NEW",
+                    "url": "/enfants/combinaisons"
+                  },
+                  {
+                    "id": 1643,
+                    "title": "Bodies",
+                    "code": "BOYS_BODIES_NEW",
+                    "url": "/enfants/bodies"
+                  },
+                  {
+                    "id": 1644,
+                    "title": "Grenouillères",
+                    "code": "ROMPERS_BOYS_NEW",
+                    "url": "/enfants/grenouilleres"
+                  },
+                  {
+                    "id": 1645,
+                    "title": "Ensembles",
+                    "code": "BOYS_SETS_NEW",
+                    "url": "/enfants/ensembles"
+                  },
+                  {
+                    "id": 1883,
+                    "title": "Autre",
+                    "code": "OTHER_BABY_BOYS",
+                    "url": "/enfants/autre"
+                  }
+                ],
+                "url": "/enfants/bebes-garcon"
+              },
+              {
+                "id": 1256,
+                "title": "Chaussures",
+                "code": "BOYS_SHOES",
+                "catalogs": [
+                  {
+                    "id": 1653,
+                    "title": "Chaussures bébé",
+                    "code": "BOY_BABYSHOES_NEW",
+                    "url": "/enfants/chaussures-bebe"
+                  },
+                  {
+                    "id": 1654,
+                    "title": "Sandales",
+                    "code": "BOYS_SANDALS_NEW",
+                    "url": "/enfants/sandales"
+                  },
+                  {
+                    "id": 1655,
+                    "title": "Chaussures grandes occasions",
+                    "code": "SHOES_OCC_BOYS_NEW",
+                    "url": "/enfants/chaussures-grandes-occasions"
+                  },
+                  {
+                    "id": 1656,
+                    "title": "Chaussures à élastique",
+                    "code": "SLIP_BOYS_SHOES_NEW",
+                    "url": "/enfants/chaussures-a-elastique"
+                  },
+                  {
+                    "id": 1657,
+                    "title": "Bottines",
+                    "code": "BOOTS_BOYS_NEW",
+                    "url": "/enfants/bottines"
+                  },
+                  {
+                    "id": 1658,
+                    "title": "Bottes",
+                    "code": "HIGH_BOOTS_BOYS_NEW",
+                    "url": "/enfants/bottes"
+                  },
+                  {
+                    "id": 1659,
+                    "title": "Bottes de pluie",
+                    "code": "RUBBER_BOYS_NEW",
+                    "url": "/enfants/bottes-de-pluie"
+                  },
+                  {
+                    "id": 1660,
+                    "title": "Baskets",
+                    "code": "SNEAKERS_BOYS_NEW",
+                    "url": "/enfants/baskets"
+                  },
+                  {
+                    "id": 1661,
+                    "title": "Chaussons",
+                    "code": "SLIPPERS_BOYS_NEW",
+                    "url": "/enfants/chaussons"
+                  },
+                  {
+                    "id": 1884,
+                    "title": "Autre",
+                    "code": "OTHER_SHOES_BOYS",
+                    "url": "/enfants/chaussures-autre"
+                  }
+                ],
+                "url": "/enfants/chaussures"
+              },
+              {
+                "id": 1197,
+                "title": "Vêtements d'extérieur",
+                "code": "BOYS_COATS",
+                "catalogs": [
+                  {
+                    "id": 1646,
+                    "title": "Vestes",
+                    "code": "BOYS_OUTVESTS_NEW",
+                    "url": "/enfants/vestes"
+                  },
+                  {
+                    "id": 1647,
+                    "title": "Manteaux",
+                    "code": "BOYS_COATS_NEW",
+                    "url": "/enfants/manteaux"
+                  },
+                  {
+                    "id": 1649,
+                    "title": "Blousons",
+                    "code": "BOYS_JACKETS_NEW",
+                    "url": "/enfants/blousons"
+                  },
+                  {
+                    "id": 1650,
+                    "title": "Blazers",
+                    "code": "BOYS_BLAZERS_NEW",
+                    "url": "/enfants/blazers"
+                  },
+                  {
+                    "id": 1651,
+                    "title": "Imperméables",
+                    "code": "BOYS_RAINCOATS_NEW",
+                    "url": "/enfants/impermeables"
+                  },
+                  {
+                    "id": 1652,
+                    "title": "Ponchos",
+                    "code": "BOYS_PONCHOS_NEW",
+                    "url": "/enfants/ponchos"
+                  },
+                  {
+                    "id": 1885,
+                    "title": "Autre",
+                    "code": "OTHER_OUTWEAR_BOYS",
+                    "url": "/enfants/vetements-dexterieur-autre"
+                  }
+                ],
+                "url": "/enfants/vetements-dexterieur"
+              },
+              {
+                "id": 1199,
+                "title": "Pulls \u0026 Sweats",
+                "code": "BOYS_SWEATERS",
+                "catalogs": [
+                  {
+                    "id": 1668,
+                    "title": "Pulls",
+                    "code": "SWEATERS_BOYS_NEW",
+                    "url": "/enfants/pulls"
+                  },
+                  {
+                    "id": 1669,
+                    "title": "Pulls col V",
+                    "code": "VNECK_SWEATERS_BOYS_NEW",
+                    "url": "/enfants/pulls-col-v"
+                  },
+                  {
+                    "id": 1670,
+                    "title": "Pulls à col roulé",
+                    "code": "TURLENECK_BOYS_NEW",
+                    "url": "/enfants/pulls-a-col-roule"
+                  },
+                  {
+                    "id": 1671,
+                    "title": "Gilets zippés",
+                    "code": "ZIPP_SWEATERS_BOYS_NEW",
+                    "url": "/enfants/gilets-zippes"
+                  },
+                  {
+                    "id": 1672,
+                    "title": "Pulls à capuche \u0026 Sweatshirts",
+                    "code": "HOODIES_BOYS_NEW",
+                    "url": "/enfants/pulls-a-capuche-and-sweatshirts"
+                  },
+                  {
+                    "id": 1673,
+                    "title": "Gilets",
+                    "code": "VESTS_BOYS_NEW",
+                    "url": "/enfants/gilets"
+                  },
+                  {
+                    "id": 1887,
+                    "title": "Autre",
+                    "code": "OTHER_SWEATERS_BOYS",
+                    "url": "/enfants/pulls-and-sweats-autre"
+                  }
+                ],
+                "url": "/enfants/pulls-and-sweats"
+              },
+              {
+                "id": 1198,
+                "title": "Chemises \u0026 T-shirts",
+                "code": "BOYS_SHIRTS",
+                "catalogs": [
+                  {
+                    "id": 1662,
+                    "title": "T-shirts",
+                    "code": "TSHIRTS_BOYS_NEW",
+                    "url": "/enfants/t-shirts"
+                  },
+                  {
+                    "id": 1663,
+                    "title": "Polos",
+                    "code": "POLOSHIRTS_BOYS_NEW",
+                    "url": "/enfants/polos"
+                  },
+                  {
+                    "id": 1664,
+                    "title": "Chemises",
+                    "code": "SHIRTS_BOYS_NEW",
+                    "url": "/enfants/chemises"
+                  },
+                  {
+                    "id": 1665,
+                    "title": "Chemises manches courtes",
+                    "code": "SHORTSLEEVE_SHIRTS_BOYS_NEW",
+                    "url": "/enfants/chemises-manches-courtes"
+                  },
+                  {
+                    "id": 1666,
+                    "title": "Chemises manches longues",
+                    "code": "LONGSLEEVE_BOYS_NEW",
+                    "url": "/enfants/chemises-manches-longues"
+                  },
+                  {
+                    "id": 1667,
+                    "title": "Chemises sans manches",
+                    "code": "SLEEVELESS_SHIRTS_BOYS_NEW",
+                    "url": "/enfants/chemises-sans-manches"
+                  },
+                  {
+                    "id": 1886,
+                    "title": "Autre",
+                    "code": "OTHER_TOPS_BOYS",
+                    "url": "/enfants/chemises-and-t-shirts-autre"
+                  }
+                ],
+                "url": "/enfants/chemises-and-t-shirts"
+              },
+              {
+                "id": 1200,
+                "title": "Pantalons",
+                "code": "BOYS_PANTS",
+                "catalogs": [
+                  {
+                    "id": 1696,
+                    "title": "Jeans",
+                    "code": "JEANS_BOYS_NEW",
+                    "url": "/enfants/jeans"
+                  },
+                  {
+                    "id": 1697,
+                    "title": "Jeans slim",
+                    "code": "SKINNYPANTS_BOYS_NEW",
+                    "url": "/enfants/jeans-slim"
+                  },
+                  {
+                    "id": 1698,
+                    "title": "Pantalons pattes d'éléphant",
+                    "code": "BELLBOTTOMPANTS_BOYS_NEW",
+                    "url": "/enfants/pantalons-pattes-delephant"
+                  },
+                  {
+                    "id": 1701,
+                    "title": "Leggings",
+                    "code": "BOYS_LEGGINGS_NEW",
+                    "url": "/enfants/leggings"
+                  },
+                  {
+                    "id": 1702,
+                    "title": "Salopettes",
+                    "code": "OVERALLS_ROMPERS_BOYS_NEW",
+                    "url": "/enfants/salopettes"
+                  },
+                  {
+                    "id": 1870,
+                    "title": "Autres",
+                    "code": "BOYS_OTH_PANTS",
+                    "url": "/enfants/autres"
+                  }
+                ],
+                "url": "/enfants/pantalons"
+              },
+              {
+                "id": 1201,
+                "title": "Shorts",
+                "code": "BOYS_SHORTS",
+                "url": "/enfants/shorts"
+              },
+              {
+                "id": 1257,
+                "title": "Sacs \u0026 Sacs à dos",
+                "code": "BOYS_BAGS",
+                "url": "/enfants/sacs-and-sacs-a-dos"
+              },
+              {
+                "id": 1714,
+                "title": "Accessoires",
+                "code": "ACCESSORIES_BOYS_NEW",
+                "catalogs": [
+                  {
+                    "id": 1749,
+                    "title": "Casquettes \u0026 chapeaux",
+                    "code": "CAPS_BOYS_NEW",
+                    "url": "/enfants/casquettes-and-chapeaux"
+                  },
+                  {
+                    "id": 1740,
+                    "title": "Gants",
+                    "code": "GLOVES_BOYS_NEW",
+                    "url": "/enfants/gants"
+                  },
+                  {
+                    "id": 1741,
+                    "title": "Écharpes \u0026 châles",
+                    "code": "SCARVES_BOYS_NEW",
+                    "url": "/enfants/echarpes-and-chales"
+                  },
+                  {
+                    "id": 1743,
+                    "title": "Ceintures",
+                    "code": "BELTS_BOYS_NEW",
+                    "url": "/enfants/ceintures"
+                  },
+                  {
+                    "id": 1745,
+                    "title": "Porte-monnaie",
+                    "code": "WALLETS_BOYS_NEW",
+                    "url": "/enfants/porte-monnaie"
+                  },
+                  {
+                    "id": 1746,
+                    "title": "Noeuds papillon \u0026 cravattes",
+                    "url": "/enfants/noeuds-papillon-and-cravattes"
+                  },
+                  {
+                    "id": 1748,
+                    "title": "Autres accessoires",
+                    "code": "BOYS_ACC_NEW",
+                    "url": "/enfants/autres-accessoires"
+                  }
+                ],
+                "url": "/enfants/accessoires"
+              },
+              {
+                "id": 1202,
+                "title": "Equipements de natation",
+                "code": "BOYS_SWIM",
+                "catalogs": [
+                  {
+                    "id": 1750,
+                    "title": "Maillots de bain",
+                    "code": "BATHSHORTS_BOYS_NEW",
+                    "url": "/enfants/maillots-de-bain"
+                  },
+                  {
+                    "id": 1751,
+                    "title": "Peignoirs",
+                    "code": "BATHROBES_BOYS_NEW",
+                    "url": "/enfants/peignoirs"
+                  }
+                ],
+                "url": "/enfants/equipements-de-natation"
+              },
+              {
+                "id": 1203,
+                "title": "Sous-vêtements",
+                "code": "BOYS_SWIMWEAR",
+                "catalogs": [
+                  {
+                    "id": 1757,
+                    "title": "Chaussettes",
+                    "code": "SOCKS_BOYS_NEW",
+                    "url": "/enfants/chaussettes"
+                  },
+                  {
+                    "id": 1758,
+                    "title": "Collants",
+                    "code": "TIGHTS_BOYS_NEW",
+                    "url": "/enfants/collants"
+                  },
+                  {
+                    "id": 1759,
+                    "title": "Culottes",
+                    "code": "PANTIES_BOYS_NEW",
+                    "url": "/enfants/culottes"
+                  },
+                  {
+                    "id": 1871,
+                    "title": "Autre",
+                    "code": "OTHER_UNDER_BOYS",
+                    "url": "/enfants/sous-vetements-autre"
+                  }
+                ],
+                "url": "/enfants/sous-vetements"
+              },
+              {
+                "id": 1752,
+                "title": "Pyjamas",
+                "code": "SLEEPWEAR_BOYS_NEW",
+                "catalogs": [
+                  {
+                    "id": 1754,
+                    "title": "Pyjamas une pièce",
+                    "code": "ONEPIECE_PAJAMAS_BOYS",
+                    "url": "/enfants/pyjamas-une-piece"
+                  },
+                  {
+                    "id": 1755,
+                    "title": "Pyjamas deux pièces",
+                    "code": "TWOPIECE_PAJAMAS_BOYS",
+                    "url": "/enfants/pyjamas-deux-pieces"
+                  }
+                ],
+                "url": "/enfants/pyjamas"
+              },
+              {
+                "id": 1204,
+                "title": "Vêtements de sport",
+                "code": "BOYS_SPORTS",
+                "url": "/enfants/vetements-de-sport"
+              },
+              {
+                "id": 1760,
+                "title": "Housses pour vêtements",
+                "code": "BOYS_PACKAGES",
+                "url": "/enfants/housses-pour-vetements"
+              },
+              {
+                "id": 1761,
+                "title": "Jumeaux \u0026 Plus",
+                "code": "TWINS_BOYS_NEW",
+                "url": "/enfants/jumeaux-and-plus"
+              },
+              {
+                "id": 1762,
+                "title": "Costumes \u0026 Déguisements",
+                "code": "OCC_BOYS_NEW",
+                "url": "/enfants/costumes-and-deguisements"
+              },
+              {
+                "id": 1205,
+                "title": "Autres",
+                "code": "BOYS_OTHER",
+                "url": "/enfants/garcons-autres"
+              }
+            ],
+            "url": "/enfants/garcons"
+          },
+          {
+            "id": 1499,
+            "title": "Jeux \u0026 Jouets",
+            "code": "TOYS_AND_GAMES_NEW",
+            "catalogs": [
+              {
+                "id": 1723,
+                "title": "Jeux",
+                "code": "GAMES_NEW",
+                "catalogs": [
+                  {
+                    "id": 1724,
+                    "title": "Jeux éducatifs",
+                    "code": "EDUCATIONAL_NEW",
+                    "url": "/enfants/jeux-educatifs"
+                  },
+                  {
+                    "id": 1725,
+                    "title": "Jeux électroniques",
+                    "code": "ELECTRONIC_NEW",
+                    "url": "/enfants/jeux-electroniques"
+                  },
+                  {
+                    "id": 1726,
+                    "title": "Jeux de société",
+                    "code": "BOARD_GAMES_NEW",
+                    "url": "/enfants/jeux-de-societe"
+                  },
+                  {
+                    "id": 1727,
+                    "title": "CD, DVD, Son",
+                    "code": "CD_DVD_AUDIO_NEW",
+                    "url": "/enfants/cd-dvd-son"
+                  }
+                ],
+                "url": "/enfants/jeux-and-jouets-jeux"
+              },
+              {
+                "id": 1728,
+                "title": "Puzzles",
+                "code": "PUZZLES_NEW",
+                "url": "/enfants/puzzles"
+              },
+              {
+                "id": 1729,
+                "title": "Jouets",
+                "code": "TOYS_NEW",
+                "catalogs": [
+                  {
+                    "id": 1730,
+                    "title": "Figurines",
+                    "code": "ACTION_FIGURES_NEW",
+                    "url": "/enfants/figurines"
+                  },
+                  {
+                    "id": 1731,
+                    "title": "Poupées",
+                    "code": "DOLLS_NEW",
+                    "url": "/enfants/poupees"
+                  },
+                  {
+                    "id": 1763,
+                    "title": "Jouets éducatifs",
+                    "code": "EDUCATIONAL_TOYS_NEW",
+                    "url": "/enfants/jouets-educatifs"
+                  },
+                  {
+                    "id": 1764,
+                    "title": "Animaux en peluche",
+                    "code": "STUFFED_ANIMALS_NEW",
+                    "url": "/enfants/animaux-en-peluche"
+                  },
+                  {
+                    "id": 1765,
+                    "title": "Hochets \u0026 Anneaux",
+                    "code": "RATTLES_AND_CHEW_NEW",
+                    "url": "/enfants/hochets-and-anneaux"
+                  },
+                  {
+                    "id": 1766,
+                    "title": "Jouets musicaux",
+                    "code": "MUSICAL_NEW",
+                    "url": "/enfants/jouets-musicaux"
+                  },
+                  {
+                    "id": 1767,
+                    "title": "Jeux de construction",
+                    "code": "CONSTRUCTION_NEW",
+                    "url": "/enfants/jeux-de-construction"
+                  },
+                  {
+                    "id": 1768,
+                    "title": "Jouets en bois",
+                    "code": "WOODEN_NEW",
+                    "url": "/enfants/jouets-en-bois"
+                  },
+                  {
+                    "id": 1769,
+                    "title": "Mobiles",
+                    "code": "MOBILES_NEW",
+                    "url": "/enfants/mobiles"
+                  },
+                  {
+                    "id": 1770,
+                    "title": "Jouets d'eau",
+                    "code": "WATER_NEW",
+                    "url": "/enfants/jouets-deau"
+                  },
+                  {
+                    "id": 1771,
+                    "title": "Plein air",
+                    "code": "OUTDOOR_NEW",
+                    "url": "/enfants/plein-air"
+                  }
+                ],
+                "url": "/enfants/jouets"
+              },
+              {
+                "id": 1897,
+                "title": "Consoles de jeux et jeux vidéo",
+                "code": "VIDEO_GAMES_CONSOLES",
+                "url": "/enfants/consoles-de-jeux-et-jeux-video"
+              }
+            ],
+            "url": "/enfants/jeux-and-jouets"
+          }
+        ],
+        "url": "/enfants"
+      }
+
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "title": "Noir",
+        "hex": "000000"
+      },
+      {
+        "id": 3,
+        "title": "Gris",
+        "hex": "919191"
+      },
+      {
+        "id": 12,
+        "title": "Blanc",
+        "hex": "FFFFFF"
+      },
+      {
+        "id": 20,
+        "title": "Crème",
+        "hex": "F8F8E1"
+      },
+      {
+        "id": 4,
+        "title": "Beige ",
+        "hex": "f4e0c8"
+      },
+      {
+        "id": 21,
+        "title": "Abricot",
+        "hex": "FFCC98"
+      },
+      {
+        "id": 11,
+        "title": "Orange",
+        "hex": "FFA500"
+      },
+      {
+        "id": 22,
+        "title": "Corail",
+        "hex": "FE7F5D"
+      },
+      {
+        "id": 7,
+        "title": "Rouge",
+        "hex": "CC3300"
+      },
+      {
+        "id": 23,
+        "title": "Bordeaux",
+        "hex": "AE2E3D"
+      },
+      {
+        "id": 5,
+        "title": "Rose",
+        "hex": "ff0080"
+      },
+      {
+        "id": 24,
+        "title": "Rose",
+        "hex": "FFCCCA"
+      },
+      {
+        "id": 6,
+        "title": "Violet",
+        "hex": "800080"
+      },
+      {
+        "id": 25,
+        "title": "Lila",
+        "hex": "D297D2"
+      },
+      {
+        "id": 26,
+        "title": "Bleu clair",
+        "hex": "89CFF0"
+      },
+      {
+        "id": 9,
+        "title": "Bleu",
+        "hex": "007bc4"
+      },
+      {
+        "id": 27,
+        "title": "Marine",
+        "hex": "35358D"
+      },
+      {
+        "id": 17,
+        "title": "Turquoise",
+        "hex": "B7DEE8"
+      },
+      {
+        "id": 30,
+        "title": "Menthe",
+        "hex": "A2FFBC"
+      },
+      {
+        "id": 10,
+        "title": "Vert",
+        "hex": "369a3d"
+      },
+      {
+        "id": 28,
+        "title": "Vert foncé",
+        "hex": "356639"
+      },
+      {
+        "id": 16,
+        "title": "Kaki",
+        "hex": "86814A"
+      },
+      {
+        "id": 2,
+        "title": "Marron",
+        "hex": "663300"
+      },
+      {
+        "id": 29,
+        "title": "Moutarde",
+        "hex": "E5B539"
+      },
+      {
+        "id": 8,
+        "title": "Jaune",
+        "hex": "fff200"
+      },
+      {
+        "id": 13,
+        "title": "Argenté",
+        "hex": "dddddd"
+      },
+      {
+        "id": 14,
+        "title": "Doré",
+        "hex": "be9927"
+      },
+      {
+        "id": 15,
+        "title": "Multicolore",
+        "hex": ""
+      }
+    ],
+    "conditions": [
+      {
+        "id": 6,
+        "title": "Neuf, avec étiquette",
+        "description": "Jamais porté, avec étiquette d'achat"
+      },
+      {
+        "id": 1,
+        "title": "Neuf",
+        "description": "Jamais porté, étiquette d'achat manquante"
+      },
+      {
+        "id": 2,
+        "title": "Très bon état",
+        "description": "Porté, mais n'a aucune tache ni aucun défaut"
+      },
+      {
+        "id": 3,
+        "title": "Bon état",
+        "description": "Porté, a quelques défauts (mentionnés dans l\u2019annonce et montrés sur les photos)"
+      },
+      {
+        "id": 4,
+        "title": "Satisfaisant",
+        "description": "Porté, a des défauts (mentionnés dans l\u2019annonce et montrés sur les photos)"
+      }
+    ],
+    "brands": [
+      {
+        "id": 481,
+        "title": "Chanel",
+        "slug": "chanel",
+        "path": "/brand/chanel",
+        "url": "https://www.vinted.fr/brand/chanel"
+      },
+      {
+        "id": 53,
+        "title": "Nike",
+        "slug": "nike",
+        "path": "/brand/nike",
+        "url": "https://www.vinted.fr/brand/nike"
+      },
+      {
+        "id": 12,
+        "title": "Zara",
+        "slug": "zara",
+        "path": "/brand/zara",
+        "url": "https://www.vinted.fr/brand/zara"
+      },
+      {
+        "id": 14,
+        "title": "Adidas",
+        "slug": "adidas",
+        "path": "/brand/adidas",
+        "url": "https://www.vinted.fr/brand/adidas"
+      },
+      {
+        "id": 10,
+        "title": "Levi's",
+        "slug": "levis",
+        "path": "/brand/levis",
+        "url": "https://www.vinted.fr/brand/levis"
+      },
+      {
+        "id": 7,
+        "title": "H\u0026M",
+        "slug": "hm",
+        "path": "/brand/hm",
+        "url": "https://www.vinted.fr/brand/hm"
+      },
+      {
+        "id": 88,
+        "title": "Ralph Lauren",
+        "slug": "ralph-lauren",
+        "path": "/brand/ralph-lauren",
+        "url": "https://www.vinted.fr/brand/ralph-lauren"
+      },
+      {
+        "id": 15,
+        "title": "Mango",
+        "slug": "mango",
+        "path": "/brand/mango",
+        "url": "https://www.vinted.fr/brand/mango"
+      },
+      {
+        "id": 304,
+        "title": "Lacoste",
+        "slug": "lacoste",
+        "path": "/brand/lacoste",
+        "url": "https://www.vinted.fr/brand/lacoste"
+      },
+      {
+        "id": 255,
+        "title": "Calvin Klein",
+        "slug": "calvin-klein",
+        "path": "/brand/calvin-klein",
+        "url": "https://www.vinted.fr/brand/calvin-klein"
+      },
+      {
+        "id": 94,
+        "title": "Tommy Hilfiger",
+        "slug": "tommy-hilfiger",
+        "path": "/brand/tommy-hilfiger",
+        "url": "https://www.vinted.fr/brand/tommy-hilfiger"
+      },
+      {
+        "id": 20,
+        "title": "Guess",
+        "slug": "guess",
+        "path": "/brand/guess",
+        "url": "https://www.vinted.fr/brand/guess"
+      },
+      {
+        "id": 6005,
+        "title": "Michael kors",
+        "slug": "michael-kors",
+        "path": "/brand/michael-kors",
+        "url": "https://www.vinted.fr/brand/michael-kors"
+      }
+    ],
+    "sizeGroups": [
+      {
+        "id": 4,
+        "caption": "Taille",
+        "description": "Tailles",
+        "sizes": [
+          {
+            "id": 1226,
+            "title": "XXXS / 30 / 2"
+          },
+          {
+            "id": 102,
+            "title": "XXS / 32 / 4"
+          },
+          {
+            "id": 2,
+            "title": "XS / 34 / 6"
+          },
+          {
+            "id": 3,
+            "title": "S / 36 / 8"
+          },
+          {
+            "id": 4,
+            "title": "M / 38 / 10"
+          },
+          {
+            "id": 5,
+            "title": "L / 40 / 12"
+          },
+          {
+            "id": 6,
+            "title": "XL / 42 / 14"
+          },
+          {
+            "id": 7,
+            "title": "XXL / 44 / 16"
+          },
+          {
+            "id": 310,
+            "title": "XXXL / 46 / 18"
+          },
+          {
+            "id": 311,
+            "title": "4XL / 48 / 20"
+          },
+          {
+            "id": 312,
+            "title": "5XL / 50 / 22"
+          },
+          {
+            "id": 1227,
+            "title": "6XL / 52 / 24"
+          },
+          {
+            "id": 1228,
+            "title": "7XL / 54 / 26"
+          },
+          {
+            "id": 1229,
+            "title": "8XL / 56 / 28"
+          },
+          {
+            "id": 1230,
+            "title": "9XL / 58 / 30"
+          },
+          {
+            "id": 90,
+            "title": "Taille unique"
+          },
+          {
+            "id": 97,
+            "title": "Autre"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "caption": "Taille",
+        "description": "Chaussures",
+        "sizes": [
+          {
+            "id": 55,
+            "title": "35"
+          },
+          {
+            "id": 1195,
+            "title": "35.5"
+          },
+          {
+            "id": 56,
+            "title": "36"
+          },
+          {
+            "id": 1196,
+            "title": "36.5"
+          },
+          {
+            "id": 57,
+            "title": "37"
+          },
+          {
+            "id": 1197,
+            "title": "37.5"
+          },
+          {
+            "id": 58,
+            "title": "38"
+          },
+          {
+            "id": 1198,
+            "title": "38.5 "
+          },
+          {
+            "id": 59,
+            "title": "39"
+          },
+          {
+            "id": 1199,
+            "title": "39.5 "
+          },
+          {
+            "id": 60,
+            "title": "40"
+          },
+          {
+            "id": 1200,
+            "title": "40.5"
+          },
+          {
+            "id": 61,
+            "title": "41"
+          },
+          {
+            "id": 1201,
+            "title": "41.5 "
+          },
+          {
+            "id": 62,
+            "title": "42"
+          },
+          {
+            "id": 63,
+            "title": "43"
+          },
+          {
+            "id": 94,
+            "title": "Universel"
+          },
+          {
+            "id": 99,
+            "title": "Autre"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "caption": "Taille",
+        "description": "Tailles hommes",
+        "sizes": [
+          {
+            "id": 206,
+            "title": "XS"
+          },
+          {
+            "id": 207,
+            "title": "S"
+          },
+          {
+            "id": 208,
+            "title": "M"
+          },
+          {
+            "id": 209,
+            "title": "L"
+          },
+          {
+            "id": 210,
+            "title": "XL"
+          },
+          {
+            "id": 211,
+            "title": "XXL"
+          },
+          {
+            "id": 212,
+            "title": "XXXL"
+          },
+          {
+            "id": 308,
+            "title": "4XL"
+          },
+          {
+            "id": 309,
+            "title": "5XL"
+          },
+          {
+            "id": 1192,
+            "title": "6XL"
+          },
+          {
+            "id": 1193,
+            "title": "7XL"
+          },
+          {
+            "id": 1194,
+            "title": "8XL"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "caption": "Age",
+        "description": "Âge bébé",
+        "sizes": [
+          {
+            "id": 577,
+            "title": "Peu importe",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 1
+          },
+          {
+            "id": 565,
+            "title": "0 mois",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 2
+          },
+          {
+            "id": 566,
+            "title": "3 mois",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 3
+          },
+          {
+            "id": 567,
+            "title": "6 mois",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 4
+          },
+          {
+            "id": 568,
+            "title": "9 mois",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 5
+          },
+          {
+            "id": 569,
+            "title": "12 mois",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 6
+          },
+          {
+            "id": 570,
+            "title": "18 mois",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 7
+          },
+          {
+            "id": 571,
+            "title": "2 ans",
+            "is_default": 1,
+            "is_other": 0,
+            "order": 8
+          },
+          {
+            "id": 572,
+            "title": "3 ans",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 9
+          },
+          {
+            "id": 573,
+            "title": "5 ans",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 10
+          },
+          {
+            "id": 574,
+            "title": "6 ans",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 11
+          },
+          {
+            "id": 575,
+            "title": "7 ans",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 12
+          },
+          {
+            "id": 576,
+            "title": "8 ans",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 13
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "caption": "Taille",
+        "description": "Tailles de chaussures pour enfants",
+        "sizes": [
+          {
+            "id": 660,
+            "title": "12",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 1
+          },
+          {
+            "id": 659,
+            "title": "13",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 2
+          },
+          {
+            "id": 658,
+            "title": "14",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 3
+          },
+          {
+            "id": 657,
+            "title": "15",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 4
+          },
+          {
+            "id": 585,
+            "title": "16",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 5
+          },
+          {
+            "id": 586,
+            "title": "17",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 6
+          },
+          {
+            "id": 587,
+            "title": "18",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 7
+          },
+          {
+            "id": 588,
+            "title": "19",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 8
+          },
+          {
+            "id": 589,
+            "title": "20",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 9
+          },
+          {
+            "id": 590,
+            "title": "21",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 10
+          },
+          {
+            "id": 591,
+            "title": "22",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 11
+          },
+          {
+            "id": 592,
+            "title": "23",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 12
+          },
+          {
+            "id": 593,
+            "title": "24",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 13
+          },
+          {
+            "id": 594,
+            "title": "25",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 14
+          },
+          {
+            "id": 595,
+            "title": "26",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 15
+          },
+          {
+            "id": 596,
+            "title": "27",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 16
+          },
+          {
+            "id": 597,
+            "title": "28",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 17
+          },
+          {
+            "id": 598,
+            "title": "29",
+            "is_default": 1,
+            "is_other": 0,
+            "order": 18
+          },
+          {
+            "id": 599,
+            "title": "30",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 19
+          },
+          {
+            "id": 600,
+            "title": "31",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 20
+          },
+          {
+            "id": 601,
+            "title": "32",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 21
+          },
+          {
+            "id": 602,
+            "title": "33",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 22
+          },
+          {
+            "id": 603,
+            "title": "34",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 23
+          },
+          {
+            "id": 604,
+            "title": "35",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 24
+          },
+          {
+            "id": 605,
+            "title": "36",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 25
+          },
+          {
+            "id": 606,
+            "title": "37",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 26
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "caption": "Taille",
+        "description": "Tailles enfants et bébés",
+        "sizes": [
+          {
+            "id": 610,
+            "title": "Prématuré, jusqu'à 44cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 1
+          },
+          {
+            "id": 666,
+            "title": "Nouveau né / 44-50 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 2
+          },
+          {
+            "id": 612,
+            "title": "Jusqu'à 1 mois / 50-56 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 3
+          },
+          {
+            "id": 613,
+            "title": "0-3 mois / 56-62 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 4
+          },
+          {
+            "id": 614,
+            "title": "3-6 mois / 62-68 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 5
+          },
+          {
+            "id": 616,
+            "title": "6-9 mois / 68-74 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 6
+          },
+          {
+            "id": 617,
+            "title": "9-12 mois / 74-80 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 7
+          },
+          {
+            "id": 618,
+            "title": "12-18 mois / 80-86 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 8
+          },
+          {
+            "id": 619,
+            "title": "18-24 mois / 86-92 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 9
+          },
+          {
+            "id": 622,
+            "title": "24-36 mois / 92-98 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 10
+          },
+          {
+            "id": 623,
+            "title": "4 ans / 98-104 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 11
+          },
+          {
+            "id": 624,
+            "title": "5 ans / 104-110 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 12
+          },
+          {
+            "id": 625,
+            "title": "6 ans / 110-116 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 13
+          },
+          {
+            "id": 626,
+            "title": "7 ans / 116-122 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 14
+          },
+          {
+            "id": 627,
+            "title": "8 ans / 122-128 cm",
+            "is_default": 1,
+            "is_other": 0,
+            "order": 15
+          },
+          {
+            "id": 628,
+            "title": "9 ans / 128-134 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 16
+          },
+          {
+            "id": 629,
+            "title": "10 ans / 134-140 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 17
+          },
+          {
+            "id": 630,
+            "title": "11-12 ans / 140-146 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 18
+          },
+          {
+            "id": 631,
+            "title": "12-13 ans / 146-152 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 19
+          },
+          {
+            "id": 632,
+            "title": "13-14 ans / 152-158 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 20
+          },
+          {
+            "id": 633,
+            "title": "15-16 ans / 158-164 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 21
+          },
+          {
+            "id": 634,
+            "title": "16-17 ans / 164-170 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 22
+          },
+          {
+            "id": 635,
+            "title": "17-18 ans / 170-176 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 23
+          },
+          {
+            "id": 620,
+            "title": "Taille unique",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 24
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "caption": "Taille",
+        "description": "Chaussures hommes",
+        "sizes": [
+          {
+            "id": 776,
+            "title": "38",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 1
+          },
+          {
+            "id": 778,
+            "title": "39",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 2
+          },
+          {
+            "id": 780,
+            "title": "40",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 3
+          },
+          {
+            "id": 782,
+            "title": "41",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 4
+          },
+          {
+            "id": 784,
+            "title": "42",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 5
+          },
+          {
+            "id": 785,
+            "title": "42.5",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 6
+          },
+          {
+            "id": 786,
+            "title": "43",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 7
+          },
+          {
+            "id": 787,
+            "title": "43.5",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 8
+          },
+          {
+            "id": 788,
+            "title": "44",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 9
+          },
+          {
+            "id": 789,
+            "title": "44.5",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 10
+          },
+          {
+            "id": 790,
+            "title": "45",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 11
+          },
+          {
+            "id": 791,
+            "title": "45.5",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 12
+          },
+          {
+            "id": 792,
+            "title": "46",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 13
+          },
+          {
+            "id": 794,
+            "title": "47",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 14
+          },
+          {
+            "id": 1190,
+            "title": "48",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 15
+          },
+          {
+            "id": 1191,
+            "title": "49",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 16
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "caption": "Taille",
+        "description": "Chapeaux enfant",
+        "sizes": [
+          {
+            "id": 928,
+            "title": "Prématurés, 30 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 1
+          },
+          {
+            "id": 929,
+            "title": "0-3 mois, 38 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 2
+          },
+          {
+            "id": 930,
+            "title": "3-6 mois, 42 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 3
+          },
+          {
+            "id": 931,
+            "title": "6-12 mois, 47 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 4
+          },
+          {
+            "id": 932,
+            "title": "1-2 ans, 49 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 5
+          },
+          {
+            "id": 933,
+            "title": "2-3 ans, 51 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 6
+          },
+          {
+            "id": 934,
+            "title": "3-5 ans, 53 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 7
+          },
+          {
+            "id": 935,
+            "title": "5-8 ans, 54 cm ",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 8
+          },
+          {
+            "id": 936,
+            "title": "8-12 ans, 56 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 9
+          },
+          {
+            "id": 937,
+            "title": "12 ans et plus \u003e 56 cm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 10
+          },
+          {
+            "id": 1189,
+            "title": "Universel",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 11
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "caption": "Taille",
+        "description": "Bagues",
+        "sizes": [
+          {
+            "id": 1202,
+            "title": "14.1 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 1
+          },
+          {
+            "id": 1203,
+            "title": "14.5 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 2
+          },
+          {
+            "id": 1204,
+            "title": "14.9 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 3
+          },
+          {
+            "id": 1205,
+            "title": "15.3 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 4
+          },
+          {
+            "id": 1206,
+            "title": "15.7 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 5
+          },
+          {
+            "id": 1207,
+            "title": "16.1 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 6
+          },
+          {
+            "id": 1208,
+            "title": "16.5 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 7
+          },
+          {
+            "id": 1209,
+            "title": "16.9 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 8
+          },
+          {
+            "id": 1210,
+            "title": "17.3 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 9
+          },
+          {
+            "id": 1211,
+            "title": "17.7 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 10
+          },
+          {
+            "id": 1212,
+            "title": "18.1 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 11
+          },
+          {
+            "id": 1213,
+            "title": "18.5 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 12
+          },
+          {
+            "id": 1214,
+            "title": "19 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 13
+          },
+          {
+            "id": 1215,
+            "title": "19.4 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 14
+          },
+          {
+            "id": 1216,
+            "title": "19.8 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 15
+          },
+          {
+            "id": 1217,
+            "title": "20.2 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 16
+          },
+          {
+            "id": 1218,
+            "title": "20.6 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 17
+          },
+          {
+            "id": 1219,
+            "title": "21 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 18
+          },
+          {
+            "id": 1220,
+            "title": "21.4 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 19
+          },
+          {
+            "id": 1221,
+            "title": "21.8 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 20
+          },
+          {
+            "id": 1222,
+            "title": "22.2 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 21
+          },
+          {
+            "id": 1223,
+            "title": "22.6 mm",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 22
+          },
+          {
+            "id": 1224,
+            "title": "Ajustable",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 23
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "caption": "Taille",
+        "description": "Soutiens-gorge",
+        "sizes": [
+          {
+            "id": 1247,
+            "title": "80A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 1
+          },
+          {
+            "id": 1248,
+            "title": "80B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 2
+          },
+          {
+            "id": 1249,
+            "title": "80C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 3
+          },
+          {
+            "id": 1250,
+            "title": "80D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 4
+          },
+          {
+            "id": 1251,
+            "title": "80E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 5
+          },
+          {
+            "id": 1252,
+            "title": "80F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 6
+          },
+          {
+            "id": 1253,
+            "title": "85A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 7
+          },
+          {
+            "id": 1254,
+            "title": "85B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 8
+          },
+          {
+            "id": 1255,
+            "title": "85C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 9
+          },
+          {
+            "id": 1256,
+            "title": "85D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 10
+          },
+          {
+            "id": 1257,
+            "title": "85E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 11
+          },
+          {
+            "id": 1258,
+            "title": "85F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 12
+          },
+          {
+            "id": 1259,
+            "title": "90A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 13
+          },
+          {
+            "id": 1260,
+            "title": "90B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 14
+          },
+          {
+            "id": 1261,
+            "title": "90C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 15
+          },
+          {
+            "id": 1262,
+            "title": "90D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 16
+          },
+          {
+            "id": 1263,
+            "title": "90E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 17
+          },
+          {
+            "id": 1264,
+            "title": "90F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 18
+          },
+          {
+            "id": 1265,
+            "title": "95A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 19
+          },
+          {
+            "id": 1266,
+            "title": "95B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 20
+          },
+          {
+            "id": 1267,
+            "title": "95C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 21
+          },
+          {
+            "id": 1268,
+            "title": "95D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 22
+          },
+          {
+            "id": 1269,
+            "title": "95E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 23
+          },
+          {
+            "id": 1270,
+            "title": "95F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 24
+          },
+          {
+            "id": 1271,
+            "title": "95G",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 25
+          },
+          {
+            "id": 1272,
+            "title": "95H",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 26
+          },
+          {
+            "id": 1273,
+            "title": "95J",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 27
+          },
+          {
+            "id": 1274,
+            "title": "100A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 28
+          },
+          {
+            "id": 1275,
+            "title": "100B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 29
+          },
+          {
+            "id": 1276,
+            "title": "100C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 30
+          },
+          {
+            "id": 1277,
+            "title": "100D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 31
+          },
+          {
+            "id": 1278,
+            "title": "100E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 32
+          },
+          {
+            "id": 1279,
+            "title": "100F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 33
+          },
+          {
+            "id": 1280,
+            "title": "100G",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 34
+          },
+          {
+            "id": 1281,
+            "title": "100H",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 35
+          },
+          {
+            "id": 1282,
+            "title": "100J",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 36
+          },
+          {
+            "id": 1283,
+            "title": "105A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 37
+          },
+          {
+            "id": 1284,
+            "title": "105B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 38
+          },
+          {
+            "id": 1285,
+            "title": "105C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 39
+          },
+          {
+            "id": 1286,
+            "title": "105D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 40
+          },
+          {
+            "id": 1287,
+            "title": "105E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 41
+          },
+          {
+            "id": 1288,
+            "title": "105F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 42
+          },
+          {
+            "id": 1289,
+            "title": "106G",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 43
+          },
+          {
+            "id": 1290,
+            "title": "105H",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 44
+          },
+          {
+            "id": 1291,
+            "title": "105J",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 45
+          },
+          {
+            "id": 1292,
+            "title": "110A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 46
+          },
+          {
+            "id": 1293,
+            "title": "110B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 47
+          },
+          {
+            "id": 1294,
+            "title": "110C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 48
+          },
+          {
+            "id": 1295,
+            "title": "110D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 49
+          },
+          {
+            "id": 1296,
+            "title": "110E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 50
+          },
+          {
+            "id": 1297,
+            "title": "110F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 51
+          },
+          {
+            "id": 1298,
+            "title": "110G",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 52
+          },
+          {
+            "id": 1299,
+            "title": "110H",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 53
+          },
+          {
+            "id": 1300,
+            "title": "110J",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 54
+          },
+          {
+            "id": 1301,
+            "title": "115A \u0026 AA",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 55
+          },
+          {
+            "id": 1302,
+            "title": "115B",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 56
+          },
+          {
+            "id": 1303,
+            "title": "115C",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 57
+          },
+          {
+            "id": 1304,
+            "title": "115D",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 58
+          },
+          {
+            "id": 1305,
+            "title": "115E",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 59
+          },
+          {
+            "id": 1306,
+            "title": "115F",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 60
+          },
+          {
+            "id": 1307,
+            "title": "115G",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 61
+          },
+          {
+            "id": 1308,
+            "title": "115H",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 62
+          },
+          {
+            "id": 1309,
+            "title": "115J",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 63
+          },
+          {
+            "id": 1310,
+            "title": "Autre",
+            "is_default": 0,
+            "is_other": 0,
+            "order": 64
+          }
+        ]
+      }
+    ],
+    "materialGroups": [
+      {
+        "id": 3,
+        "title": "Décoration",
+        "code": "m_decor",
+        "materials": [
+          {
+            "id": 6,
+            "title": "Métal",
+            "code": "d_metal"
+          },
+          {
+            "id": 15,
+            "title": "Céramique",
+            "code": "a_ceramic"
+          },
+          {
+            "id": 16,
+            "title": "Coton",
+            "code": "a_cotton"
+          },
+          {
+            "id": 17,
+            "title": "Verre",
+            "code": "a_glass"
+          },
+          {
+            "id": 18,
+            "title": "Plastique",
+            "code": "a_plastic"
+          },
+          {
+            "id": 19,
+            "title": "Polyester",
+            "code": "a_polyester"
+          },
+          {
+            "id": 20,
+            "title": "Porcelaine",
+            "code": "a_porcelain"
+          },
+          {
+            "id": 21,
+            "title": "Osier, Jute",
+            "code": "a_seagrass"
+          },
+          {
+            "id": 22,
+            "title": "Pierre",
+            "code": "a_stone"
+          },
+          {
+            "id": 23,
+            "title": "Bois, Bambou",
+            "code": "a_wood"
+          },
+          {
+            "id": 24,
+            "title": "Autre matériel",
+            "code": "a_other"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Accessoires de table",
+        "code": "m_dining",
+        "materials": [
+          {
+            "id": 4,
+            "title": "Céramique",
+            "code": "d_ceramic"
+          },
+          {
+            "id": 5,
+            "title": "Verre",
+            "code": "d_glass"
+          },
+          {
+            "id": 8,
+            "title": "Acier inoxydable",
+            "code": "d_steel"
+          },
+          {
+            "id": 9,
+            "title": "Plastique",
+            "code": "d_plastic"
+          },
+          {
+            "id": 10,
+            "title": "Bois",
+            "code": "d_wood"
+          },
+          {
+            "id": 11,
+            "title": "Autre matériel",
+            "code": "d_other"
+          },
+          {
+            "id": 12,
+            "title": "Pierre",
+            "code": "d_stone"
+          },
+          {
+            "id": 13,
+            "title": "Porcelaine",
+            "code": "d_porcelain"
+          },
+          {
+            "id": 14,
+            "title": "Argent",
+            "code": "d_silver"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Textiles",
+        "code": "m_textile",
+        "materials": [
+          {
+            "id": 1,
+            "title": "Coton",
+            "code": "t_cotton"
+          },
+          {
+            "id": 2,
+            "title": "Lin",
+            "code": "t_linen"
+          },
+          {
+            "id": 3,
+            "title": "Laine",
+            "code": "t_wool"
+          },
+          {
+            "id": 25,
+            "title": "Acrylique",
+            "code": "t_acrylic"
+          },
+          {
+            "id": 26,
+            "title": "Bambou, Jute",
+            "code": "t_bamboo"
+          },
+          {
+            "id": 27,
+            "title": "Mousseline",
+            "code": "t_chiffon"
+          },
+          {
+            "id": 28,
+            "title": "Polyamide, Nylon",
+            "code": "t_polyamide"
+          },
+          {
+            "id": 29,
+            "title": "Polyester",
+            "code": "t_ polyester"
+          },
+          {
+            "id": 30,
+            "title": "Satin",
+            "code": "t_satin"
+          },
+          {
+            "id": 31,
+            "title": "Soie",
+            "code": "t_silk"
+          },
+          {
+            "id": 32,
+            "title": "Viscose",
+            "code": "t_viscose"
+          },
+          {
+            "id": 33,
+            "title": "Autre matériel ",
+            "code": "t_other"
+          }
+        ]
+      }
+    ]
+    "filters": {
+      "query": null,
+      "catalogIds": [],
+      "priceFrom": "",
+      "priceTo": "",
+      "colorIds": [],
+      "brandIds": [],
+      "sizeIds": [],
+      "materialIds": [],
+      "statusIds": []
+    }
+  }
+}

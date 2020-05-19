@@ -5,58 +5,51 @@
     <div class="col-md-6">
         <form autocomplete="off">
             <div>
-                <label for="brand">Marque: </label>
-                <select>
-                    <option value="">Choisis une marque</option>
-                    <option value="1">Chanel</option>
-                    <option value="2">Hermès</option>
-                    <option value="3">Yves-Saint-Laurent</option>
-                    <option value="4">Cartier</option>
-                </select>
+                <label>Choisis une marque:
+                    <input list="brand" name="brand" /></label>
+                <datalist id="brand">
+                    <option value="Chanel">
+                    <option value="Hermès">
+                    <option value="Yves-Saint-Laurent">
+                    <option value="Michael Kors">
+                    <option value="Longchamp">
+                </datalist>
+            </div>
+
+            <div>
+                <label>Choisis une couleur:
+                    <input list="color" name="color" /></label>
+                <datalist id="color">
+                    <option value="Rouge">
+                    <option value="Noir">
+                    <option value="Blanc">
+                    <option value="Camel">
+                    <option value="Marron">
+                    <option value="Vert">
+                </datalist>
             </div>
             <div>
-                <label for="color">Couleur: </label>
-                <select>
-                    <option value="">Choisis une couleur</option>
-                    <option value="1">Rouge</option>
-                    <option value="2">Noir</option>
-                    <option value="3">Blanc</option>
-                    <option value="4">Camel</option>
-                </select>
+                <label for="color">Choisis le modèle : </label>
+                <input type="number" />
             </div>
             <div>
-                <label for="model">Modèle: </label>
-                <select>
-                    <option value="">Choisis le modèle</option>
-                    <option value="1">Timeless</option>
-                    <option value="2">Le métisse</option>
-                    <option value="3">La joconde</option>
-                    <option value="4">HipHop</option>
-                </select>
-            </div>
-            <div>
-                <label for="color">Etat: </label>
+                <label for="color">Choisis l'état : </label>
                 <select>
                     <option value="">Choisis l'état du produit</option>
-                    <option value="1">Neuf</option>
-                    <option value="2">Très bon état</option>
-                    <option value="3">Bon état</option>
-                    <option value="4">Mauvais état</option>
+                    <option value="1">Neuf, avec étiquette</option>
+                    <option value="2">Neuf</option>
+                    <option value="3">Très bon état</option>
+                    <option value="4">Bon état</option>
+                    <option value="5">Satisfaisant</option>
                 </select>
             </div>
             <div>
-
-                <label for="color">Couleur: </label>
-                <select>
-                    <option value="">Choisis une couleur</option>
-                    <option value="1">Rouge</option>
-                    <option value="2">Noir</option>
-                    <option value="3">Blanc</option>
-                    <option value="4">Camel</option>
-                </select>
+                <label for="color">Choisis le prix : </label>
+                <input type="number" />
             </div>
             <button type="submit" class="btn btn-primary">Save</button>
             <button type="button" class="btn btn-default">Cancel</button>
         </form>
+
     </div>
 </div>
