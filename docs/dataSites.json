@@ -1,5 +1,5 @@
 {
-  "Vinted": {
+  "vinted": {
     "catalogs": [
       {
         "id": 1904,
@@ -3816,7 +3816,6 @@
         ],
         "url": "/enfants"
       }
-
     ],
     "colors": [
       {
@@ -4029,6 +4028,16 @@
         "slug": "hm",
         "path": "/brand/hm",
         "url": "https://www.vinted.fr/brand/hm"
+      },
+      {
+        "id": 377,
+        "title": "Yves Saint-Laurent",
+        "slug": "YSL"
+      },
+      {
+        "id": 671,
+        "title": "Dior",
+        "slug": "YSL"
       },
       {
         "id": 88,
@@ -5761,17 +5770,20 @@
           }
         ]
       }
-    ]
+    ],
     "filters": {
-      "query": null,
+      "brandIds": [],
       "catalogIds": [],
+      "colorIds": [],
+      "materialIds": [],
       "priceFrom": "",
       "priceTo": "",
-      "colorIds": [],
-      "brandIds": [],
+      "query": null,
       "sizeIds": [],
-      "materialIds": [],
       "statusIds": []
     }
+  },
+  "vestiaireCollective": {
+    "brands": {}
   }
 }

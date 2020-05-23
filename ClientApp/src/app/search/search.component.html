@@ -3,53 +3,65 @@
         <h3>Fais ta recherche</h3>
     </div>
     <div class="col-md-6">
-        <form autocomplete="off">
-            <div>
-                <label>Choisis une marque:
-                    <input list="brand" name="brand" /></label>
-                <datalist id="brand">
-                    <option value="Chanel">
-                    <option value="Hermès">
-                    <option value="Yves-Saint-Laurent">
-                    <option value="Michael Kors">
-                    <option value="Longchamp">
-                </datalist>
+        <form class="form-horizontal" [formGroup]="form">
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label for="catalog" class="control-label">Article :</label>
+                    <select id="catalog" class="form-control" formControlName="catalog">
+                        <option [ngValue]="null" disabled>Choisis le type de produit que tu recherches</option>
+                        <option *ngFor="let article of dataSitesJSON.vinted.catalogs[0].catalogs"
+                            [ngValue]="article.id.toString()">
+                            {{ article.title }}
+                        </option>
+                    </select>
+                </div>
             </div>
 
-            <div>
-                <label>Choisis une couleur:
-                    <input list="color" name="color" /></label>
-                <datalist id="color">
-                    <option value="Rouge">
-                    <option value="Noir">
-                    <option value="Blanc">
-                    <option value="Camel">
-                    <option value="Marron">
-                    <option value="Vert">
-                </datalist>
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label for="brand" class="control-label">Marque :</label>
+                    <input type="text" id="brand" class="form-control" formControlName="brand">
+                </div>
             </div>
-            <div>
-                <label for="color">Choisis le modèle : </label>
-                <input type="number" />
+
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label for="modelBag" class="control-label">Modèle :</label>
+                    <input type="text" id="modelBag" class="form-control" formControlName="modelBag">
+                </div>
             </div>
-            <div>
-                <label for="color">Choisis l'état : </label>
-                <select>
-                    <option value="">Choisis l'état du produit</option>
-                    <option value="1">Neuf, avec étiquette</option>
-                    <option value="2">Neuf</option>
-                    <option value="3">Très bon état</option>
-                    <option value="4">Bon état</option>
-                    <option value="5">Satisfaisant</option>
-                </select>
+
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label for="color" class="control-label">Couleur :</label>
+                    <input type="text" id="color" class="form-control" formControlName="color">
+                </div>
             </div>
-            <div>
-                <label for="color">Choisis le prix : </label>
-                <input type="number" />
+
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label for="condition" class="control-label">Etat :</label>
+                    <select id="condition" class="form-control" formControlName="condition">
+                        <option [ngValue]="null" disabled>Choisis l'état du produit recherché</option>
+                        <option *ngFor="let article of dataSitesJSON.vinted.conditions" [ngValue]="article.id">
+                            {{ article.title }}
+                        </option>
+                    </select>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Save</button>
-            <button type="button" class="btn btn-default">Cancel</button>
+
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label for="priceFrom" class="control-label">Prix de :</label>
+                    <input type="number" id="priceFrom" class="form-control" formControlName="priceFrom">
+                    <label for="priceTo" class="control-label">Prix à :</label>
+                    <input type="number" id="priceTo" class="form-control" formControlName="priceTo">
+                </div>
+            </div>
         </form>
-
+        <button type="submit" (click)="onSubmit()" class="btn btn-primary">Rechecher</button>
+    </div>
+    <div *ngIf="isValidate">
+        <vinted-list [products]="products" [form]="form"></vinted-list>
     </div>
 </div>

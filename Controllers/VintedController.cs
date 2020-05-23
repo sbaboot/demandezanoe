@@ -19,12 +19,12 @@ namespace demandezanoe.Controllers
         }
 
         // GET: api/Vinted/
-        [Route("{brandId}/{catalogId}/{colorId}/{status}/{sizeId}/{priceTo}")]
+        [Route("{catalogId}/{brandId}/{colorId}/{status}/{priceFrom}/{priceTo}/{textarea}")]
         [HttpGet]
-        public IEnumerable<Vinted> Get(string brandId, string catalogId, string colorId,
-            string status, string sizeId , string priceTo)
+        public IEnumerable<Vinted> Get(string catalogId, string brandId, string colorId,
+            string status, string priceFrom, string priceTo, string textarea)
         {
-            return _repository.GetProductList(brandId, catalogId, colorId, status, sizeId, priceTo);
+            return _repository.GetProductList(catalogId, brandId, colorId, status, priceFrom, priceTo, textarea);
         }
     }
 }

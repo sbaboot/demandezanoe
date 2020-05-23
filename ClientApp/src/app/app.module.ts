@@ -1,18 +1,19 @@
 import { SearchComponent } from './search/search.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 
+import { VintedListComponent, ProductThumbnailComponent } from './results/index';
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
+import { appRoutes } from './routes';
+import { VintedService } from './services/vinted.service';
 registerLocaleData(localeFr, 'fr');
 
 @NgModule({
@@ -21,23 +22,21 @@ registerLocaleData(localeFr, 'fr');
     NavMenuComponent,
     HomeComponent,
     SearchComponent,
-    CounterComponent,
-    FetchDataComponent
+    VintedListComponent,
+    ProductThumbnailComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
-    ])
+    ReactiveFormsModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
+    VintedService,
     {
-      provide: LOCALE_ID, useValue: "fr-FR"
-    }
+      provide: LOCALE_ID, useValue: 'fr-FR'
+    },
   ],
   bootstrap: [AppComponent]
 })

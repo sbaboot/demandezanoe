@@ -10,8 +10,8 @@ namespace demandezanoe.Models
     public class Vinted
     {
         public int Id { get; set; }
-
-        public string Owner { get; set; }
+        
+        public string Catalog { get; set; }
 
         public string Picture { get; set; }
 
@@ -25,15 +25,15 @@ namespace demandezanoe.Models
 
         public Conditions Condition { get; set; }
 
-        public double Price { get; set; }
+        public string Price { get; set; }
     }
 }
 
 public enum Conditions
 {
-    NewWithLabel = 1,
-    New = 2, 
-    VeryGoodState = 3,
-    GoodState = 4,
-    Satisfactory = 5
+    NewWithLabel = 6,
+    New = 1,
+    VeryGoodState = 2,
+    GoodState = 3,
+    Satisfactory = 4
 }
