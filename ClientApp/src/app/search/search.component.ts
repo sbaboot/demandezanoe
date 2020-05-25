@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
     isValidate = false;
     dataSitesJSON: any = (dataSitesJSON as any).default;
 
-    constructor(private vintedService: VintedService, private formBuilder: FormBuilder, private router: Router) { }
+    constructor(private vintedService: VintedService, private formBuilder: FormBuilder) { }
 
     ngOnInit() {
         this.form = this.formBuilder.group({
@@ -35,11 +35,12 @@ export class SearchComponent implements OnInit {
     }
 
     async onSubmit() {
-        (await this.vintedService.getVintedProducts(this.form.value)).subscribe((products: IVinted[]) => {
-            this.products = products;
-        },
-            err => console.error(err),
-            () => (console.log('get vinted list OK', this.products)));
-        this.isValidate = true;
+        const selection = this.form.value;
+        (await this.vintedService.getVintedProducts(selection)).subscribe({
+            next: (products: IVinted[]) => { this.products = products; },
+            error: err => { console.log(err); },
+            complete: () => console.log('Liste Vinted récupérée')
+        }),
+            this.isValidate = true;
     }
 }
