@@ -1,10 +1,10 @@
-import { Component, OnInit, Output, Input } from '@angular/core';
+import { Component, OnInit, Output, Input, Inject } from '@angular/core';
 import * as dataSitesJSON from '../../../../docs/dataSites.json';
 import { IVinted } from '../models/vinted';
 import { Subscription } from 'rxjs';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { Router } from '@angular/router';
 import { VintedService } from '../services/vinted.service';
+import { TOASTR_TOKEN, Toastr } from '../common/toastr.service';
 
 
 @Component({
@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
     isValidate = false;
     dataSitesJSON: any = (dataSitesJSON as any).default;
 
-    constructor(private vintedService: VintedService, private formBuilder: FormBuilder) { }
+    constructor(private vintedService: VintedService, private formBuilder: FormBuilder, @Inject(TOASTR_TOKEN) private toastr: Toastr) { }
 
     ngOnInit() {
         this.form = this.formBuilder.group({
@@ -35,11 +35,12 @@ export class SearchComponent implements OnInit {
     }
 
     async onSubmit() {
+        this.toastr.info('Recherche en cours', 'Patience');
         const selection = this.form.value;
         (await this.vintedService.getVintedProducts(selection)).subscribe({
             next: (products: IVinted[]) => { this.products = products; },
-            error: err => { console.log(err); },
-            complete: () => console.log('Liste Vinted récupérée')
+            error: err => { this.toastr.error(err); },
+            complete: () => this.toastr.success('Liste récupérée', 'Vinted')
         }),
             this.isValidate = true;
     }
