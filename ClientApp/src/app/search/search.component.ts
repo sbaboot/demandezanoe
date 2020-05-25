@@ -19,6 +19,7 @@ export class SearchComponent implements OnInit {
     form: FormGroup;
     isValidate = false;
     dataSitesJSON: any = (dataSitesJSON as any).default;
+    loading = false;
 
     constructor(private vintedService: VintedService, private formBuilder: FormBuilder, @Inject(TOASTR_TOKEN) private toastr: Toastr) { }
 
@@ -36,12 +37,14 @@ export class SearchComponent implements OnInit {
 
     async onSubmit() {
         this.toastr.info('Recherche en cours', 'Patience');
+        this.loading = true;
+        this.isValidate = true;
+
         const selection = this.form.value;
         (await this.vintedService.getVintedProducts(selection)).subscribe({
             next: (products: IVinted[]) => { this.products = products; },
             error: err => { this.toastr.error(err); },
-            complete: () => this.toastr.success('Liste récupérée', 'Vinted')
-        }),
-            this.isValidate = true;
+            complete: () => { this.toastr.success('Liste récupérée', 'Vinted'); this.loading = false; this.form.reset(); }
+        });
     }
 }
