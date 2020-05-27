@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { VintedService } from '../services/vinted.service';
 import { TOASTR_TOKEN, Toastr } from '../common/toastr.service';
-
+import { convertResultsInId } from '../common/convertResultsInId';
 
 @Component({
     // tslint:disable-next-line: component-selector
@@ -27,7 +27,7 @@ export class SearchComponent implements OnInit {
         this.form = this.formBuilder.group({
             catalog: [''],
             brand: [''],
-            modelBag: [''],
+            modele: [''],
             color: [''],
             condition: [''],
             priceFrom: [''],
@@ -40,11 +40,16 @@ export class SearchComponent implements OnInit {
         this.loading = true;
         this.isValidate = true;
 
-        const selection = this.form.value;
+        let selection = this.form.value;
+
+        console.log('selection before', selection);
+        selection = convertResultsInId('vinted', selection);
+        console.log('converted selection', selection);
+
         (await this.vintedService.getVintedProducts(selection)).subscribe({
             next: (products: IVinted[]) => { this.products = products; },
             error: err => { this.toastr.error(err); },
-            complete: () => { this.toastr.success('Liste récupérée', 'Vinted'); this.loading = false; this.form.reset(); }
+            complete: () => { this.toastr.success('Liste récupérée', 'Vinted'); this.loading = false; }
         });
     }
 }

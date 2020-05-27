@@ -12,9 +12,11 @@ namespace demandezanoe.Models
         string baseUrl = "https://www.vinted.fr/vetements?";
         protected static IWebDriver driver;
 
-        public List<Vinted> GetProductList(string catalogId = null, string brandId = null, string colorId = null, 
-            string status = null, string priceFrom = null, string priceTo = null, string textarea = null)
+        public List<Vinted> GetProductList(string catalogId = null, string brandId = "0", string colorId = "0", 
+            string status = "0", string priceFrom = "0", string priceTo = "0", string textarea = "0")
         {
+            List<Vinted> prodList = new List<Vinted>();
+
             try
             {
                 baseUrl = baseUrl
@@ -30,7 +32,6 @@ namespace demandezanoe.Models
                 driver = SeleniumDriver.Setup();
                 SeleniumDriver.NavigateToUrl(baseUrl);
                 var pages = SeleniumDriver.GetNbPages();
-                List<Vinted> prodList = new List<Vinted>();
 
                 int counter = 1;
                 for (int i = 1; i <= pages; i++)
@@ -38,18 +39,20 @@ namespace demandezanoe.Models
                     var nodes = driver.FindElements(By.ClassName("feed-grid__item"));
                      foreach (var node in nodes)
                      {
+                        //var picture = node.FindElement(By.CssSelector("[class='c-badge c-badge--muted']")).FindElement(By.TagName("span")).Displayed ? "No picture" : node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src");
+                        var picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src");
+                        var link = node.FindElement(By.ClassName("c-box__overlay")).GetAttribute("href");
+                        var brand = node.FindElement(By.ClassName("c-box__subtitle")).GetAttribute("innerText");
+                        var price = node.FindElement(By.ClassName("c-box__title")).Text.Replace(" €", "");
+                        
                         prodList.Add(new Vinted()
                         {
                             Id = counter++,
-                            Picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src"),
-                            //Picture = node.FindElement(By.CssSelector("[class='c-badge c-badge--muted']")).FindElement(By.TagName("span")).Displayed ? "No picture" : node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src"),
-                            Link = node.FindElement(By.ClassName("c-box__overlay")).GetAttribute("href"),
-                            Brand = node.FindElement(By.ClassName("c-box__subtitle")).GetAttribute("innerText"),
-                            ModelBag = textarea,
-                            Catalog = null,
-                            Color = null,
-                            Condition = Conditions.GoodState,
-                            Price = node.FindElement(By.ClassName("c-box__title")).Text.Replace(" €", "")
+                            Picture = picture,
+                            Link = link,
+                            Brand = brand,
+                            Modele = textarea,
+                            Price = price
                         });
                      }
                     

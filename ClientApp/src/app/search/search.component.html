@@ -1,59 +1,85 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <h3>Fais ta recherche</h3>
-        </div>
-        <div class="col-md-6">
-            <form [formGroup]="form">
-                <div class="form-group col-sm-12">
+<div class="container">
+    <div class="col-md-12">
+        <h3>Fais ta recherche</h3>
+    </div>
+    <div class="col-md-6">
+        <form class="form-horizontal" [formGroup]="form">
+            <div class="form-group">
+                <div class="col-sm-12">
                     <label for="catalog" class="control-label">Article :</label>
-                    <select id="catalog" class="form-control" formControlName="catalog">
-                        <option [ngValue]="null" disabled>Choisis le type de produit que tu recherches</option>
+                    <input list="catalogs" type="text" id="catalog" class="form-control" formControlName="catalog"
+                        placeholder="Choisis ton article">
+                    <datalist id="catalogs">
                         <option *ngFor="let article of dataSitesJSON.vinted.catalogs[0].catalogs"
-                            [ngValue]="article.id.toString()">
+                            [ngValue]="article.title">
                             {{ article.title }}
                         </option>
-                    </select>
+                    </datalist>
                 </div>
+            </div>
 
-                <div class="form-group col-sm-12">
+            <div class="form-group">
+                <div class="col-sm-12">
                     <label for="brand" class="control-label">Marque :</label>
-                    <input type="text" id="brand" class="form-control" formControlName="brand">
+                    <input list="brands" type="text" id="brand" class="form-control" formControlName="brand"
+                        placeholder="Choisis ta marque">
+                    <datalist id="brands">
+                        <option *ngFor="let article of dataSitesJSON.vinted.brands" [ngValue]="
+                            article.title">
+                            {{ article.title}}
+                        </option>
+                    </datalist>
                 </div>
+            </div>
 
-                <div class="form-group col-sm-12">
-                    <label for="modelBag" class="control-label">Modèle :</label>
-                    <input type="text" id="modelBag" class="form-control" formControlName="modelBag">
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label for="modele" class="control-label">Modèle :</label>
+                    <input type="text" id="modele" class="form-control" formControlName="modele"
+                        placeholder="Choisis ton modèle de produit">
                 </div>
+            </div>
 
-                <div class="form-group col-sm-12">
+            <div class="form-group">
+                <div class="col-sm-12">
                     <label for="color" class="control-label">Couleur :</label>
-                    <input type="text" id="color" class="form-control" formControlName="color">
+                    <input list="colors" type="text" id="color" class="form-control" formControlName="color"
+                        placeholder="Choisis ta couleur">
+                    <datalist id="colors">
+                        <option *ngFor="let article of dataSitesJSON.vinted.colors" [ngValue]="article.title">
+                            {{ article.title }}
+                        </option>
+                    </datalist>
                 </div>
+            </div>
 
-                <div class="form-group col-sm-12">
+            <div class="form-group">
+                <div class="col-sm-12">
                     <label for="condition" class="control-label">Etat :</label>
                     <select id="condition" class="form-control" formControlName="condition">
-                        <option [ngValue]="null" disabled>Choisis l'état du produit recherché</option>
-                        <option *ngFor="let article of dataSitesJSON.vinted.conditions" [ngValue]="article.id">
+                        <option [ngValue]="null" selected disabled>Choisis l'état du produit recherché</option>
+                        <option *ngFor="let article of dataSitesJSON.vinted.conditions" [ngValue]="article.title">
                             {{ article.title }}
                         </option>
                     </select>
                 </div>
+            </div>
 
-                <div class="form-group col-sm-12">
+            <div class="form-group">
+                <div class="col-sm-12">
                     <label for="priceFrom" class="control-label">Prix de :</label>
-                    <input type="number" id="priceFrom" class="form-control" formControlName="priceFrom">
+                    <input min="0" type="number" id="priceFrom" class="form-control" formControlName="priceFrom"
+                        placeholder="Choisis le prix minimum">
                     <label for="priceTo" class="control-label">Prix à :</label>
-                    <input type="number" id="priceTo" class="form-control" formControlName="priceTo">
+                    <input min="0" type="number" id="priceTo" class="form-control" formControlName="priceTo"
+                        placeholder="Choisis le prix maximum">
                 </div>
-            </form>
-            <button type="submit" (click)="onSubmit()" class="btn btn-primary">Rechecher</button>
-        </div>
-
-        <div *ngIf="isValidate">
-            <vinted-list [products]="products" [form]="form"></vinted-list>
-        </div>
+            </div>
+        </form>
+        <button type="submit" (click)="onSubmit()" class="btn btn-primary">Rechecher</button>
+    </div>
+    <div *ngIf="isValidate">
+        <vinted-list [products]="products" [form]="form"></vinted-list>
     </div>
 </div>
 
