@@ -5810,6 +5810,283 @@
     }
   },
   "vestiaireCollective": {
-    "brands": {}
+    "catalogs": [
+      {
+        "id": 236,
+        "title": "Accessoires",
+        "slug": "Accessoires%236"
+      },
+      {
+        "id": 2363,
+        "title": "Bijoux",
+        "slug": "Bijoux%2363"
+      },
+      {
+        "id": 233,
+        "title": "Chaussures",
+        "slug": "Chaussures%233"
+      },
+      {
+        "id": 235,
+        "title": "Sacs",
+        "slug": "Sacs%235"
+      },
+      {
+        "id": 232,
+        "title": "Vêtements",
+        "slug": "Vêtements%232"
+      }
+    ]
+  },
+  "generic": {
+    "colors": [
+      {
+        "id": 1,
+        "title": "Noir",
+        "hex": "000000"
+      },
+      {
+        "id": 3,
+        "title": "Gris",
+        "hex": "919191"
+      },
+      {
+        "id": 12,
+        "title": "Blanc",
+        "hex": "FFFFFF"
+      },
+      {
+        "id": 20,
+        "title": "Crème",
+        "hex": "F8F8E1"
+      },
+      {
+        "id": 4,
+        "title": "Beige ",
+        "hex": "f4e0c8"
+      },
+      {
+        "id": 21,
+        "title": "Abricot",
+        "hex": "FFCC98"
+      },
+      {
+        "id": 11,
+        "title": "Orange",
+        "hex": "FFA500"
+      },
+      {
+        "id": 22,
+        "title": "Corail",
+        "hex": "FE7F5D"
+      },
+      {
+        "id": 7,
+        "title": "Rouge",
+        "hex": "CC3300"
+      },
+      {
+        "id": 23,
+        "title": "Bordeaux",
+        "hex": "AE2E3D"
+      },
+      {
+        "id": 5,
+        "title": "Rose",
+        "hex": "ff0080"
+      },
+      {
+        "id": 24,
+        "title": "Rose",
+        "hex": "FFCCCA"
+      },
+      {
+        "id": 6,
+        "title": "Violet",
+        "hex": "800080"
+      },
+      {
+        "id": 25,
+        "title": "Lila",
+        "hex": "D297D2"
+      },
+      {
+        "id": 26,
+        "title": "Bleu clair",
+        "hex": "89CFF0"
+      },
+      {
+        "id": 9,
+        "title": "Bleu",
+        "hex": "007bc4"
+      },
+      {
+        "id": 27,
+        "title": "Marine",
+        "hex": "35358D"
+      },
+      {
+        "id": 17,
+        "title": "Turquoise",
+        "hex": "B7DEE8"
+      },
+      {
+        "id": 30,
+        "title": "Menthe",
+        "hex": "A2FFBC"
+      },
+      {
+        "id": 10,
+        "title": "Vert",
+        "hex": "369a3d"
+      },
+      {
+        "id": 28,
+        "title": "Vert foncé",
+        "hex": "356639"
+      },
+      {
+        "id": 16,
+        "title": "Kaki",
+        "hex": "86814A"
+      },
+      {
+        "id": 2,
+        "title": "Marron",
+        "hex": "663300"
+      },
+      {
+        "id": 29,
+        "title": "Moutarde",
+        "hex": "E5B539"
+      },
+      {
+        "id": 8,
+        "title": "Jaune",
+        "hex": "fff200"
+      },
+      {
+        "id": 13,
+        "title": "Argenté",
+        "hex": "dddddd"
+      },
+      {
+        "id": 14,
+        "title": "Doré",
+        "hex": "be9927"
+      },
+      {
+        "id": 15,
+        "title": "Multicolore",
+        "hex": ""
+      }
+    ],
+    "brands": [
+      {
+        "title": "Chanel"
+      },
+      {
+        "title": "Nike"
+      },
+      {
+        "title": "Zara"
+      },
+      {
+        "title": "Adidas"
+      },
+      {
+        "title": "Levi's"
+      },
+      {
+        "title": "H\u0026M"
+      },
+      {
+        "title": "Yves Saint-Laurent"
+      },
+      {
+        "title": "Hermès"
+      },
+      {
+        "title": "Dior"
+      },
+      {
+        "title": "Louis Vuitton"
+      },
+      {
+        "title": "Jérôme Dreyfuss"
+      },
+      {
+        "title": "Burberry"
+      },
+      {
+        "title": "Cèline"
+      },
+      {
+        "title": "Chloé"
+      },
+      {
+        "title": "Gerard Darel"
+      },
+      {
+        "title": "Ralph Lauren"
+      },
+      {
+        "title": "Mango"
+      },
+      {
+        "title": "Lacoste"
+      },
+      {
+        "title": "Calvin Klein"
+      },
+      {
+        "title": "Tommy Hilfiger"
+      },
+      {
+        "title": "Guess"
+      },
+      {
+        "title": "Michael kors"
+      }
+    ],
+    "catalogs": [
+      {
+        "title": "Vêtements"
+      },
+      {
+        "title": "Chaussures"
+      },
+      {
+        "title": "Sacs"
+      },
+      {
+        "title": "Accessoires"
+      },
+      {
+        "title": "Beauté"
+      }
+    ],
+    "conditions": [
+      {
+        "title": "Neuf, avec étiquette",
+        "description": "Jamais porté, avec étiquette d'achat"
+      },
+      {
+        "title": "Neuf",
+        "description": "Jamais porté, étiquette d'achat manquante"
+      },
+      {
+        "title": "Très bon état",
+        "description": "Porté, mais n'a aucune tache ni aucun défaut"
+      },
+      {
+        "title": "Bon état",
+        "description": "Porté, a quelques défauts (mentionnés dans l\u2019annonce et montrés sur les photos)"
+      },
+      {
+        "title": "Satisfaisant",
+        "description": "Porté, a des défauts (mentionnés dans l\u2019annonce et montrés sur les photos)"
+      }
+    ]
   }
 }

@@ -10,8 +10,7 @@
                     <input list="catalogs" type="text" id="catalog" class="form-control" formControlName="catalog"
                         placeholder="Choisis ton article">
                     <datalist id="catalogs">
-                        <option *ngFor="let article of dataSitesJSON.vinted.catalogs[0].catalogs"
-                            [ngValue]="article.title">
+                        <option *ngFor="let article of dataSitesJSON.generic.catalogs" [ngValue]="article.title">
                             {{ article.title }}
                         </option>
                     </datalist>
@@ -24,7 +23,7 @@
                     <input list="brands" type="text" id="brand" class="form-control" formControlName="brand"
                         placeholder="Choisis ta marque">
                     <datalist id="brands">
-                        <option *ngFor="let article of dataSitesJSON.vinted.brands" [ngValue]="
+                        <option *ngFor="let article of dataSitesJSON.generic.brands" [ngValue]="
                             article.title">
                             {{ article.title}}
                         </option>
@@ -46,7 +45,7 @@
                     <input list="colors" type="text" id="color" class="form-control" formControlName="color"
                         placeholder="Choisis ta couleur">
                     <datalist id="colors">
-                        <option *ngFor="let article of dataSitesJSON.vinted.colors" [ngValue]="article.title">
+                        <option *ngFor="let article of dataSitesJSON.generic.colors" [ngValue]="article.title">
                             {{ article.title }}
                         </option>
                     </datalist>
@@ -58,7 +57,7 @@
                     <label for="condition" class="control-label">Etat :</label>
                     <select id="condition" class="form-control" formControlName="condition">
                         <option [ngValue]="null" selected disabled>Choisis l'état du produit recherché</option>
-                        <option *ngFor="let article of dataSitesJSON.vinted.conditions" [ngValue]="article.title">
+                        <option *ngFor="let article of dataSitesJSON.generic.conditions" [ngValue]="article.title">
                             {{ article.title }}
                         </option>
                     </select>
@@ -78,10 +77,19 @@
         </form>
         <button type="submit" (click)="onSubmit()" class="btn btn-primary">Rechecher</button>
     </div>
+
+    <br />
     <div *ngIf="isValidate">
-        <button (click)="showVintedList=!showVintedList">Plier/Déplier</button>
+        <div class="d-flex align-items-center">
+            <button class="btn btn-primary" (click)="showVintedList=!showVintedList">
+                <div class="my-icon" aria-label="My icon" [inlineSVG]="'../../assets/svg/arrow.component.svg'"></div>
+            </button>
+            <h4 class="text-secondary ml-3">Résultats Vinted</h4>
+        </div>
         <vinted-list *ngIf="showVintedList" [products]="products" [form]="form"></vinted-list>
     </div>
+
+
 </div>
 
 <div *ngIf="loading && isValidate" class="talign-center">

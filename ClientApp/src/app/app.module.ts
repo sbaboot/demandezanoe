@@ -3,6 +3,7 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InlineSVGModule } from 'ng-inline-svg';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -35,6 +36,7 @@ const toastr: Toastr = window['toastr'];
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    InlineSVGModule.forRoot(),
     RouterModule.forRoot(appRoutes)
   ],
   providers: [

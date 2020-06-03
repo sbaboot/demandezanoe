@@ -29,8 +29,8 @@ namespace demandezanoe.Models
             try
             {
                 // Parameters et query strings used to build our url base
-                string[] parameters = { catalogId, brandId, colorId, status, priceFrom, priceTo, textarea, "order" };
-                string[] queryStrings = { "catalog[]", "brand_id[]", "color_id[]", "status[]", "price_from", "price_to", "search_text", "newest_first" };
+                string[] parameters = { catalogId, brandId, colorId, status, priceFrom, priceTo, textarea, "newest_first" };
+                string[] queryStrings = { "catalog[]", "brand_id[]", "color_id[]", "status[]", "price_from", "price_to", "search_text", "order" };
                 baseUrl = GenericMethods.GetBaseUrl(baseUrl, parameters, queryStrings);
                 
                 // create driver and navigate to url defined just before
@@ -46,7 +46,6 @@ namespace demandezanoe.Models
                     var nodes = driver.FindElements(By.ClassName("feed-grid__item"));
                      foreach (var node in nodes)
                      {
-                        //var picture = node.FindElement(By.CssSelector("[class='c-badge c-badge--muted']")).FindElement(By.TagName("span")).Displayed ? "No picture" : node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src");
                         var picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src");
                         var link = node.FindElement(By.ClassName("c-box__overlay")).GetAttribute("href");
                         var brand = node.FindElement(By.ClassName("c-box__subtitle")).GetAttribute("innerText");
@@ -63,6 +62,7 @@ namespace demandezanoe.Models
                         });
                      }
 
+                    // Click or not in the next page
                     if (i == pages + 1) { break; }
                     By isLimit = By.CssSelector("[class='c-pagination__next is-disabled']");
                     By nextPage = By.ClassName("c-pagination__next");

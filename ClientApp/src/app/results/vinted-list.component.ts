@@ -7,7 +7,6 @@ import { IVinted } from '../models/vinted';
   selector: 'vinted-list',
   template: `
     <div>
-      <h1>Résultats Vinted :</h1>
       <hr/>
       <div class="row">
         <div *ngFor="let product of products" class="col-md-4">
