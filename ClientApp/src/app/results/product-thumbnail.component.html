@@ -1,0 +1,23 @@
+<div class="card" style="width: 18rem; margin-top: 5rem;">
+    <a href={{product?.link}} target="_blank">
+        <img src={{product?.picture}} alt="{{product?.brand}}" class="card-img-top" />
+    </a>
+    <div class="card-body">
+        <h5 class="card-title" *ngIf="product.brand; else emptyBrand">{{product?.brand | uppercase}}</h5>
+        <p *ngIf="form.controls.condition.value; else emptyCondition" class=" card-text">Etat:
+            {{form.controls.condition.value}}</p>
+        <p *ngIf="form.controls.color.value; else emptyColor" class="card-text">Couleur: {{form.controls.color.value}}
+        </p>
+        <p>Prix: {{product?.price}} €</p>
+    </div>
+</div>
+
+<ng-template #emptyCondition class="card-text">
+    <p>Pas d'état sélectionné</p>
+</ng-template>
+<ng-template #emptyColor class="card-text">
+    <p>Pas de couleur sélectionnée</p>
+</ng-template>
+<ng-template #emptyBrand class="card-text">
+    <p>Pas de marque</p>
+</ng-template>

@@ -10,7 +10,7 @@ import { IVinted } from '../models/vinted';
       <h1>Résultats Vinted :</h1>
       <hr/>
       <div class="row">
-        <div *ngFor="let product of products" class="col-md-5">
+        <div *ngFor="let product of products" class="col-md-4">
           <product-thumbnail [product]="product" [form]="form"></product-thumbnail>
         </div>
       </div>

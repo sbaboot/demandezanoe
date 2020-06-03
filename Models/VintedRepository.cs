@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using demandezanoe.Utils;
-using Flurl;
+using demandezanoe.Services;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
 
 namespace demandezanoe.Models
 {
@@ -11,7 +9,18 @@ namespace demandezanoe.Models
     {
         string baseUrl = "https://www.vinted.fr/vetements?";
         protected static IWebDriver driver;
-
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="catalogId"></param>
+        /// <param name="brandId"></param>
+        /// <param name="colorId"></param>
+        /// <param name="status"></param>
+        /// <param name="priceFrom"></param>
+        /// <param name="priceTo"></param>
+        /// <param name="textarea"></param>
+        /// <returns></returns>
         public List<Vinted> GetProductList(string catalogId = null, string brandId = "0", string colorId = "0", 
             string status = "0", string priceFrom = "0", string priceTo = "0", string textarea = "0")
         {
@@ -19,19 +28,17 @@ namespace demandezanoe.Models
 
             try
             {
-                baseUrl = baseUrl
-                   .SetQueryParam(!string.IsNullOrEmpty(catalogId) && catalogId != "0" ? "catalog[]" : "", new[] { catalogId == "0" ? null : catalogId })
-                   .SetQueryParam(!string.IsNullOrEmpty(brandId) && brandId != "0" ? "brand_id[]" : "", new[] { brandId == "0" ? null : brandId })
-                   .SetQueryParam(!string.IsNullOrEmpty(colorId) && colorId != "0" ? "color_id[]" : "", new[] { colorId == "0" ? null : colorId })
-                   .SetQueryParam(!string.IsNullOrEmpty(status) && status != "0" ? "status[]" : "", new[] { status == "0" ? null : status })
-                   .SetQueryParam(!string.IsNullOrEmpty(priceFrom) && priceFrom != "0" ? "price_from" : "", new[] { priceFrom == "0" ? null : priceFrom })
-                   .SetQueryParam(!string.IsNullOrEmpty(priceTo) && priceTo != "0" ? "price_to" : "", new[] { priceTo == "0" ? null : priceTo })
-                   .SetQueryParam(!string.IsNullOrEmpty(textarea) && textarea != "0" ? "search_text" : "", new[] { textarea == "0" ? null : textarea })
-                   .SetQueryParam("order", new[] { "newest_first" });
-
+                // Parameters et query strings used to build our url base
+                string[] parameters = { catalogId, brandId, colorId, status, priceFrom, priceTo, textarea, "order" };
+                string[] queryStrings = { "catalog[]", "brand_id[]", "color_id[]", "status[]", "price_from", "price_to", "search_text", "newest_first" };
+                baseUrl = GenericMethods.GetBaseUrl(baseUrl, parameters, queryStrings);
+                
+                // create driver and navigate to url defined just before
                 driver = SeleniumDriver.Setup();
                 SeleniumDriver.NavigateToUrl(baseUrl);
-                var pages = SeleniumDriver.GetNbPages();
+
+                string cssClass = "[class='c-text c-text--subtitle c-text--left c-text--content']";
+                var pages = SeleniumDriver.GetNbPages(cssClass);
 
                 int counter = 1;
                 for (int i = 1; i <= pages; i++)
@@ -55,22 +62,12 @@ namespace demandezanoe.Models
                             Price = price
                         });
                      }
-                    
-                    try
-                    {
-                        if (i == pages) { break; }
-                        var isLimit = driver.FindElement(By.CssSelector("[class='c-pagination__next is-disabled']"));
-                        if (isLimit.Displayed)
-                        {
-                            break;
-                        }
-                    }
-                    catch
-                    {
-                        var nextPage = driver.FindElement(By.ClassName("c-pagination__next")).GetAttribute("href");
-                        SeleniumDriver.NavigateToUrl(nextPage);
-                        SeleniumDriver.WaitForLoad();
-                    }
+
+                    if (i == pages + 1) { break; }
+                    By isLimit = By.CssSelector("[class='c-pagination__next is-disabled']");
+                    By nextPage = By.ClassName("c-pagination__next");
+                    SeleniumDriver.GetNextPage(isLimit, nextPage, "href");
+
                 }
 
                 SeleniumDriver.CleanUp();
@@ -79,7 +76,7 @@ namespace demandezanoe.Models
             }
             catch (Exception ex)
             {
-               SeleniumDriver.CleanUp();
+                SeleniumDriver.CleanUp();
                 throw new Exception("message: " + ex);
             }
 

@@ -8,8 +8,8 @@ declare function require(name: string): string;
   styleUrls: ['./nav-menu.component.css']
 })
 export class NavMenuComponent {
-  isExpanded: boolean = false;
-  logo: string = require("../images/logo.jpg");
+  isExpanded = false;
+  logo: string = require('../images/logo.jpg');
 
   collapse() {
     this.isExpanded = false;

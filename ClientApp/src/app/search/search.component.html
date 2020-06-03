@@ -79,7 +79,8 @@
         <button type="submit" (click)="onSubmit()" class="btn btn-primary">Rechecher</button>
     </div>
     <div *ngIf="isValidate">
-        <vinted-list [products]="products" [form]="form"></vinted-list>
+        <button (click)="showVintedList=!showVintedList">Plier/Déplier</button>
+        <vinted-list *ngIf="showVintedList" [products]="products" [form]="form"></vinted-list>
     </div>
 </div>
 

@@ -20,6 +20,7 @@ export class SearchComponent implements OnInit {
     isValidate = false;
     dataSitesJSON: any = (dataSitesJSON as any).default;
     loading = false;
+    showVintedList = false;
 
     constructor(private vintedService: VintedService, private formBuilder: FormBuilder, @Inject(TOASTR_TOKEN) private toastr: Toastr) { }
 
@@ -41,11 +42,7 @@ export class SearchComponent implements OnInit {
         this.isValidate = true;
 
         let selection = this.form.value;
-
-        console.log('selection before', selection);
         selection = convertResultsInId('vinted', selection);
-        console.log('converted selection', selection);
-
         (await this.vintedService.getVintedProducts(selection)).subscribe({
             next: (products: IVinted[]) => { this.products = products; },
             error: err => { this.toastr.error(err); },

@@ -5,16 +5,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   // tslint:disable-next-line: component-selector
   selector: 'product-thumbnail',
-  template: `
-    <div class="well hoverwell thumbnail">
-      <h2>{{product?.brand | uppercase}}</h2>
-      <p>Etat: {{form.controls.condition.value}}</p>
-      <a href={{product?.link}}>Lien Vinted</a>
-      <p>Couleur: {{form.controls.color.value}}</p>
-      <img src={{product?.picture}} alt="{{product?.brand}}">
-      <p>Prix: {{product?.price}} €</p>
-    </div>
-  `,
+  templateUrl: 'product-thumbnail.component.html',
   styles: [`
     .thumbnail { min-height: 210px; }
     .pad-left { margin-left: 10px; }

@@ -35,7 +35,9 @@ namespace demandezanoe
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //app.UseDeveloperExceptionPage();
+                app.UseExceptionHandler("/error-local-development");
+
             }
             else
             {
