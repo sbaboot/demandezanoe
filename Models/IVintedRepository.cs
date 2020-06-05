@@ -4,7 +4,7 @@ namespace demandezanoe.Models
 {
     public interface IVintedRepository
     {
-        List<Vinted> GetProductList(string catalogId = "0", string brandId = "0", string colorId = "0",
-            string status = "0", string priceFrom = "0", string priceTo = "0", string textarea = "0");
+        List<Vinted> GetProductList(string catalog = "0", string brand = "0", string color = "0",
+            string condition = "0", string priceFrom = "0", string priceTo = "0", string modele = "0");
     }
 }

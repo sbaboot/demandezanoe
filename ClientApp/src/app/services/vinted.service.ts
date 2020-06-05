@@ -10,7 +10,7 @@ export class VintedService {
     constructor(private http: HttpClient) { }
 
     async getVintedProducts(selection: IVinted): Promise<Observable<IVinted[]>> {
-        return await this.http.get<IVinted[]>(`api/vinted/${selection.catalog}/${selection.brand}/${selection.color}/${selection.condition}/${selection.priceFrom}/${selection.priceTo}/${selection.modele}`)
+        return await this.http.get<IVinted[]>(`api/vinted?catalog=${selection.catalog}&brand=${selection.brand}&color=${selection.color}&condition=${selection.condition}&priceFrom=${selection.priceFrom}&priceTo=${selection.priceTo}&modele=${selection.modele}`)
             .pipe(catchError(this.handleError<IVinted[]>('getVintedProducts', [])));
     }
 

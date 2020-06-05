@@ -1,4 +1,5 @@
 using demandezanoe.Models;
+using demandezanoe.Models.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace demandezanoe
                 configuration.RootPath = "ClientApp/dist";
             });
             services.AddScoped<IVintedRepository, VintedRepository>();
+            services.AddScoped<IVestiaireCollectiveRepository, VestiaireCollectiveRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -60,23 +60,53 @@ namespace demandezanoe.Services
             }
         }
 
+        public static void NewestFirstVestiaire()
+        {
+            var privacyPolicy = _driver.FindElement(By.XPath("/html/body/app-root/div/vc-privacy-policy/vc-privacy-policy-banner/div/div[2]/button"));
+            privacyPolicy.Click();
+
+            var sortBy = _driver.FindElement(By.CssSelector("[class='catalogSort__button d-none d-md-inline-block']"));
+            sortBy.Click();
+
+            var newestFirst = _driver.FindElement(By.XPath("//*[@id=\"mat-radio-5\"]/label/div[2]"));
+            newestFirst.Click();
+        }
+
         /// <summary>
         /// Try to get number of pages
         /// </summary>
         /// <param name="cssSelector"></param>
         /// <returns></returns>
-        public static int GetNbPages(string cssSelector)
+        public static int GetNbPages(string site, By cssSelector)
         {
             try
             {
-                var foundItems = _driver.FindElement(By.CssSelector(cssSelector)).GetAttribute("innerText");
+                var foundItems = _driver.FindElement(cssSelector).GetAttribute("innerText");
                 var nbItems = Convert.ToDouble(Regex.Match(foundItems, @"\d+").Value);
-                if (nbItems >= 72)
+                var nbPages = 0;
+
+                switch (site)
                 {
-                    return 72 / 24;
+                    case "vinted":
+                        nbPages = (int)Math.Ceiling(nbItems / 24);
+                        if (nbItems >= 72) { return 72 / 24; };
+                        break;
+                    case "vestiaire":
+                        try
+                        {
+                            var nextPages = _driver.FindElement(By.XPath("/html/body/app-root/div/main/catalog-page/vc-catalog/div/div/ais-instantsearch/div/div[2]/div[1]/vc-catalog-widget-pagination/div/button[2]"));
+                            if (nextPages.Displayed) { nbPages = 2; };
+                            break;
+
+                        }
+                        catch (Exception)
+                        {
+                            nbPages = 1;
+                            break;
+                        }
+                    default: break;
                 }
 
-                var nbPages = (int)Math.Ceiling(nbItems / 24);
                 return nbPages;
             }
             catch (Exception)
@@ -92,23 +122,33 @@ namespace demandezanoe.Services
         /// <param name="valueLimit"></param>
         /// <param name="valueNextPage"></param>
         /// <param name="attribute"></param>
-        public static void GetNextPage(By valueLimit, By valueNextPage, string attribute)
+        public static void GetNextPage(string site)
         {
-
-            try
+            switch (site)
             {
-                var isLimit = _driver.FindElement(valueLimit);
-                if (isLimit.Displayed)
-                {
-                    return;
-                }
+                case "vinted":
+                    try
+                    {
+                        var isLimit = _driver.FindElement(By.CssSelector("[class='c-pagination__next is-disabled']"));
+                        if (isLimit.Displayed)
+                        {
+                            return;
+                        }
+                    }
+                    catch
+                    {
+                        var nextPageVinted = _driver.FindElement(By.ClassName("c-pagination__next")).GetAttribute("href");
+                        NavigateToUrl(nextPageVinted);
+                        WaitForLoad();
+                    }
+                    break;
+                case "vestiaire":
+                    var nextPageVestaire = _driver.FindElement(By.XPath("/html/body/app-root/div/main/catalog-page/vc-catalog/div/div/ais-instantsearch/div/div[2]/div[3]/vc-catalog-widget-hits-per-page/div/button[2]"));
+                    nextPageVestaire.Click();
+                    break;
+                default: break;
             }
-            catch
-            {
-                var nextPage = _driver.FindElement(valueNextPage).GetAttribute(attribute);
-                NavigateToUrl(nextPage);
-                WaitForLoad();
-            }
+            
 
         }
 

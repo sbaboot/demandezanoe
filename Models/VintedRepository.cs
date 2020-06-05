@@ -13,60 +13,53 @@ namespace demandezanoe.Models
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="catalogId"></param>
-        /// <param name="brandId"></param>
-        /// <param name="colorId"></param>
-        /// <param name="status"></param>
+        /// <param name="catalog"></param>
+        /// <param name="brand"></param>
+        /// <param name="color"></param>
+        /// <param name="condition"></param>
         /// <param name="priceFrom"></param>
         /// <param name="priceTo"></param>
-        /// <param name="textarea"></param>
+        /// <param name="modele"></param>
         /// <returns></returns>
-        public List<Vinted> GetProductList(string catalogId = null, string brandId = "0", string colorId = "0", 
-            string status = "0", string priceFrom = "0", string priceTo = "0", string textarea = "0")
+        public List<Vinted> GetProductList(string catalog = "0", string brand = "0", string color = "0", 
+            string condition = "0", string priceFrom = "0", string priceTo = "0", string modele = "0")
         {
             List<Vinted> prodList = new List<Vinted>();
 
             try
             {
                 // Parameters et query strings used to build our url base
-                string[] parameters = { catalogId, brandId, colorId, status, priceFrom, priceTo, textarea, "newest_first" };
+                string[] parameters = { catalog, brand, color, condition, priceFrom, priceTo, modele, "newest_first" };
                 string[] queryStrings = { "catalog[]", "brand_id[]", "color_id[]", "status[]", "price_from", "price_to", "search_text", "order" };
-                baseUrl = GenericMethods.GetBaseUrl(baseUrl, parameters, queryStrings);
+                baseUrl = GenericMethods.GetBaseUrlVinted(baseUrl, parameters, queryStrings);
                 
                 // create driver and navigate to url defined just before
                 driver = SeleniumDriver.Setup();
                 SeleniumDriver.NavigateToUrl(baseUrl);
 
-                string cssClass = "[class='c-text c-text--subtitle c-text--left c-text--content']";
-                var pages = SeleniumDriver.GetNbPages(cssClass);
+                By cssClass = By.CssSelector("[class='c-text c-text--subtitle c-text--left c-text--content']");
+                var pages = SeleniumDriver.GetNbPages("vinted", cssClass);
 
                 int counter = 1;
                 for (int i = 1; i <= pages; i++)
                 {
-                    var nodes = driver.FindElements(By.ClassName("feed-grid__item"));
+                     var nodes = driver.FindElements(By.ClassName("feed-grid__item"));
                      foreach (var node in nodes)
-                     {
-                        var picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src");
-                        var link = node.FindElement(By.ClassName("c-box__overlay")).GetAttribute("href");
-                        var brand = node.FindElement(By.ClassName("c-box__subtitle")).GetAttribute("innerText");
-                        var price = node.FindElement(By.ClassName("c-box__title")).Text.Replace(" €", "");
-                        
+                     {                      
                         prodList.Add(new Vinted()
                         {
                             Id = counter++,
-                            Picture = picture,
-                            Link = link,
-                            Brand = brand,
-                            Modele = textarea,
-                            Price = price
-                        });
+                            Picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src"),
+                            Link = node.FindElement(By.ClassName("c-box__overlay")).GetAttribute("href"),
+                            Brand = node.FindElement(By.ClassName("c-box__subtitle")).GetAttribute("innerText"),
+                            Modele = modele,
+                            Price = node.FindElement(By.ClassName("c-box__title")).Text.Replace(" €", "")
+                    });
                      }
 
                     // Click or not in the next page
-                    if (i == pages + 1) { break; }
-                    By isLimit = By.CssSelector("[class='c-pagination__next is-disabled']");
-                    By nextPage = By.ClassName("c-pagination__next");
-                    SeleniumDriver.GetNextPage(isLimit, nextPage, "href");
+                    if (i == pages) { break; }
+                    SeleniumDriver.GetNextPage("vinted");
 
                 }
 

@@ -3,7 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace demandezanoe.Services
 {
@@ -17,7 +19,7 @@ namespace demandezanoe.Services
         /// <param name="parameters"></param>
         /// <param name="queryStrings"></param>
         /// <returns></returns>
-        public static string GetBaseUrl(string baseUrl, string[] parameters, string[] queryStrings)
+        public static string GetBaseUrlVinted(string baseUrl, string[] parameters, string[] queryStrings)
         {
             string optionalUrl = "";
             string addQueryStrings = "";
@@ -33,7 +35,7 @@ namespace demandezanoe.Services
                 }
                 optionalUrl = ReplaceExceptFirst(optionalUrl, "?", "&");
                 optionalUrl = optionalUrl.Replace("?", "");
-                baseUrl = baseUrl + optionalUrl;
+                baseUrl += optionalUrl;
 
             }
 
@@ -58,19 +60,42 @@ namespace demandezanoe.Services
             int strlen = pos + search.Length;
             return text.Substring(0, strlen) + (text.Substring(strlen)).Replace(search, replace);
         }
+
+
+        public static string GetBaseUrlVestaire(string baseUrl, string[] parameters, string[] queryStrings)
+        {
+            string optionalUrl = "";
+            string addQueryStrings = "";
+            var i = 0;
+            if (parameters.Length == 0) { return baseUrl; }
+           
+            for (var j = 0; j < parameters.Length; j++)
+            {
+                parameters[j] = parameters[j].Replace("#", "%23");
+            } 
+
+            if (parameters.Length > 1)
+            {
+                foreach (var parameter in parameters)
+                {
+                    optionalUrl += addQueryStrings
+                        .AppendPathSegments(!string.IsNullOrEmpty(parameter) && parameter != "0" ? queryStrings[i] + parameter : "");
+                    i++;
+                }
+                optionalUrl = ReplaceExceptFirst(optionalUrl, "#", "_");
+                optionalUrl = optionalUrl.Replace("%3F", "?");
+                if (optionalUrl.Contains("search/?q="))
+                {
+                    baseUrl = "https://fr.vestiairecollective.com/";
+                }
+
+                    baseUrl += optionalUrl;
+
+            }
+
+            return baseUrl;
+        }
                 
     }
 }
-
-
-
-
-//baseUrl = baseUrl
-//   .SetQueryParam(!string.IsNullOrEmpty(catalogId) && catalogId != "0" ? "catalog[]" : "", new[] { catalogId == "0" ? null : catalogId })
-//   .SetQueryParam(!string.IsNullOrEmpty(brandId) && brandId != "0" ? "brand_id[]" : "", new[] { brandId == "0" ? null : brandId })
-//   .SetQueryParam(!string.IsNullOrEmpty(colorId) && colorId != "0" ? "color_id[]" : "", new[] { colorId == "0" ? null : colorId })
-//   .SetQueryParam(!string.IsNullOrEmpty(status) && status != "0" ? "status[]" : "", new[] { status == "0" ? null : status })
-//   .SetQueryParam(!string.IsNullOrEmpty(priceFrom) && priceFrom != "0" ? "price_from" : "", new[] { priceFrom == "0" ? null : priceFrom })
-//   .SetQueryParam(!string.IsNullOrEmpty(priceTo) && priceTo != "0" ? "price_to" : "", new[] { priceTo == "0" ? null : priceTo })
-//   .SetQueryParam(!string.IsNullOrEmpty(textarea) && textarea != "0" ? "search_text" : "", new[] { textarea == "0" ? null : textarea })
-//   .SetQueryParam("order", new[] { "newest_first" });
+//%23categoryParent%3dSacs%235%23brand%3dChanel%2350%23color%3dNoir%2314
