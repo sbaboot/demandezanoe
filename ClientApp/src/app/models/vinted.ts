@@ -1,5 +1,3 @@
-import * as dataSitesJson from '../../../../docs/dataSites.json';
-
 export interface IVinted {
     id: number;
     catalog: string;
@@ -11,4 +9,5 @@ export interface IVinted {
     condition: string;
     priceFrom: string;
     priceTo: string;
+    totalResults: string;
 }

@@ -62,7 +62,7 @@ namespace demandezanoe.Services
         }
 
 
-        public static string GetBaseUrlVestaire(string baseUrl, string[] parameters, string[] queryStrings)
+        public static string GetBaseUrlVestiaire(string baseUrl, string[] parameters, string[] queryStrings)
         {
             string optionalUrl = "";
             string addQueryStrings = "";

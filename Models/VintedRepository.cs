@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 using demandezanoe.Services;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Remote;
 
 namespace demandezanoe.Models
 {
     public class VintedRepository : IVintedRepository
     {
         string baseUrl = "https://www.vinted.fr/vetements?";
-        protected static IWebDriver driver;
+        public static IWebDriver driver;
         
         /// <summary>
         /// 
@@ -32,45 +36,90 @@ namespace demandezanoe.Models
                 string[] parameters = { catalog, brand, color, condition, priceFrom, priceTo, modele, "newest_first" };
                 string[] queryStrings = { "catalog[]", "brand_id[]", "color_id[]", "status[]", "price_from", "price_to", "search_text", "order" };
                 baseUrl = GenericMethods.GetBaseUrlVinted(baseUrl, parameters, queryStrings);
-                
-                // create driver and navigate to url defined just before
-                driver = SeleniumDriver.Setup();
-                SeleniumDriver.NavigateToUrl(baseUrl);
 
-                By cssClass = By.CssSelector("[class='c-text c-text--subtitle c-text--left c-text--content']");
-                var pages = SeleniumDriver.GetNbPages("vinted", cssClass);
+                // create driver and navigate to url defined just before
+                //driver = SeleniumDriver.SetupVinted();
+                //SeleniumDriver.NavigateToUrl(baseUrl);
+                //var pages = SeleniumDriver.GetNbPages("vinted");
+
+                ChromeOptions options = new ChromeOptions();
+                //driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), options);
+                driver = new ChromeDriver(options);
+                driver.Navigate().GoToUrl(baseUrl);
+
+                var foundItems = driver.FindElement(By.CssSelector("[class='Text_text__QBn4- Text_subtitle__1I9iB Text_left__3s3CR']")).GetAttribute("innerText");
+                var nbItems = Convert.ToDouble(Regex.Match(foundItems, @"\d+").Value);
+                var pages = (int)Math.Ceiling(nbItems / 24);
+                if (nbItems >= 72) { pages = 72 / 24; };
 
                 int counter = 1;
                 for (int i = 1; i <= pages; i++)
                 {
                      var nodes = driver.FindElements(By.ClassName("feed-grid__item"));
                      foreach (var node in nodes)
-                     {                      
+                     {
+                        var picture = "";
+                        try
+                        {
+                           picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).Displayed ? node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src") : "";
+
+                        }
+                        catch (NoSuchElementException) { picture = ""; }
                         prodList.Add(new Vinted()
                         {
+                            TotalResults = nodes.Count.ToString(),
                             Id = counter++,
-                            Picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src"),
+                            Picture = picture,
                             Link = node.FindElement(By.ClassName("c-box__overlay")).GetAttribute("href"),
                             Brand = node.FindElement(By.ClassName("c-box__subtitle")).GetAttribute("innerText"),
                             Modele = modele,
                             Price = node.FindElement(By.ClassName("c-box__title")).Text.Replace(" €", "")
-                    });
+                        });
                      }
 
                     // Click or not in the next page
                     if (i == pages) { break; }
-                    SeleniumDriver.GetNextPage("vinted");
+                    try
+                    {
+                        var isLimit = driver.FindElement(By.CssSelector("[class='c-pagination__next is-disabled']"));
+                        if (isLimit.Displayed)
+                        {
+                            break;
+                        }
+                    }
+                    catch
+                    {
+                        var nextPageVinted = driver.FindElement(By.ClassName("c-pagination__next")).GetAttribute("href");
+                        driver.Navigate().GoToUrl(nextPageVinted);
+                    }
+
+
+                    //SeleniumDriver.GetNextPage("vinted");
 
                 }
 
-                SeleniumDriver.CleanUp();
+                //SeleniumDriver.CloseDriver();
+                if (driver != null)
+                {
+                    driver.Close();
+                    driver.Quit();
+                    driver.Dispose();
+                    driver = null;
+                }
                 return prodList;
 
             }
             catch (Exception ex)
             {
-                SeleniumDriver.CleanUp();
-                throw new Exception("message: " + ex);
+                //SeleniumDriver.CloseDriver();
+                if (driver != null)
+                {
+                    driver.Close();
+                    driver.Quit();
+                    driver.Dispose();
+                    driver = null;
+                }
+                throw new Exception("Message: " + ex);
             }
 
         }

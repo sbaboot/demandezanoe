@@ -1,3 +1,5 @@
+import { VestiaireService } from './services/vestiaireCollective.service';
+import { VestiaireListComponent } from './results/vestiaire-collective-list.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -29,6 +31,7 @@ const toastr: Toastr = window['toastr'];
     HomeComponent,
     SearchComponent,
     VintedListComponent,
+    VestiaireListComponent,
     ProductThumbnailComponent,
   ],
   imports: [
@@ -41,6 +44,7 @@ const toastr: Toastr = window['toastr'];
   ],
   providers: [
     VintedService,
+    VestiaireService,
     { provide: TOASTR_TOKEN, useValue: toastr },
     { provide: LOCALE_ID, useValue: 'fr-FR' },
   ],

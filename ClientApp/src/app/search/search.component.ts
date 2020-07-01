@@ -1,3 +1,5 @@
+import { IVestiaireCollective } from './../models/vestiaireCollective';
+import { VestiaireService } from './../services/vestiaireCollective.service';
 import { Component, OnInit, Output, Input, Inject } from '@angular/core';
 import * as dataSitesJSON from '../../../../docs/dataSites.json';
 import { IVinted } from '../models/vinted';
@@ -14,15 +16,22 @@ import { convertResultsInId } from '../common/convertResultsInId';
 })
 
 export class SearchComponent implements OnInit {
-    products: IVinted[];
+    productsVinted: IVinted[];
+    productsVestiaire: IVestiaireCollective[];
     subscription: Subscription;
     form: FormGroup;
     isValidate = false;
     dataSitesJSON: any = (dataSitesJSON as any).default;
     loading = false;
     showVintedList = false;
+    showVestiaireList = false;
 
-    constructor(private vintedService: VintedService, private formBuilder: FormBuilder, @Inject(TOASTR_TOKEN) private toastr: Toastr) { }
+    constructor(
+        private vintedService: VintedService,
+        private vestiaireService: VestiaireService,
+        private formBuilder: FormBuilder,
+        @Inject(TOASTR_TOKEN) private toastr: Toastr
+    ) { }
 
     ngOnInit() {
         this.form = this.formBuilder.group({
@@ -41,12 +50,21 @@ export class SearchComponent implements OnInit {
         this.loading = true;
         this.isValidate = true;
 
-        let selection = this.form.value;
-        selection = convertResultsInId('vinted', selection);
-        (await this.vintedService.getVintedProducts(selection)).subscribe({
-            next: (products: IVinted[]) => { this.products = products; },
-            error: err => { this.toastr.error(err); },
+        let selectionVestiaire = this.form.value;
+        let selectionVinted = this.form.value;
+
+        selectionVinted = convertResultsInId('vinted', selectionVinted);
+        (await this.vintedService.getVintedProducts(selectionVinted)).subscribe({
+            next: (products: IVinted[]) => { this.productsVinted = products; },
+            error: err => { this.toastr.error(err); console.log(err); },
             complete: () => { this.toastr.success('Liste récupérée', 'Vinted'); this.loading = false; }
+        });
+
+        selectionVestiaire = convertResultsInId('vestiaireCollective', selectionVestiaire);
+        (await this.vestiaireService.getVestiaireProducts(selectionVestiaire)).subscribe({
+            next: (products: IVestiaireCollective[]) => { this.productsVestiaire = products; },
+            error: err => { this.toastr.error(err); console.log(err); },
+            complete: () => { this.toastr.success('Liste récupérée', 'Vestiaire Collective'); this.loading = false; }
         });
     }
 }

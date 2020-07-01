@@ -85,11 +85,17 @@
                 <div class="my-icon" aria-label="My icon" [inlineSVG]="'../../assets/svg/arrow.component.svg'"></div>
             </button>
             <h4 class="text-secondary ml-3">Résultats Vinted</h4>
+            <vinted-list *ngIf="showVintedList" [products]="productsVinted" [form]="form"></vinted-list>
         </div>
-        <vinted-list *ngIf="showVintedList" [products]="products" [form]="form"></vinted-list>
+
+        <div class="d-flex align-items-center">
+            <button class="btn btn-primary" (click)="showVestiaireList=!showVestiaireList">
+                <div class="my-icon" aria-label="My icon" [inlineSVG]="'../../assets/svg/arrow.component.svg'"></div>
+            </button>
+            <h4 class="text-secondary ml-3">Résultats Vestiaire Collective</h4>
+            <vestiaire-list *ngIf="showVestiaireList" [products]="productsVestiaire" [form]="form"></vestiaire-list>
+        </div>
     </div>
-
-
 </div>
 
 <div *ngIf="loading && isValidate" class="talign-center">

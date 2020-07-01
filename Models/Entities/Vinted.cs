@@ -20,6 +20,9 @@ namespace demandezanoe.Models
         public string Modele { get; set; }
 
         public string Price { get; set; }
+
+        public string TotalResults { get; set; }
+
     }
 }
 
