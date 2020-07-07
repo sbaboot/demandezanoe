@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text.RegularExpressions;
 using demandezanoe.Services;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Remote;
 
 namespace demandezanoe.Models
 {
@@ -38,12 +36,7 @@ namespace demandezanoe.Models
                 baseUrl = GenericMethods.GetBaseUrlVinted(baseUrl, parameters, queryStrings);
 
                 // create driver and navigate to url defined just before
-                //driver = SeleniumDriver.SetupVinted();
-                //SeleniumDriver.NavigateToUrl(baseUrl);
-                //var pages = SeleniumDriver.GetNbPages("vinted");
-
                 ChromeOptions options = new ChromeOptions();
-                //driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), options);
                 driver = new ChromeDriver(options);
                 driver.Navigate().GoToUrl(baseUrl);
 
@@ -92,13 +85,8 @@ namespace demandezanoe.Models
                         var nextPageVinted = driver.FindElement(By.ClassName("c-pagination__next")).GetAttribute("href");
                         driver.Navigate().GoToUrl(nextPageVinted);
                     }
-
-
-                    //SeleniumDriver.GetNextPage("vinted");
-
                 }
 
-                //SeleniumDriver.CloseDriver();
                 if (driver != null)
                 {
                     driver.Close();
@@ -111,7 +99,6 @@ namespace demandezanoe.Models
             }
             catch (Exception ex)
             {
-                //SeleniumDriver.CloseDriver();
                 if (driver != null)
                 {
                     driver.Close();
