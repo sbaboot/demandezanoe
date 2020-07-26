@@ -1,3 +1,5 @@
+import { TabsComponent } from './results/Tabs/tabs.component';
+import { TabComponent } from './results/Tabs/tab.component';
 import { VestiaireService } from './services/vestiaireCollective.service';
 import { VestiaireListComponent } from './results/vestiaire-collective-list.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -33,6 +35,8 @@ const toastr: Toastr = window['toastr'];
     VintedListComponent,
     VestiaireListComponent,
     ProductThumbnailComponent,
+    TabComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

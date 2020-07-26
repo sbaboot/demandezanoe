@@ -7,7 +7,7 @@
             <div class="col-sm-3">
                 <label for="catalog" class="control-label">Article :</label>
                 <input list="catalogs" type="text" id="catalog" class="form-control" formControlName="catalog"
-                    placeholder="Choisis ton article">
+                    placeholder="Article">
                 <datalist id="catalogs">
                     <option *ngFor="let article of dataSitesJSON.generic.catalogs" [ngValue]="article.title">
                         {{ article.title }}
@@ -17,7 +17,7 @@
             <div class="col-sm-3">
                 <label for="brand" class="control-label">Marque :</label>
                 <input list="brands" type="text" id="brand" class="form-control" formControlName="brand"
-                    placeholder="Choisis ta marque">
+                    placeholder="Marque">
                 <datalist id="brands">
                     <option *ngFor="let article of dataSitesJSON.generic.brands" [ngValue]="
                             article.title">
@@ -27,13 +27,12 @@
             </div>
             <div class="col-sm-3">
                 <label for="modele" class="control-label">Modèle :</label>
-                <input type="text" id="modele" class="form-control" formControlName="modele"
-                    placeholder="Choisis ton modèle de produit">
+                <input type="text" id="modele" class="form-control" formControlName="modele" placeholder="Modèle">
             </div>
             <div class="col-sm-3">
                 <label for="color" class="control-label">Couleur :</label>
                 <input list="colors" type="text" id="color" class="form-control" formControlName="color"
-                    placeholder="Choisis ta couleur">
+                    placeholder="Couleur">
                 <datalist id="colors">
                     <option *ngFor="let article of dataSitesJSON.generic.colors" [ngValue]="article.title">
                         {{ article.title }}
@@ -42,7 +41,7 @@
             </div>
             <div class="col-sm-3">
                 <label for="condition" class="control-label">Etat :</label>
-                <select id="condition" class="form-control" formControlName="condition">
+                <select id="condition" class="form-control" formControlName="condition" placeholder="Etat">
                     <option [ngValue]="null" selected disabled>Choisis l'état du produit recherché</option>
                     <option *ngFor="let article of dataSitesJSON.generic.conditions" [ngValue]="article.title">
                         {{ article.title }}
@@ -52,12 +51,12 @@
             <div class="col-sm-3">
                 <label for="priceFrom" class="control-label">Prix de :</label>
                 <input min="0" type="number" id="priceFrom" class="form-control" formControlName="priceFrom"
-                    placeholder="Choisis le prix minimum">
+                    placeholder="Minimum">
             </div>
             <div class="col-sm-3">
                 <label for="priceTo" class="control-label">Prix à :</label>
                 <input min="0" type="number" id="priceTo" class="form-control" formControlName="priceTo"
-                    placeholder="Choisis le prix maximum">
+                    placeholder="Maximum">
             </div>
         </div>
     </form>
@@ -68,22 +67,21 @@
 </div>
 <br />
 <div *ngIf="isValidate">
-    <div class="d-flex align-items-center">
-        <button class="btn btn-primary" (click)="showVintedList=!showVintedList">
-            <div class="my-icon" aria-label="My icon" [inlineSVG]="'../../assets/svg/arrow.component.svg'"></div>
-        </button>
-        <h4 class="text-secondary ml-3">Résultats Vinted</h4>
-        <vinted-list *ngIf="showVintedList" [products]="productsVinted" [form]="form"></vinted-list>
-    </div>
-
-    <div class="d-flex align-items-center">
-        <button class="btn btn-primary" (click)="showVestiaireList=!showVestiaireList">
-            <div class="my-icon" aria-label="My icon" [inlineSVG]="'../../assets/svg/arrow.component.svg'"></div>
-        </button>
-        <h4 class="text-secondary ml-3">Résultats Vestiaire Collective</h4>
-        <vestiaire-list *ngIf="showVestiaireList" [products]="productsVestiaire" [form]="form"></vestiaire-list>
+    <my-tabs>
+        <my-tab [tabTitle]="'Vinted'">
+            <vinted-list [products]="productsVinted" [form]="form">
+            </vinted-list>
+        </my-tab>
+        <my-tab tabTitle="Vestiaire Collective">
+            <vestiaire-list [products]="productsVestiaire" [form]="form">
+            </vestiaire-list>
+        </my-tab>
+    </my-tabs>
+    <div *ngIf="loading" class="talign-center">
+        <div class="spinner spinner--steps icon-spinner" aria-hidden="true"></div>
     </div>
 </div>
+
 <!-- <div class="container">
     <div class="col-md-12">
         <h3>Fais ta recherche</h3>
@@ -183,7 +181,3 @@
         </div>
     </div>
 </div> -->
-
-<div *ngIf="loading && isValidate" class="talign-center">
-    <div class="spinner spinner--steps icon-spinner" aria-hidden="true"></div>
-</div>

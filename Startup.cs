@@ -1,5 +1,6 @@
 using demandezanoe.Models;
 using demandezanoe.Models.Entities;
+using demandezanoe.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +31,7 @@ namespace demandezanoe
             });
             services.AddTransient<IVintedRepository, VintedRepository>();
             services.AddTransient<IVestiaireCollectiveRepository, VestiaireCollectiveRepository>();
+            services.AddTransient<ISeleniumRepository, SeleniumRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

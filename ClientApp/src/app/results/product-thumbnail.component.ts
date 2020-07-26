@@ -1,5 +1,4 @@
 import { FormGroup } from '@angular/forms';
-import { IVinted } from '../models/vinted';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -13,6 +12,6 @@ import { Component, Input } from '@angular/core';
   `]
 })
 export class ProductThumbnailComponent {
-  @Input() product: IVinted;
+  @Input() product: any;
   @Input() form: FormGroup;
 }

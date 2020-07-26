@@ -16,10 +16,6 @@ namespace demandezanoe.Services
         {
             _driver = driver;
         }
-        /// <summary>
-        /// Setup chromedriver
-        /// </summary>
-        /// <returns></returns>
         public static IWebDriver SetupVinted()
         {
             if (_driver == null)
@@ -43,18 +39,12 @@ namespace demandezanoe.Services
             else
                 return _driver;
         }
-        /// <summary>
-        /// Navigate to Url
-        /// </summary>
-        /// <param name="baseUrl"></param>
+
         public static void NavigateToUrl(string baseUrl)
         {
             _driver.Navigate().GoToUrl(baseUrl);
         }
 
-        /// <summary>
-        /// Close & quit the driver 
-        /// </summary>
         public static void CloseDriver()
         {
             if (_driver != null)
@@ -78,11 +68,6 @@ namespace demandezanoe.Services
             newestFirst.Click();
         }
 
-        /// <summary>
-        /// Try to get number of pages
-        /// </summary>
-        /// <param name="cssSelector"></param>
-        /// <returns></returns>
         public static int GetNbPages(string site)
         {
             try
@@ -121,12 +106,6 @@ namespace demandezanoe.Services
 
         }
 
-        /// <summary>
-        /// Click on next page if it's enable
-        /// </summary>
-        /// <param name="valueLimit"></param>
-        /// <param name="valueNextPage"></param>
-        /// <param name="attribute"></param>
         public static void GetNextPage(string site)
         {
             switch (site)
@@ -157,9 +136,6 @@ namespace demandezanoe.Services
 
         }
 
-        /// <summary>
-        /// Wait for the page to be loaded
-        /// </summary>
         public static void WaitForLoad()
         {
             var javaScriptExecutor = _driver as IJavaScriptExecutor;
