@@ -1,4 +1,4 @@
-export interface IVinted {
+export interface IJoliCloset {
     id: number;
     catalog: string;
     picture: string;

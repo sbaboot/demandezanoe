@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace demandezanoe.Models.Entities
 {
-    public class Vinted
+    public class JoliCloset
     {
         public int Id { get; set; }
-        
+
         public string Picture { get; set; }
 
         public string Link { get; set; }
@@ -22,4 +20,3 @@ namespace demandezanoe.Models.Entities
         public string Price { get; set; }
     }
 }
-

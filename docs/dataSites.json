@@ -6067,6 +6067,130 @@
       }
     ]
   },
+  "joliCloset": {
+    "catalogs": [
+      {
+        "id": 1,
+        "title": "Sacs",
+        "slug": "sacs-femme"
+      },
+      {
+        "id": 1,
+        "title": "Vêtements femme",
+        "slug": "vetements-femme"
+      },
+      {
+        "id": 1,
+        "title": "Chaussures femme",
+        "slug": "chaussures-femme"
+      },
+      {
+        "id": 1,
+        "title": "Bijoux femme",
+        "slug": "bijoux-femme"
+      },
+      {
+        "id": 1,
+        "title": "Accessoires femme",
+        "slug": "accessoires-femme"
+      }
+    ],
+    "brands": [
+      {
+        "title": "Chanel",
+        "slug": "chanel"
+      },
+      {
+        "title": "Nike",
+        "slug": "nike"
+      },
+      {
+        "title": "Zara",
+        "slug": "zara"
+      },
+      {
+        "title": "Adidas",
+        "slug": "adidas"
+      },
+      {
+        "title": "Levi's",
+        "slug": "sevis"
+      },
+      {
+        "title": "H\u0026M",
+        "slug": "isabel-marant-pour-hm"
+      },
+      {
+        "title": "Balanciaga",
+        "slug": "balenciaga"
+      },
+      {
+        "title": "Yves Saint-Laurent",
+        "slug": "yves-saint-laurent"
+      },
+      {
+        "title": "Hermès",
+        "slug": "hermes"
+      },
+      {
+        "id": 2310,
+        "title": "Dior",
+        "slug": "dior"
+      },
+      {
+        "title": "Louis Vuitton",
+        "slug": "louis-vuitton"
+      },
+      {
+        "title": "Jérôme Dreyfuss",
+        "slug": "jerome-dreyfuss"
+      },
+      {
+        "title": "Burberry",
+        "slug": "burberry4"
+      },
+      {
+        "title": "Cèline",
+        "slug": "celine"
+      },
+      {
+        "title": "Chloé",
+        "slug": "chloe"
+      },
+      {
+        "title": "Gerard Darel",
+        "slug": "gerard-darel"
+      },
+      {
+        "title": "Ralph Lauren",
+        "slug": "ralph-lauren"
+      },
+      {
+        "title": "Mango",
+        "slug": "mango"
+      },
+      {
+        "title": "Lacoste",
+        "slug": "lacoste"
+      },
+      {
+        "title": "Calvin Klein",
+        "slug": "calvin-klein"
+      },
+      {
+        "title": "Tommy Hilfiger",
+        "slug": "tommy-hilfiger"
+      },
+      {
+        "title": "Guess",
+        "slug": "guess"
+      },
+      {
+        "title": "Michael kors",
+        "slug": "michael-kors"
+      }
+    ]
+  },
   "generic": {
     "colors": [
       {

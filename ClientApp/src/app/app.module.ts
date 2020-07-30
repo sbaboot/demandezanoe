@@ -1,7 +1,7 @@
+import { JoliClosetService } from './services/joliCloset.service.';
 import { TabsComponent } from './results/Tabs/tabs.component';
 import { TabComponent } from './results/Tabs/tab.component';
 import { VestiaireService } from './services/vestiaireCollective.service';
-import { VestiaireListComponent } from './results/vestiaire-collective-list.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -12,7 +12,7 @@ import { InlineSVGModule } from 'ng-inline-svg';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { VintedListComponent, ProductThumbnailComponent } from './results/index';
+import { VintedListComponent, ProductThumbnailComponent, JoliClosetListComponent, VestiaireListComponent } from './results/index';
 import { SearchComponent } from './search/search.component';
 
 import { TOASTR_TOKEN, Toastr } from './common/toastr.service';
@@ -34,6 +34,7 @@ const toastr: Toastr = window['toastr'];
     SearchComponent,
     VintedListComponent,
     VestiaireListComponent,
+    JoliClosetListComponent,
     ProductThumbnailComponent,
     TabComponent,
     TabsComponent
@@ -49,6 +50,7 @@ const toastr: Toastr = window['toastr'];
   providers: [
     VintedService,
     VestiaireService,
+    JoliClosetService,
     { provide: TOASTR_TOKEN, useValue: toastr },
     { provide: LOCALE_ID, useValue: 'fr-FR' },
   ],

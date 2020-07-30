@@ -31,6 +31,7 @@ namespace demandezanoe
             });
             services.AddTransient<IVintedRepository, VintedRepository>();
             services.AddTransient<IVestiaireCollectiveRepository, VestiaireCollectiveRepository>();
+            services.AddTransient<IJoliClosetRepository, JoliClosetRepository>();
             services.AddTransient<ISeleniumRepository, SeleniumRepository>();
         }
 

@@ -1,3 +1,4 @@
+import { IJoliCloset } from './../models/joliCloset';
 import { IVestiaireCollective } from './../models/vestiaireCollective';
 import { IVinted } from './../models/vinted';
 import * as dataSitesJSON from '../../../../docs/dataSites.json';
@@ -52,6 +53,26 @@ export function convertResultsInId(site: string, selection: any) {
                 priceFrom: selection.priceFrom !== '' ? selection.priceFrom.toString() : '0',
                 priceTo: selection.priceTo !== '' ? selection.priceTo.toString() : '0'
             };
+            return result;
+        case 'joliCloset':
+            result = {
+                catalog: dataSitesJSON.joliCloset.catalogs.find(c => c.title.toLocaleLowerCase() === selection.catalog.toLocaleLowerCase())
+                    ? dataSitesJSON.joliCloset.catalogs.find(c => c.title.toLowerCase() === selection.catalog.toLowerCase()).slug
+                    : '0',
+                brand: dataSitesJSON.joliCloset.brands.find(b => b.title.toLowerCase() === selection.brand.toLowerCase())
+                    ? dataSitesJSON.joliCloset.brands.find(b => b.title.toLowerCase() === selection.brand.toLowerCase()).slug
+                    : '0',
+                modele: selection.modele === ''
+                    ? '0'
+                    : hasWhiteSpace(selection.modele)
+                        ? selection.modele.replace(' ', '+')
+                        : selection.modele,
+                color: '0',
+                condition: '0',
+                priceFrom: '0',
+                priceTo: '0'
+
+            }
             return result;
     }
 }

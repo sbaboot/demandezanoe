@@ -33,6 +33,10 @@ namespace demandezanoe.Models
                 _driver = _seleniumRepository.SetupVestiaire();
                 _seleniumRepository.NavigateToVestiaire(baseUrl);
 
+                // if no results stop scraping
+                bool hasResults = _seleniumRepository.HasResults("vestiaire");
+                if (!hasResults) { _seleniumRepository.CloseVestiaire(); return prodList = null; };
+
                 // Filter with the latest articles
                 _seleniumRepository.NewestFirstVestiaire();
 
@@ -58,7 +62,6 @@ namespace demandezanoe.Models
 
                     prodList.Add(new VestaireCollective()
                     {
-                        TotalResults = nodes.Count.ToString(),
                         Id = counter++,
                         Picture = node.FindElement(By.ClassName("image")).GetAttribute("src"),
                         Link = link,

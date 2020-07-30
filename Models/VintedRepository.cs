@@ -1,7 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using demandezanoe.Controllers;
+using demandezanoe.Models.Entities;
 using demandezanoe.Services;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 
 namespace demandezanoe.Models
 {
@@ -32,6 +38,10 @@ namespace demandezanoe.Models
                 _driver = _seleniumRepository.SetupVinted();
                 _seleniumRepository.NavigateToVinted(baseUrl);
 
+                // if no results stop scraping
+                bool hasResults = _seleniumRepository.HasResults("vinted"); 
+                if (!hasResults) { _seleniumRepository.CloseVinted(); return prodList = null; };
+
                 // Give the number of pages for the results
                 var pages = _seleniumRepository.GetNbPages("vinted");
                 int counter = 1;
@@ -46,10 +56,9 @@ namespace demandezanoe.Models
                            picture = node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).Displayed ? node.FindElement(By.ClassName("c-box__image")).FindElement(By.TagName("img")).GetAttribute("src") : "";
 
                         }
-                        catch (NoSuchElementException) { picture = ""; }
+                        catch { picture = ""; }
                         prodList.Add(new Vinted()
                         {
-                            TotalResults = nodes.Count.ToString(),
                             Id = counter++,
                             Picture = picture,
                             Link = node.FindElement(By.ClassName("c-box__overlay")).GetAttribute("href"),

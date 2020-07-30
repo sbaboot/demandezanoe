@@ -95,7 +95,38 @@ namespace demandezanoe.Services
 
             return baseUrl;
         }
-                
+
+        public static string GetBaseUrlJoliCloset(string baseUrl, string catalog, string brand, string modele, string queryString)
+        {
+            string optionalUrl = "";
+            if (brand == "0" && catalog == "0" && modele == "0")
+            {
+                baseUrl = "https://www.jolicloset.com/fr/mode-femme";
+                return baseUrl;
+            }
+
+            if (brand != "0")
+            {
+                baseUrl = "https://www.jolicloset.com/fr/marques-femme";
+                //optionalUrl += "/" + brand;
+                optionalUrl += Url.Combine("/" + brand);
+            }
+
+            if (catalog != "0")
+            {
+                //optionalUrl += "/" + catalog;
+                optionalUrl += Url.Combine("/" + catalog);
+            }
+
+            if (modele != "0")
+            {
+                //optionalUrl += queryString + modele;
+                optionalUrl += Url.Combine(queryString + modele);
+            }
+
+            baseUrl += optionalUrl;
+
+            return baseUrl;
+        }
     }
 }
-//%23categoryParent%3dSacs%235%23brand%3dChanel%2350%23color%3dNoir%2314

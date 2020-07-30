@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using demandezanoe.Models.Entities;
+using System.Collections.Generic;
 
 namespace demandezanoe.Models
 {

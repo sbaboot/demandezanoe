@@ -8,11 +8,19 @@ namespace demandezanoe.Models
 
         public IWebDriver SetupVestiaire();
 
+        public IWebDriver SetupJoliCloset();
+
+        public void NavigateToJoliCloset(string baseUrl);
+
         public void NavigateToVestiaire(string baseUrl);
+
         public void NavigateToVinted(string baseUrl);
 
         public void CloseVestiaire();
+
         public void CloseVinted();
+
+        public void CloseJoliCloset();
 
         public void NewestFirstVestiaire();
 
@@ -22,6 +30,6 @@ namespace demandezanoe.Models
 
         public void WaitForLoad();
 
-
+        public bool HasResults(string site);
     }
 }

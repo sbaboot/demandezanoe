@@ -11,7 +11,40 @@ namespace demandezanoe.Services
     {
         private static IWebDriver driverVinted;
         private static IWebDriver driverVestiaire;
+        private static IWebDriver driverJoli;
 
+        #region Joli Closet
+        public IWebDriver SetupJoliCloset()
+        {
+            if (driverJoli == null)
+            {
+                ChromeOptions options = new ChromeOptions();
+                driverJoli = new ChromeDriver(options);
+                return driverJoli;
+            }
+            else
+                return driverJoli;
+        }
+
+        public void NavigateToJoliCloset(string baseUrl)
+        {
+            driverJoli.Navigate().GoToUrl(baseUrl);
+        }
+
+        public void CloseJoliCloset()
+        {
+            if (driverJoli != null)
+            {
+                driverJoli.Close();
+                driverJoli.Quit();
+                driverJoli.Dispose();
+                driverJoli = null;
+            }
+        }
+
+        #endregion
+
+        #region Vinted
         /// <summary>
         /// Setup chrome driver for Vinted
         /// </summary>
@@ -29,6 +62,77 @@ namespace demandezanoe.Services
         }
 
         /// <summary>
+        /// Navigate to Vinted Url with vinted driver
+        /// </summary>
+        /// <param name="baseUrl"></param>
+        public void NavigateToVinted(string baseUrl)
+        {
+            driverVinted.Navigate().GoToUrl(baseUrl);
+        }
+
+        /// <summary>
+        /// Close Vinted driver
+        /// </summary>
+        public void CloseVinted()
+        {
+            if (driverVinted != null)
+            {
+                driverVinted.Close();
+                driverVinted.Quit();
+                driverVinted.Dispose();
+                driverVinted = null;
+            }
+        }
+
+        public bool HasResults(string site)
+        {
+
+            switch (site)
+            {
+                case "vinted":
+                    try
+                    {
+                        WebDriverWait waitVinted = new WebDriverWait(driverVinted, TimeSpan.FromSeconds(3));
+                        var noResults = waitVinted.Until(ExpectedConditions.ElementExists(By.CssSelector("[class='c-empty-state']")));
+                        return false;
+                    }
+                    catch
+                    {
+                        return true;
+                    }
+                case "vestiaire":
+                    try
+                    {
+                        WebDriverWait waitVestiaire = new WebDriverWait(driverVestiaire, TimeSpan.FromSeconds(3));
+                        var noResults = waitVestiaire.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/app-root/div/main/catalog-page/vc-catalog/div/div/ais-instantsearch/div/div[2]/div[2]/ais-hits/div/div")));
+                        return false;
+                    }
+                    catch
+                    {
+                        return true;
+                    }
+                case "joliCloset":
+                    try
+                    {
+                        WebDriverWait waitJoliCloset = new WebDriverWait(driverJoli, TimeSpan.FromSeconds(3));
+                        var noResults = waitJoliCloset.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"my-page\"]/section/section/div/div[3]/div[2]/div/div[1]/h3")));
+                        return false;
+                    }
+                    catch
+                    {
+                        return true;
+                    }
+                default: return true;
+            }
+            
+            
+        }
+
+
+        #endregion
+
+        #region Vestiaire Collective
+        /// <summary>
         /// Setup chrome driver for Vestiaire Collective
         /// </summary>
         /// <returns></returns>
@@ -45,35 +149,12 @@ namespace demandezanoe.Services
         }
 
         /// <summary>
-        /// Navigate to Vinted Url with vinted driver
-        /// </summary>
-        /// <param name="baseUrl"></param>
-        public void NavigateToVinted(string baseUrl)
-        {
-            driverVinted.Navigate().GoToUrl(baseUrl);
-        }
-
-        /// <summary>
         /// Navigate to Vestiaire Collective Url with Vestiaire Collective driver
         /// </summary>
         /// <param name="baseUrl"></param>
         public void NavigateToVestiaire(string baseUrl)
         {
             driverVestiaire.Navigate().GoToUrl(baseUrl);
-        }
-
-        /// <summary>
-        /// Close Vinted driver
-        /// </summary>
-        public void CloseVinted()
-        {
-            if (driverVinted != null)
-            {
-                driverVinted.Close();
-                driverVinted.Quit();
-                driverVinted.Dispose();
-                driverVinted = null;
-            }
         }
 
         /// <summary>
@@ -95,7 +176,7 @@ namespace demandezanoe.Services
         /// </summary>
         public void NewestFirstVestiaire()
         {
-            WebDriverWait wait = new WebDriverWait(driverVestiaire, TimeSpan.FromSeconds(3));
+            WebDriverWait wait = new WebDriverWait(driverVestiaire, TimeSpan.FromSeconds(10));
 
             var privacyPolicy = wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("/html/body/app-root/div/vc-privacy-policy/vc-privacy-policy-banner/div/div[2]/button")));
             privacyPolicy.Click();
@@ -106,7 +187,9 @@ namespace demandezanoe.Services
             var newestFirst = driverVestiaire.FindElement(By.XPath("//*[@id=\"mat-radio-5\"]/label/div[2]"));
             newestFirst.Click();
         }
+        #endregion
 
+        #region Common
         /// <summary>
         /// Get number of pages result from multiple websites
         /// </summary>
@@ -133,7 +216,19 @@ namespace demandezanoe.Services
                             break;
 
                         }
-                        catch (Exception)
+                        catch
+                        {
+                            nbPages = 1;
+                            break;
+                        }
+                    case "joliCloset":
+                        try
+                        {
+                            var nextPages = driverJoli.FindElement(By.XPath("//*[@id=\"my-page\"]/section/section/div[1]/div[2]/div[2]/div[2]/ul/li[2]/a"));
+                            if (nextPages.Displayed) { nbPages = 2; };
+                            break;
+                        }
+                        catch
                         {
                             nbPages = 1;
                             break;
@@ -178,6 +273,10 @@ namespace demandezanoe.Services
                     var nextPageVestaire = driverVestiaire.FindElement(By.XPath("/html/body/app-root/div/main/catalog-page/vc-catalog/div/div/ais-instantsearch/div/div[2]/div[3]/vc-catalog-widget-hits-per-page/div/button[2]"));
                     nextPageVestaire.Click();
                     break;
+                case "joliCloset":
+                    var nextPageJoli = driverJoli.FindElement(By.XPath("//*[@id=\"my-page\"]/section/section/div[1]/div[2]/div[2]/div[2]/ul/li[2]/a")).GetAttribute("href");
+                    NavigateToJoliCloset(nextPageJoli);
+                    break;
                 default: break;
             }
             
@@ -194,7 +293,7 @@ namespace demandezanoe.Services
 
             wait.Until(readyCondition);
         }
+        #endregion
 
-       
     }
 }

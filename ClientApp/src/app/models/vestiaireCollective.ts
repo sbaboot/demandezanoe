@@ -9,5 +9,4 @@ export interface IVestiaireCollective {
     condition: string;
     priceFrom: string;
     priceTo: string;
-    totalResults: string;
 }
