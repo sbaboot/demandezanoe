@@ -29,6 +29,17 @@ export function convertResultsInId(site: string, selection: any) {
                 priceFrom: selection.priceFrom !== '' ? selection.priceFrom.toString() : '0',
                 priceTo: selection.priceTo !== '' ? selection.priceTo.toString() : '0'
             };
+            if (result == null) {
+                return result = {
+                    catalog: '0',
+                    brand: '0',
+                    modele: '0',
+                    color: '0',
+                    condition: '0',
+                    priceFrom: '0',
+                    priceTo: '0'
+                };
+            }
             return result;
         case 'vestiaireCollective':
             result = {
@@ -53,6 +64,17 @@ export function convertResultsInId(site: string, selection: any) {
                 priceFrom: selection.priceFrom !== '' ? selection.priceFrom.toString() : '0',
                 priceTo: selection.priceTo !== '' ? selection.priceTo.toString() : '0'
             };
+            if (result == null) {
+                return result = {
+                    catalog: '0',
+                    brand: '0',
+                    modele: '0',
+                    color: '0',
+                    condition: '0',
+                    priceFrom: '0',
+                    priceTo: '0'
+                };
+            }
             return result;
         case 'joliCloset':
             result = {
@@ -72,6 +94,17 @@ export function convertResultsInId(site: string, selection: any) {
                 priceFrom: '0',
                 priceTo: '0'
 
+            };
+            if (result == null) {
+                return result = {
+                    catalog: '0',
+                    brand: '0',
+                    modele: '0',
+                    color: '0',
+                    condition: '0',
+                    priceFrom: '0',
+                    priceTo: '0'
+                };
             }
             return result;
     }

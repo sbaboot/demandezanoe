@@ -37,11 +37,11 @@ namespace demandezanoe.Models
                 _seleniumRepository.NavigateToJoliCloset(baseUrl);
 
                 // if no results stop scraping
-                bool hasResults = _seleniumRepository.HasResults("joliCloset");
+                bool hasResults = _seleniumRepository.HasResults(GenericMethods.Constants.joliCloset);
                 if (!hasResults) { _seleniumRepository.CloseJoliCloset(); return prodList = null; };
 
                 // Give the number of pages for the results
-                var pages = _seleniumRepository.GetNbPages("joliCloset");
+                var pages = _seleniumRepository.GetNbPages(GenericMethods.Constants.joliCloset);
                 int counter = 1;
                 for (int i = 1; i <= pages; i++)
                 {
@@ -75,7 +75,7 @@ namespace demandezanoe.Models
 
                     // Click or not in the next page
                     if (i == pages) { break; }
-                    _seleniumRepository.GetNextPage("joliCloset");
+                    _seleniumRepository.GetNextPage(GenericMethods.Constants.joliCloset);
                 }
 
                 _seleniumRepository.CloseJoliCloset();

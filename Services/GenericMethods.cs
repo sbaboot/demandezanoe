@@ -1,16 +1,18 @@
 ﻿using Flurl;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
-using System.Web;
 
 namespace demandezanoe.Services
 {
     public class GenericMethods
     {
+        /// <summary>
+        /// Constants 
+        /// </summary>
+        public static class Constants
+        {
+            public const string vinted = "vinted";
+            public const string vestiaireCollective = "vestiaireCollective";
+            public const string joliCloset = "joliCloset";
+        }
         /// <summary>
         /// Get base url
         /// Replace all "?" by "&" except the first one.

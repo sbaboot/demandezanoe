@@ -34,19 +34,19 @@ namespace demandezanoe.Models
                 _seleniumRepository.NavigateToVestiaire(baseUrl);
 
                 // if no results stop scraping
-                bool hasResults = _seleniumRepository.HasResults("vestiaire");
+                bool hasResults = _seleniumRepository.HasResults(GenericMethods.Constants.vestiaireCollective);
                 if (!hasResults) { _seleniumRepository.CloseVestiaire(); return prodList = null; };
 
                 // Filter with the latest articles
                 _seleniumRepository.NewestFirstVestiaire();
 
                 // Give the number of pages for the results
-                var pages = _seleniumRepository.GetNbPages("vestiaire");
+                var pages = _seleniumRepository.GetNbPages(GenericMethods.Constants.vestiaireCollective);
 
                 // Posibility to display 120 results. If two pages, Click.
                 if (pages == 2)
                 {
-                    _seleniumRepository.GetNextPage("vestiaire");
+                    _seleniumRepository.GetNextPage(GenericMethods.Constants.vestiaireCollective);
                 }
 
                 var nodes = _driver.FindElements(By.ClassName("catalog__product"));

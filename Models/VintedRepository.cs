@@ -39,11 +39,11 @@ namespace demandezanoe.Models
                 _seleniumRepository.NavigateToVinted(baseUrl);
 
                 // if no results stop scraping
-                bool hasResults = _seleniumRepository.HasResults("vinted"); 
+                bool hasResults = _seleniumRepository.HasResults(GenericMethods.Constants.vinted); 
                 if (!hasResults) { _seleniumRepository.CloseVinted(); return prodList = null; };
 
                 // Give the number of pages for the results
-                var pages = _seleniumRepository.GetNbPages("vinted");
+                var pages = _seleniumRepository.GetNbPages(GenericMethods.Constants.vinted);
                 int counter = 1;
                 for (int i = 1; i <= pages; i++)
                 {
@@ -70,7 +70,7 @@ namespace demandezanoe.Models
 
                     // Click or not in the next page
                     if (i == pages) { break; }
-                    _seleniumRepository.GetNextPage("vinted");
+                    _seleniumRepository.GetNextPage(GenericMethods.Constants.vinted);
                 }
 
                 _seleniumRepository.CloseVinted();
