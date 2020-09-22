@@ -78,7 +78,7 @@ namespace demandezanoe.Models
             catch (Exception ex)
             {
                 _seleniumRepository.CloseVestiaire();
-                throw new Exception("Message: " + ex);
+                throw new Exception("Message: " + ex.Message);
             }
         }
 

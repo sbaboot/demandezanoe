@@ -80,7 +80,7 @@ namespace demandezanoe.Models
             catch (Exception ex)
             {
                 _seleniumRepository.CloseVinted();
-                throw new Exception("Message: " + ex);
+                throw new Exception("Message: " + ex.Message);
             }
 
         }
